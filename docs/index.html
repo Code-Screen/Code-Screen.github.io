@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CodeScreen API</title>
+  <meta name="description" content="The world's first autoamted take-home coding test platform.">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@code_screen">
+  <meta name="twitter:title" content="www.codescreen.dev">
+  <meta name="twitter:image" content="https://www.codescreen.dev/codescreen.ico">
+  <meta name="twitter:description" content="The world's first autoamted take-home coding test platform.">
+  <link rel="shortcut icon" href="https://www.codescreen.dev/codescreen.ico" type="image/png" sizes="16x16">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+
+  <style>
+  .app-sub-sidebar .section-link:before {
+    content: "";
+    padding-right: 4px;
+  }
+
+  .github-corner svg {
+    fill: #836FEC
+  }
+
+  iframe {
+    box-shadow: 0 0 10px #ccc;
+  }
+
+  iframe.plain {
+    box-shadow: none;
+    border: none;
+    min-width: 0;
+    width: 100%;
+  }
+
+  @media only screen and (max-device-width: 500px) {
+    iframe.react {
+      display: none;
+    }
+  }
+  </style>
+</head>
+
+<body>
+  <div id="app"></div>
+
+  <script>
+        window.intercomSettings = {
+            app_id: "lgg0txgn"
+        };
+    </script>
+    <script>(function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', intercomSettings); } else { var d = document; var i = function () { i.c(arguments) }; i.q = []; i.c = function (args) { i.q.push(args) }; w.Intercom = i; function l() { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/lgg0txgn'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); } if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })()</script>
+</body>
+
+<script>
+  window.$docsify = {
+    name: 'CodeScreen API',
+    nameLink: {
+      '/': '..'
+    },
+    repo: 'https://github.com/Code-Screen/CodeScreen-API-Docs',
+    homepage: 'auth.md',
+    loadSidebar: 'sidebar.md',
+    subMaxLevel: 2,
+    auto2top: true,
+    search: 'auto', // default
+    markdown: {
+      renderer: {
+        code: function(code, lang) {
+          if (lang == 'codepen') {
+            return code;
+          }
+          if (lang == 'react') {
+            return code;
+          }
+          return this.origin.code.apply(this, arguments);
+        }
+      }
+    }
+  }
+</script>
+
+<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+
+</html>
