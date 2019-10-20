@@ -1,40 +1,18 @@
-```js
-{
-  // The game state (managed by you).
-  G: {},
+# Getting Started
 
-  // Read-only metadata (managed by the framework).
-  ctx: {
-    turn: 0,
-    currentPlayer: '0',
-    numPlayers: 2,
-  }
-}
+### Authentication
+
+In order to use the CodeScreen API, you will first need to retrieve your API key from the CodeScreen platform.<br/><br/>
+To do this, log on to [CodeScreen](https://app.codescreen.dev/#/login), head to the account section and copy your API key.
+
+![Results Table](apiKey.png)
+
+<br/>You then need to include this API key in the Authorization header of every request that you send to the CodeScreen API.
+The API key needs to be prefixed by the string `apiToken`.
+
+An example request is shown below:
+
 ```
+curl -X GET https://app.codescreen.dev/api/listTests -H 'Authorization: apiToken c5793bc0-4176-4dec-b59c-ff47337f01c4' 
 
-These state objects are passed around everywhere and maintained
-on both client and server seamlessly. The state in `ctx` is
-incrementally adoptable, meaning that you can manage all the
-state manually in `G` if you so desire.
-
-!> `ctx` contains other fields not shown here that complex games
-can take advantage of, including support for game phases and complex
-turn orders.
-
-### Moves
-
-These are functions that tell the framework how to change `G`
-when a particular game move is made. They must not depend on
-external state or have any side-effects (except modifying `G`).
-See the guide on [Immutability](immutability.md) for how
-immutability is handled by the framework.
-
-```js
-moves: {
-  drawCard: (G, ctx) => {
-    const card = G.deck.pop();
-    G.hand.push(card);
-  },
-
-  ...
-}
+```
