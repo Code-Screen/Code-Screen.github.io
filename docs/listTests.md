@@ -18,7 +18,7 @@ curl -X GET https://app.codescreen.dev/api/listTests -H 'Authorization: apiToken
 
 ### Response
 
-The response from this endpoint will be the following JSON:
+If the request has succeeded, the response will be a `200 OK` containing JSON with the following properties:
 
 ```
 [

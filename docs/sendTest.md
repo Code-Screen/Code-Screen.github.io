@@ -40,7 +40,7 @@ curl -X POST https://app.codescreen.dev/api/sendTest \
 
 ### Response
 
-If the request has succeeded, the response will be a 200 OK containing JSON with the following properties:
+If the request has succeeded, the response will be a `200 OK` containing JSON with the following properties:
 
 <table>
 <thead>

@@ -6,7 +6,7 @@
 
   - [List Tests](listTests.md)
   - [Send Test](sendTest.md)
-  - [Get Test Status](getTestStatus.md)
+  - [Test Status](getTestStatus.md)
 
 - Errors
 
