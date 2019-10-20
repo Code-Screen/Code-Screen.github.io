@@ -9,7 +9,7 @@ The CodeScreen API can be used to send and retrieve CodeScreen tests programmati
 In order to use the CodeScreen API, you will first need to retrieve your API key from the CodeScreen platform.<br/><br/>
 To do this, log on to [CodeScreen](https://app.codescreen.dev/#/login), head to the account section and copy your API key.
 
-![Results Table](apiKey.png)
+![Results Table](apiKeyLarge.png)
 
 <br/>You then need to include this API key in the Authorization header of every request that you send to the CodeScreen API.
 The API key needs to be prefixed by the string `apiToken`.
