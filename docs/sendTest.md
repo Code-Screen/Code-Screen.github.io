@@ -48,14 +48,14 @@ If the request has succeeded, the response will be a `200 OK` containing JSON wi
 <td style="white-space: nowrap;">Property Name</td><td>Type</td><td>Required</td><td>Description</td></tr>
 </thead><tbody>
 <tr>
-<td>linkId</td><td>String</td><td>Yes</td><td>The unique identifier for the test that was send to the candidate. This id can be used to track the status of this test using the <a href="#getTestStatus">Test Status endpoint</a>.</td></tr>
+<td>testInstanceId</td><td>String</td><td>Yes</td><td>The unique identifier for the test instance that was send to the candidate. This id can be used to track the status of this test using the <a href="#getTestStatus">Test Status endpoint</a>.</td></tr>
 </tbody></table>
 
 An example response is shown below:
 
 ```
 {
-    "linkId": "1b68dc27-6155-41c2-89e3-4e00bd62d227"
+    "testInstanceId": "1b68dc27-6155-41c2-89e3-4e00bd62d227"
 }
 
 ```

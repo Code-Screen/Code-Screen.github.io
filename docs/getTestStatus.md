@@ -1,13 +1,13 @@
 # Test Status
 
 The ```
-GET https://app.codescreen.dev/api/testStatus/{linkId}
+GET https://app.codescreen.dev/api/testStatus/{testInstanceId}
 ``` endpoint allows you to retrieve the status of a given CodeScreen test.
 
 
 ### Request
 
-This GET request takes one path parameter, which is the linkId that is initially provided as the response to the <a href="#sendTest">Send Test endpoint</a>. 
+This GET request takes one path parameter, which is the `testInstanceId` that is initially provided as the response to the <a href="#sendTest">Send Test endpoint</a>. 
 
 <br/>An example request is shown below:
 
@@ -34,7 +34,7 @@ The body of this POST request will contain a JSON payload with the following fie
 <td>result_url</td><td>String</td><td>No</td><td>The url of the result page for this CodeScreen test. Only present if the candidate has completed the test.</td></tr>
 <tr>
 <td>score</td><td>Integer</td><td>No</td><td>The candidate's score in the test, out of 100. Only present if candidate has completed the test and the number of unit tests for this test is greater than 0.</td></tr>
-<td>metadata</td><td>Object</td><td>Yes</td><td>A non-nested object containing keys and values that will be displayed with this test result. This is used for custom values that you woul like to be displayed as part of the result. If you would like custom data returned as part of this response, email us at </td></tr>
+<td>metadata</td><td>Object</td><td>Yes</td><td>A non-nested object containing keys and values that will be displayed with this test result. This is used for custom values that you woul like to be displayed as part of the result. If you would like custom data returned as part of this response, please email us at [hello@codescreen.dev](mailto:hello@codescreen.dev).</td></tr>
 </tbody></table>
 
 An example response is shown below:
