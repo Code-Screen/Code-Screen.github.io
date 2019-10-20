@@ -59,3 +59,7 @@ An example response is shown below:
 }
 
 ```
+
+<br/>The candidate is then sent an email to begin the test:
+
+![Candidate email](candidateEmail.png)
