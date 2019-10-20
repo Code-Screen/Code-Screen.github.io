@@ -34,10 +34,10 @@ The body of this POST request will contain a JSON payload with the following fie
 <td>result_url</td><td>String</td><td>No</td><td>The url of the result page for this CodeScreen test. Only present if the candidate has completed the test.</td></tr>
 <tr>
 <td>score</td><td>Integer</td><td>No</td><td>The candidate's score in the test, out of 100. Only present if candidate has completed the test and the number of unit tests for this test is greater than 0.</td></tr>
-<td>metadata</td><td>Object</td><td>Yes</td><td>A non-nested object containing keys and values that will be displayed with this test result. This is used for custom values that you woul like to be displayed as part of the result. If you would like custom data returned as part of this response, please email us at [hello@codescreen.dev](mailto:hello@codescreen.dev).</td></tr>
+<td>metadata</td><td>Object</td><td>Yes</td><td>A non-nested object containing keys and values that will be displayed with this test result. This is used for custom values that you woul like to be displayed as part of the result. If you would like custom data returned as part of this response, please email us at <a href="mailto:hello@codescreen.dev">hello@codescreen.dev</a>.</td></tr>
 </tbody></table>
 
-An example response is shown below:
+</br>An example response is shown below:
 
 ```
 {

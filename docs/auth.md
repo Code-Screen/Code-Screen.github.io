@@ -2,7 +2,7 @@
 
 ### Introduction
 The CodeScreen API can be used to send and retrieve CodeScreen tests programmatically.
-<p> A common use-case of the API is for companies that do not use one of the ATS that we integrate with is to add CodeScreen into their interview process workflow programmatically.</p>
+<p> A common use-case of the API is for companies that do not use one of the Applicant Tracking Systems that we integrate with is to add CodeScreen into their interview process workflow programmatically.</p>
 
 ### Authentication
 
