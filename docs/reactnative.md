@@ -18,4 +18,4 @@ This repository will contain a skeleton <strong>React Native</strong> project, a
 You can then update this repository with details of your React Native assessment and start sending the test to candidates.
 
 ### Automated test-suite setup
-Automated test-suite support for React Native is not currently supported but it will be added shortly!
+Automated test-suite scoring for React Native is not currently supported but it will be added shortly!

@@ -18,4 +18,4 @@ This repository will contain a skeleton <strong>Angular</strong> project, and th
 You can then update this repository with details of your Angular assessment and start sending the test to candidates.
 
 ### Automated test-suite setup
-Automated test-suite support for Angular is not currently supported but it will be added shortly!
+Automated test-suite scoring for Angular is not currently supported but it will be added shortly!

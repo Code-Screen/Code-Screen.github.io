@@ -1,0 +1,43 @@
+# Creating Custom Full-Stack Assessments
+CodeScreen allows you to add your own full-stack assessments and send it to candidates.</br></br>
+To begin, log on to [CodeScreen](https://app.codescreen.dev/#/login), click <strong>Add new test</strong>, and select <strong>Custom test</strong>.</br>
+
+You can then add the description of your test, choose which combination of frontend frameworks and backend languages you want the candidate to choose to build their solution to your assessment in, and set the time limit for the test.</br>
+
+Once you click <strong>Publish</strong>, private GitHub repositories (one for each combination of frontend framework and backend language that you choose), will be created in the CodeScreen account, and you will be given access.</br>
+
+Each repository will contain a skeleton project, with the <strong>frontend</strong> directory containing a skeleton project for the frontend framework chosen, and the <strong>backend</strong> directory containing a skeleton project for the backend language chosen. The README will contain the description of the test that you added during the setup.</br>
+
+An example custom assessment repository, using Angular as the frontend framework and Java as the backend language, is shown below:</br>
+
+<figure>
+  <figcaption style="font-style: italic;">Root directory of a repository set up for an Angular & Java full-stack test.</figcaption>
+  </br>
+  <img src="fullStackRepo1.png" alt="Angular Repo"/>
+</figure>
+
+</br>
+
+<figure>
+  <figcaption style="font-style: italic;">The frontend directory of the repository, with a standard Angular project already set up.</figcaption>
+  </br>
+  <img src="fullStackRepo2.png" alt="Angular Repo"/>
+</figure>
+
+</br>
+
+<figure>
+  <figcaption style="font-style: italic;">The backend directory of the repository, with a standard Java Maven project already set up.</figcaption>
+  </br>
+  <img src="fullStackRepo3.png" alt="Angular Repo"/>
+</figure>
+
+</br></br>
+
+You can then update each repository with details of your assessment and start sending the test to candidates.
+
+### Further reading
+Read this [blog post](https://medium.com/codescreen-dev/introducing-template-generators-9c751a50c1f) to find out more about the theory and design principles behind custom full-stack assessments in CodeScreen.
+
+### Automated test-suite setup
+Automated test-suite is not currently supported for full-stack assessments.

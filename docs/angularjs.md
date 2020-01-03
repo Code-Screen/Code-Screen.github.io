@@ -18,4 +18,4 @@ This repository will contain a skeleton <strong>AngularJS</strong> project, and 
 You can then update this repository with details of your AngularJS assessment and start sending the test to candidates.
 
 ### Automated test-suite setup
-Automated test-suite support for AngularJS is not currently supported but it will be added shortly!
+Automated test-suite scoring for AngularJS is not currently supported but it will be added shortly!
