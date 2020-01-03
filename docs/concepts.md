@@ -30,6 +30,10 @@ The guides for creating custom assessments in all of our supported languages & f
   - [Go](go.md)
   - [PHP](php.md)
   - [.NET](csharp.md)
+  - [Angular](angular.md)
+  - [AngularJS](angularjs.md)
+  - [React](react.md)
+  - [React Native](reactnative.md)
 
 
 
