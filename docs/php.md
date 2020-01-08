@@ -21,7 +21,7 @@ If would like to add tests that are automatically run by CodeScreen against each
 
 All unit test class file names must end with `Test.php` and the test classes with file names that end with `HiddenTest.php` will not be visible to the candidate.
 
-`PHP` version 7.1 must be used and all dependencies that your coding test requires need to be added to the `composer.json`
+`PHP` version 7.2 must be used and all dependencies that your coding test requires need to be added to the `composer.json`
 file.
 
 All unit tests must use be located in the `tests/` directory and use the [`PHPUnit`](https://phpunit.de) testing framework.
