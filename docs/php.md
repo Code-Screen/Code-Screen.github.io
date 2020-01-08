@@ -24,7 +24,7 @@ All unit test class file names must end with `Test.php` and the test classes wit
 `PHP` version 7.2 must be used and all dependencies that your coding test requires need to be added to the `composer.json`
 file.
 
-All unit tests must use be located in the `tests/` directory and use the [`PHPUnit`](https://phpunit.de) testing framework.
+All unit tests must use be located in the `tests/` directory and use the [`PHPUnit`](https://phpunit.de)(version 8.1.2) testing framework.
 
 The maximum memory allowed for a solution to your coding test is 4G.
 
