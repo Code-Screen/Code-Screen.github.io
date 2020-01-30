@@ -1,2 +1,2 @@
-# CodeScreen-API-Docs
-Documentation for the CodeScreen API.
+# CodeScreen-Docs
+Documentation for creating custom assessments on CodeScreen and for using the CodeScreen API.
