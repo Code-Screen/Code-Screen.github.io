@@ -17,9 +17,9 @@ This repository will contain a skeleton <strong>Go</strong> project, and the REA
 
 ### Automated test-suite setup
 
-If would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as test files.
+If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as test files.
 
-All unit test file names must end with `_test.go` and all unit test files with names ending with `_hidden_test.go` will not be visible to the candidate.
+All unit test filenames must end with `_test.go` and all unit test files with names ending with `_hidden_test.go` will not be visible to the candidate.
 
 All unit tests must use the [`Ginkgo`](http://onsi.github.io/ginkgo/) test framework.
 

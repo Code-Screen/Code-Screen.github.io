@@ -17,11 +17,11 @@ This repository will contain a skeleton <strong>Node.js</strong> project, and th
 
 ### Automated test-suite setup
 
-If would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as test classes in the `tests/` directory.
+If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as test classes in the `tests/` directory.
 
 All unit tests must be added in the `tests/` directory and use the [`Mocha`](https://mochajs.org) testing framework alongside the [`Chai`](https://www.chaijs.com) assertion library.
 
-All unit test file names must end with `.test.js` and all unit test files with file names ending with `.hidden.test.js` will not be visible to the candidate.
+All unit test filenames must end with `.test.js` and all unit test files with filenames ending with `.hidden.test.js` will not be visible to the candidate.
 
 All dependencies required for your coding test must be added to the `package.json` file.
 

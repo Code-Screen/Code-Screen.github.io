@@ -17,7 +17,7 @@ This repository will contain a skeleton <strong>SBT</strong> project, and the RE
 
 ### Automated test-suite setup
 
-If would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as test classes in the `src/test/` directory.
+If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as test classes in the `src/test/` directory.
 
 All unit tests must end with `Test.scala` and all tests that end with `HiddenTest.scala` will not be visible to the candidate.
 

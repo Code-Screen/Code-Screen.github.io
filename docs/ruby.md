@@ -17,11 +17,11 @@ This repository will contain a skeleton <strong>Ruby</strong> project, and the R
 
 ### Automated test-suite setup
 
-If would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as test files in the `tests/` directory.
+If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as test files in the `tests/` directory.
 
 All unit tests files must be added in the `tests/` directory and use the [`Test::Unit`](https://test-unit.github.io/) testing framework.
 
-All unit test file names must begin with `test_` and unit test files with file names that begin with `test_hidden` will not be visible to the candidate.
+All unit test filenames must begin with `test_` and unit test files with filenames that begin with `test_hidden` will not be visible to the candidate.
 
 All dependencies required for your coding test must be added to the `Gemfile`.
 

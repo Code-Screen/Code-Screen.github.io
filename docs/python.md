@@ -17,9 +17,9 @@ This repository will contain a skeleton <strong>Python</strong> project, and the
 
 ### Automated test-suite setup
 
-If would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as test files in the `tests/` directory.
+If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as test files in the `tests/` directory.
 
-All unit test file names must begin with `test_` and all test files with names beginning with `test_hidden_` will not be visible to the candidate.
+All unit test filenames must begin with `test_` and all test files with names beginning with `test_hidden_` will not be visible to the candidate.
 
 All unit tests must use the [`pytest`](https://docs.pytest.org/en/latest/) unit test framework, version 4.4.0.
 
