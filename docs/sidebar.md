@@ -23,6 +23,7 @@
     - [AngularJS](angularjs.md)
     - [React](react.md)
     - [React Native](reactnative.md)
+    - [Vue.js](vue.md)
     - [Full-Stack](fullstack.md)
 
 
