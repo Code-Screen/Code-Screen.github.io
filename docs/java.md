@@ -10,7 +10,7 @@ This repository will contain a skeleton <strong>Maven</strong> project, and the 
 <figure>
   <figcaption style="font-style: italic;">Example custom Java assessment GitHub repository:</figcaption>
   </br>
-  <img src="java_repo.png" alt="Java Repo"/>
+  <img style="max-width: 60%;" src="java_repo.png" alt="Java Repo"/>
 </figure>
 
 </br></br>

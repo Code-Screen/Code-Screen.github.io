@@ -10,7 +10,7 @@ This repository will contain a skeleton <strong>React</strong> project, and the 
 <figure>
   <figcaption style="font-style: italic;">Example custom React assessment GitHub repository:</figcaption>
   </br>
-  <img src="reactRepo.png" alt="Angular Repo"/>
+  <img style="max-width: 60%;" src="reactRepo.png" alt="Angular Repo"/>
 </figure>
 
 </br></br>

@@ -10,7 +10,7 @@ This repository will contain a skeleton <strong>Vue.js</strong> project, and the
 <figure>
   <figcaption style="font-style: italic;">Example custom Vue.js assessment GitHub repository:</figcaption>
   </br>
-  <img src="vue.png" alt="Vue.js Repo"/>
+  <img style="max-width: 60%;" src="vue.png" alt="Vue.js Repo"/>
 </figure>
 
 </br></br>

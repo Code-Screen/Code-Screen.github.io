@@ -13,7 +13,7 @@ An example custom assessment repository, using Angular as the frontend framework
 <figure>
   <figcaption style="font-style: italic;">Root directory of a repository set up for an Angular & Java full-stack test.</figcaption>
   </br>
-  <img src="fullStackRepo1.png" alt="Angular Repo"/>
+  <img style="max-width: 60%;" src="fullStackRepo1.png" alt="Angular Repo"/>
 </figure>
 
 </br>
@@ -21,7 +21,7 @@ An example custom assessment repository, using Angular as the frontend framework
 <figure>
   <figcaption style="font-style: italic;">The frontend directory of the repository, with a standard Angular project already set up.</figcaption>
   </br>
-  <img src="fullStackRepo2.png" alt="Angular Repo"/>
+  <img style="max-width: 60%;" src="fullStackRepo2.png" alt="Angular Repo"/>
 </figure>
 
 </br>
@@ -29,7 +29,7 @@ An example custom assessment repository, using Angular as the frontend framework
 <figure>
   <figcaption style="font-style: italic;">The backend directory of the repository, with a standard Java Maven project already set up.</figcaption>
   </br>
-  <img src="fullStackRepo3.png" alt="Angular Repo"/>
+  <img style="max-width: 60%;" src="fullStackRepo3.png" alt="Angular Repo"/>
 </figure>
 
 </br></br>

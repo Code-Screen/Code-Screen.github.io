@@ -10,7 +10,7 @@ This repository will contain a skeleton <strong>SBT</strong> project, and the RE
 <figure>
   <figcaption style="font-style: italic;">Example custom Scala assessment GitHub repository:</figcaption>
   </br>
-  <img src="scalaRepo.png" alt="Scala Repo"/>
+  <img style="max-width: 60%;" src="scalaRepo.png" alt="Scala Repo"/>
 </figure>
 
 </br></br>
