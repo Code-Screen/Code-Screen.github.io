@@ -24,6 +24,7 @@ The guides for creating custom assessments in all of our supported languages & f
 
   - [Java](java.md)
   - [Scala](scala.md)
+  - [Kotlin](kotlin.md)
   - [JavaScript](javascript.md)
   - [Python](python.md)
   - [Ruby](ruby.md)

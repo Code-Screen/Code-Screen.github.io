@@ -13,6 +13,7 @@
 
     - [Java](java.md)
     - [Scala](scala.md)
+    - [Kotlin](kotlin.md)
     - [JavaScript](javascript.md)
     - [Python](python.md)
     - [Ruby](ruby.md)
