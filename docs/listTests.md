@@ -29,10 +29,6 @@ If the request has succeeded, the response will be a `200 OK` containing JSON wi
     {
         "testId": "8bc9bb2e-112b-42d6-86d5-c3bfecf7e994",
         "testName": "Python Developer Test"
-    },
-    {
-        "testId": "cdec81ac-eb9e-4e8d-849a-c776f765fa41",
-        "testName": "Junior Go Developer Test"
     }
 ]
 

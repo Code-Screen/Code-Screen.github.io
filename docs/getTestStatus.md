@@ -45,7 +45,7 @@ The body of this POST request will contain a JSON payload with the following fie
     "result_url": "https://app.codescreen.dev/#/codescreenresultccb3b988-d07a-45b4-b60b-76cc52be32cg"
     "score": 75
     "metadata": {
-        "sonarqube_security_vulnerabilities_count" : 2
+        "issueCount" : 10
     }
 }
 
