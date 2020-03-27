@@ -10,7 +10,7 @@ This repository will contain a skeleton <strong>React</strong> project, and the 
 <figure>
   <figcaption style="font-style: italic;">Example custom React assessment GitHub repository:</figcaption>
   </br>
-  <img style="max-width: 60%;" src="reactRepo.png" alt="Angular Repo"/>
+  <img style="max-width: 60%;" src="reactRepo.png" alt="React Repo"/>
 </figure>
 
 </br></br>
@@ -18,4 +18,15 @@ This repository will contain a skeleton <strong>React</strong> project, and the 
 You can then update this repository with details of your React assessment and start sending the test to candidates.
 
 ### Automated test-suite setup
-Automated test-suite scoring for React is not currently supported but it will be added shortly!
+If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as test files that end with `.test.js`.
+
+All unit tests files must use the [`Jest`](https://jestjs.io/) test framework.
+
+All unit test filenames must end with `.test.js` and unit test files with filenames that end with `.hidden.test.js` will not be visible to the candidate.
+
+The `package.json` file may only be changed if you want to add third-party libraries to your test. All the current versions of the dependencies in `package.json` and `package-lock.json` must not be changed. 
+
+### Examples
+
+An **example** `React` assessment that uses automated test suite scoring can be seen here:<br/>
+https://github.com/Code-Screen/React-CodeScreen-Stadiums-Example
