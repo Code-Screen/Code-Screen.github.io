@@ -20,11 +20,12 @@ You can then update this repository with details of your React assessment and st
 ### Automated test-suite setup
 If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as test files that end with `.test.js`.
 
-All unit tests files must use the [`Jest`](https://jestjs.io/) test framework.
+All unit tests files must use the [`Jest`](https://jestjs.io/) test framework, and all end-to-end tests must use the [`Cypress`](https://www.cypress.io/) E2E test framework.
 
 All unit test filenames must end with `.test.js` and unit test files with filenames that end with `.hidden.test.js` will not be visible to the candidate.
+All end-to-end test filenames must end with `.spec.js` and end-to-end test files with filenames that end with `.hidden.spec.js` will not be visible to the candidate.
 
-The `package.json` file may only be changed if you want to add third-party libraries to your test. All the current versions of the dependencies in `package.json` and `package-lock.json` must not be changed. 
+The `package.json` file may be updated to add any third-party libraries required for your test.
 
 ### Examples
 
