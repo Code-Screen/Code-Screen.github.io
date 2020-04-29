@@ -37,6 +37,7 @@ The guides for creating custom assessments in all of our supported languages & f
   - [React](react.md)
   - [React Native](reactnative.md)
   - [Vue.js](vue.md)
+  - [Rails](rails.md)
   - [Full-Stack](fullstack.md)
 
 
