@@ -5,7 +5,7 @@ CodeScreen is the real-world developer assessment platform, allowing you to acce
 
 <p>
 
-The goal of these developer docs is to give you all the information and guidance you need to create custom assessments on CodeScreen and to start using the CodeScreen API.
+The goal of these docs is to provide will all the information and guidance you need when using the CodeScreen platform.
 
 * [Creating Custom Assessments](concepts.md)
 * [CodeScreen API](auth.md)
