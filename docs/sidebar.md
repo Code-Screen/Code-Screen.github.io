@@ -28,6 +28,7 @@
     - [Vue.js](vue.md)
     - [Rails](rails.md)
     - [Terraform](terraform.md)
+    - [Ansible](ansible.md)
     - [Full-Stack](fullstack.md)
 
 

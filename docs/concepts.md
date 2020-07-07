@@ -39,6 +39,7 @@ The guides for creating custom assessments in all of our supported languages & f
   - [Vue.js](vue.md)
   - [Rails](rails.md)
   - [Terraform](terraform.md)
+  - [Ansible](ansible.md)
   - [Full-Stack](fullstack.md)
 
 
