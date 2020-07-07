@@ -27,6 +27,7 @@
     - [React Native](reactnative.md)
     - [Vue.js](vue.md)
     - [Rails](rails.md)
+    - [Terraform](terraform.md)
     - [Full-Stack](fullstack.md)
 
 
