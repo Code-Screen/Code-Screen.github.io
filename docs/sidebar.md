@@ -29,6 +29,7 @@
     - [Rails](rails.md)
     - [Terraform](terraform.md)
     - [Ansible](ansible.md)
+    - [PowerShell](powershell.md)
     - [Full-Stack](fullstack.md)
 
 

@@ -40,6 +40,7 @@ The guides for creating custom assessments in all of our supported languages & f
   - [Rails](rails.md)
   - [Terraform](terraform.md)
   - [Ansible](ansible.md)
+  - [PowerShell](powershell.md)
   - [Full-Stack](fullstack.md)
 
 
