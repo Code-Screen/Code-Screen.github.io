@@ -47,6 +47,7 @@ To do this, follow these instructions:
 
 <br>
 
-That's it! You can now go back to the result screen on CodeScreen and click the `Request changes` or `Give feedback` button again to complete the workflow.
+That's it! You can now go back to the result screen on CodeScreen and click the `Request changes` or `Give feedback` link again to complete the workflow. <br>You can also view this [video](https://www.loom.com/share/06698af02c084c52bba9a895283d815c) to see the steps described above in action.
 
-You can also view this [video](https://www.loom.com/share/06698af02c084c52bba9a895283d815c) to see the steps described above in action. 
+**Note** that once you click `Request changes`, your access to the candidate's GitHub repo will be revoked, and the candidate is granted back access.
+Once the candidate addresses your comments and submits their updated solution, we rerun our analysis and grant you back access to the repo.
