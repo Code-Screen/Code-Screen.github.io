@@ -19,7 +19,7 @@ This repository will contain a skeleton <strong>Maven</strong> project, and the 
 
 If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as test classes in the `src/test/kotlin/` directory.
 
-All unit test class names must end with `"Test"` and all unit test classes with names that end with `"HiddenTest"` will not be visible to the candidate. These hidden tests allow you to test candidate's solutions against edge cases etc.
+All unit test filenames must end with `"Test"` and all unit test filenames that end with `"HiddenTest"` will not be visible to the candidate. These hidden tests allow you to test candidate's solutions against edge cases etc.
 
 All unit tests must use the [`Junit`](https://junit.org/junit5/) test framework and the `pom.xml` file may only be updated to add dependencies required for your coding test.
 

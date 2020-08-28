@@ -21,6 +21,7 @@
     - [Go](go.md)
     - [PHP](php.md)
     - [.NET](csharp.md)
+    - [C++](cpp.md)
     - [Angular](angular.md)
     - [AngularJS](angularjs.md)
     - [React](react.md)
