@@ -11,10 +11,11 @@
 
   - -&nbsp;Languages & Frameworks
 
-    - [Java](java.md)
-    - [Scala](scala.md)
+    - [Java (Maven)](java.md)
+    - [Java (Gradle)](java.gradle.md)
     - [Kotlin (Maven)](kotlin.maven.md)
     - [Kotlin (Gradle)](kotlin.gradle.md)
+    - [Scala](scala.md)
     - [JavaScript](javascript.md)
     - [Python](python.md)
     - [Ruby](ruby.md)

@@ -22,10 +22,11 @@ are run against the candidate's solution when we process their code and generate
 <p>
 The guides for creating custom assessments in all of our supported languages & frameworks are given below: <p>
 
-  - [Java](java.md)
-  - [Scala](scala.md)
+  - [Java (Maven)](java.md)
+  - [Java (Gradle)](java.gradle.md)
   - [Kotlin (Maven)](kotlin.maven.md)
   - [Kotlin (Gradle)](kotlin.gradle.md)
+  - [Scala](scala.md)
   - [JavaScript](javascript.md)
   - [Python](python.md)
   - [Ruby](ruby.md)
