@@ -10,7 +10,7 @@ This repository will contain a skeleton <strong>Gradle</strong> project, and the
 <figure>
   <figcaption style="font-style: italic;">Example custom Java (Gradle) assessment GitHub repository:</figcaption>
   </br>
-  <img style="max-width: 60%;" src="java_gradle_repo.png" alt="Java Repo"/>
+  <img style="max-width: 70%;" src="java_gradle_repo.png" alt="Java Repo"/>
 </figure>
 
 </br></br>
@@ -24,3 +24,8 @@ All unit test filenames must end with `"Test"` and all unit test filesnames that
 All unit tests must use the [`Junit`](https://junit.org/junit5/) test framework and the `build.gradle` file may only be updated to add dependencies required for your coding test.
 
 The maximum memory allowed for a solution to your coding test is 4G.
+
+### Examples
+
+An **example** `Java (Gradle)` assessment that uses automated test suite scoring can be seen here:<br/>
+https://github.com/Code-Screen/Java-Gradle-CodeScreen-Fibonacci
