@@ -2,14 +2,11 @@
 
   - [Introduction](intro.md)
 
+- Creating Custom Tests
 
-- Custom Assessments
+  - [Concepts](concepts.md)
 
-  - -&nbsp;Getting Started
-
-    - [Concepts](concepts.md)
-
-  - -&nbsp;Languages & Frameworks
+  - Languages & Frameworks
 
     - [Java (Maven)](java.md)
     - [Java (Gradle)](java.gradle.md)
@@ -34,19 +31,45 @@
     - [PowerShell](powershell.md)
     - [Full-Stack](fullstack.md)
 
+- Creating Library Tests
+
+  - [Concepts](concepts-library.md)
+
+- Sending Tests
+
+  - [Sending Tests](sendingTests.md)
+  - [Re-sending Tests](resendingTests.md)
+
+- Viewing Results
+
+  - [Viewing Candidates' Results](results.md)
+  - [Leaving Feedback](results.md)
+  - [Requesting Improvements](results.md)
+
+- ATS Integrations
+
+  - [Greenhouse](greenhouse.md)
+  - [Workable](workable.md)
+  - [JazzHR](https://success.jazzhr.com/hc/en-us/articles/360043286333-Integrating-JazzHR-with-CodeScreen)
+  - [SmartRecruiters](smartrecruiters.md)
+  - [Comeet](comeet.md)
+
+- Email Templates
+
+  - [Editing Email Templates](templates.md)
+
+- Adding Users
+
+  - [Adding Your Team Members](users.md)
 
 - API
 
-  - -&nbsp;Getting Started
+  - [Authentication](auth.md)
+  - [List Tests Endpoint](listTests.md)
+  - [Send Test Endpoint](sendTest.md)
+  - [Test Status Endpoint](getTestStatus.md)
+  - [Error Responses](errors.md)
 
-    - [Authentication](auth.md)
+- Frequently Asked Questions
 
-  - -&nbsp;Endpoints
-
-    - [List Tests](listTests.md)
-    - [Send Test](sendTest.md)
-    - [Test Status](getTestStatus.md)
-
-  - -&nbsp;Errors
-
-    - [Error Responses](errors.md)
+  - [GitHub 404 Error](404Error.md)
