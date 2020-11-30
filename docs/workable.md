@@ -3,7 +3,7 @@
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 40%; max-height: 50%;" src="workable_logo.png" alt="Workable Logo"/>
+  <img style="max-width: 40%; max-height: 50%;" src="workable-logo.png" alt="Workable Logo"/>
 </figure>
 
 The `CodeScreen` integration with `Workable` allows you to do the following:
