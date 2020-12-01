@@ -43,8 +43,8 @@
 - Viewing Results
 
   - [Viewing Candidates' Results](results.md)
-  - [Leaving Feedback](results.md)
-  - [Requesting Improvements](results.md)
+  - [Leaving Feedback](feedback.md)
+  - [Requesting Improvements](improvements.md)
 
 - ATS Integrations
 
