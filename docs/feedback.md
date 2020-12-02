@@ -48,4 +48,6 @@ To do this, follow these instructions:
 
 That's it! You can now go back to the result screen on CodeScreen and click the `Give feedback` link again to complete the workflow. <br>You can also view this [video](https://www.loom.com/share/06698af02c084c52bba9a895283d815c) to see the steps described above in action.
 
-**Note** that the candidate will be granted access back to the repo, but they won't be able to see the hidden test case files.
+**Note** that the candidate will be granted access back to the repo, but they won't be able to see the hidden test case files.<br>
+So please **do not** leave comments on the `"Added back hidden test files"` commit, as the candidate will not be able
+to see these comments.

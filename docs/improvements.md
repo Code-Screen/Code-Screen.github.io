@@ -48,6 +48,10 @@ Then click the `Add single comment` button. You can add as many comments (on any
 
 That's it! You can now go back to the result screen on CodeScreen and click the `Request changes` link again to complete the workflow. <br>You can also view this [video](https://www.loom.com/share/06698af02c084c52bba9a895283d815c) to see the steps described above in action.
 
-**Note** that once you click `Request changes`, your access to the candidate's GitHub repo will be revoked, and the candidate is granted back access. <br> The candidate **won't** be able to see the hidden test case files in the repo.
+**Note** that once you click `Request changes`, your access to the candidate's GitHub repo will be revoked, and the candidate is granted back access.
+
+Also please **note** that the candidate won't be able to see the hidden test case files after they get access back to the repo.<br>
+So please **do not** leave comments on the `"Added back hidden test files"` commit, as the candidate will not be able
+to see these comments.
 
 Once the candidate addresses your comments and submits their updated solution, we re-run our analysis and grant you back access to the repo.
