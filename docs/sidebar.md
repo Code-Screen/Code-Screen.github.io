@@ -33,7 +33,8 @@
 
 - Creating Library Tests
 
-  - [Concepts](concepts-library.md)
+  - [Choosing Library Test](choosing-lib-test.md)
+  - [Creating Library Test](creating-lib-test.md)
 
 - Sending Tests
 

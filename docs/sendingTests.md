@@ -2,7 +2,15 @@
 
 Once you create your first Test, you can then send the test to candidates.
 
-To do this, click on the `Send test` link beside the test name.
+To do this, click on the row for the test on the homepage screen:
+
+<figure>
+  <figcaption style="font-style: italic;"></figcaption>
+  </br>
+  <img style="max-width: 60%;" src="sendTest.png" alt="Send Test"/>
+</figure>
+
+Then click the `Send test` link beside the test name.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>

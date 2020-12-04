@@ -10,7 +10,7 @@ The goal of this user guide is to provide will all the information and guidance 
 This guide is broken into the following sections:
 
 * [Creating Custom Tests](concepts.md)
-* [Creating Library Tests](libraryConcepts.md)
+* [Creating Library Tests](choosing-lib-test.md)
 * [Sending Tests](sendingTests.md)
 * [Viewing Results](viewingResults.md)
 * [ATS Integrations](greenhouse.md)
