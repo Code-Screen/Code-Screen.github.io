@@ -28,7 +28,7 @@ The Greenhouse Support Team will respond with a `SendSafely` link for you to ent
 an admin, please contact one of the admin users in your organization, and they will be able to make you an admin.
 
 ### 2. Add CodeScreen Stage to Job’s Interview Plan
-Once the Greenhouse <> CodeScreen integration is enabled for your organisation, you will be able to add the 
+Once the Greenhouse <> CodeScreen integration is enabled for your organization, you will be able to add the 
 CodeScreen assessment as an Interview stage.
 
 To do this for an existing job, navigate to a job (All Jobs>Job Name) and click `Job Setup` from the Job navigation bar.

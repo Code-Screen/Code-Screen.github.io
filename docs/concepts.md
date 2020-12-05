@@ -4,7 +4,7 @@ CodeScreen has been built from the ground up with the idea of users having compl
 
 <p>
 
-CodeScreen provides templates project setups for each of our supported languages & frameworks. These all use standard project structures, and as a result, will be very easy to use by developers familiar with that language/framework.
+CodeScreen provides template project setups for each of our supported languages & frameworks. These all use standard project structures, and as a result, will be very easy to use by developers familiar with that language/framework.
 
 <p>
 

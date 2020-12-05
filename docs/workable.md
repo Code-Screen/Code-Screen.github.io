@@ -29,7 +29,7 @@ the CodeScreen platform to view your Workable `API key`. Once you have your API 
 an admin, please contact one of the admin users in your organization, and they will be able to make you an admin.
 
 ### 2. Add CodeScreen Stage to Job’s Interview Plan
-Once the Workable <> CodeScreen integration is enabled for your organisation, you will be able to add a 
+Once the Workable <> CodeScreen integration is enabled for your organization, you will be able to add a 
 CodeScreen assessment to any of your Workable job’s workflow.
 
 To do this for an existing job, navigate to a job, and click into the `Workflow` section, and click the `Add Assessment test` button.

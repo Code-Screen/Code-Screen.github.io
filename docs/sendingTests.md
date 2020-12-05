@@ -29,9 +29,9 @@ Once you click `Send test`, you will see the following pop-up:
   <img style="max-width: 40%;" src="sendTest2.png" alt="Send Test 2"/>
 </figure>
 
-Enter the candidate's `First Name`, `Last Name` and `Email Address`, then click the `Send` button.
+Enter the candidate's `First Name`, `Last Name`, and `Email Address`, then click the `Send` button.
 
-The candidate will receive an email containing insutrctions on how to start the test.
+The candidate will receive an email containing instructions on how to start the test.
 
 To read more about the workflow for the candidate, click <a href="https://code-screen.github.io/Candidates-Docs/#/README" target="_blank">here</a>.
 

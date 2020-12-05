@@ -19,9 +19,9 @@ Once you click on Library test, you will see the following screen which contains
   <img style="max-width: 70%;" src="libTestSummary.png" alt="Lib Test Summary"/>
 </figure>
 
-You can filter these tests based of which `language/framework` the test is available in, and which `skills` are assessed during the test.
+You can filter these tests based on which `language/framework` the test is available in, and which `skills` are assessed during the test.
 
-Each test is available in multiple languages/frameworks and assess various different skills (e.g. Databases, APIs, REST, etc.).
+Each test is available in multiple languages/frameworks and assesses various skills (e.g. Databases, APIs, REST, etc.).
 
 There is also a `Difficulty Level` attached to each test, which can be one of the following three values:
 
@@ -37,5 +37,5 @@ To find out more information about a test, click the `More detail` blue button:
   <img style="max-width: 70%;" src="lib-tests.png" alt="Lib Test Summary"/>
 </figure>
 
-To choose a test, just click on the row for test you want to select. Once you select a test, you will be brought to<br>
+To choose a test, just click on the row for the test you want to select. Once you select a test, you will be brought to<br>
 the [Create Library Test](creating-lib-test.md) screen.

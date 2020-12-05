@@ -1,7 +1,7 @@
 # Requesting Improvements
 
 If a candidate completes a CodeScreen test but fails, you can give them a "second shot" by requesting improvements
-on their solutiom.
+on their solution.
 
 To do this, follow these instructions:
 
@@ -50,7 +50,7 @@ That's it! You can now go back to the result screen on CodeScreen and click the 
 
 **Note** that once you click `Request changes`, your access to the candidate's GitHub repo will be revoked, and the candidate is granted back access.
 
-Also please **note** that the candidate won't be able to see the hidden test case files after they get access back to the repo.<br>
+Also, please **note** that the candidate won't be able to see the hidden test case files after they get access back to the repo.<br>
 So please **do not** leave comments on the `"Added back hidden test files"` commit, as the candidate will not be able
 to see these comments.
 

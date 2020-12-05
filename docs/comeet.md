@@ -31,7 +31,7 @@ To complete the integration, click the `Activate` button in the CodeScreen integ
 an admin, please contact one of the admin users in your organization, and they will be able to make you an admin.
 
 ### 2. Add CodeScreen Step to Job
-Once the Comeet <> CodeScreen integration is enabled for your organisation, you will be able to add the CodeScreen assessment as an Interview step for any of your jobs you have set up on Comeet.
+Once the Comeet <> CodeScreen integration is enabled for your organization, you will be able to add the CodeScreen assessment as an Interview step for any of your jobs you have set up on Comeet.
 
 To do this for an existing job, navigate to the job, and click the `Workflow` tab.
 

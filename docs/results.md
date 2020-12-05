@@ -1,6 +1,6 @@
 # Viewing Results
 
-Once we have completed our analysis on a candidate's submission for one of your tests, we will send you an email
+Once we have completed our analysis of a candidate's submission for one of your tests, we will send you an email
 stating whether the candidate passed or failed the test. This email will also contain a link to view more details
 about the result.
 
@@ -29,7 +29,7 @@ submission and contribute to the code coverage result, but are not included in t
 
 ### Issues
 
-On the rop right of the screen, we show the results of our static code analysis of the candidate's code.
+In the top right of the screen, we show the results of our static code analysis of the candidate's code.
 The goal of this analysis is to reveal issues with the candidate's code such as code smells, bad design patterns, etc.
 
 We do this to help you speed up the process of reviewing a submission, and make this workflow as close as possible to how you review
@@ -37,7 +37,7 @@ your colleagues' code internally.
 
 ### Test Run Output
 
-This section gives you access the full output log file that was generated when we built the candidate's submission (compiled the code, ran the unit test cases, etc.).
+This section gives you access to the full output log file that was generated when we built the candidate's submission (compiled the code, ran the unit test cases, etc.).
 
 ### Time Taken
 
@@ -54,7 +54,7 @@ Click [here](improvements.md) for more details.
 
 ### Give Feedback
 
-We also provide a nice workflow which enables you to give feedback to a candidate on their solution.
+We also provide a nice workflow that enables you to give feedback to a candidate on their solution.
 Click [here](feedback.md) for more details.
 
 

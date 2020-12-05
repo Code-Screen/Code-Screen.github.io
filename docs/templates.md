@@ -1,6 +1,6 @@
 # Editing Email Templates
 
-Candidates receieve multiple emails from CodeScreen during their journey through a CodeScreen test, from when they
+Candidates receive multiple emails from CodeScreen during their journey through a CodeScreen test, from when they
 are initially sent a test to when they submit their solution.
 
 We provide the option to edit these email templates to include your company's logo and wording, which gives the candidate
@@ -24,7 +24,7 @@ To edit an email template, click `Edit`. You can then edit the default `HTML` to
 Editing HTML can be easily performed by you or by one of your developer colleagues if you are a non-technical user. If this is not an option, then please message on our live chat and we can do this for you.
 
 Each email template has a set of `substitution variables` that we use to dynamically insert information into the email HTML.<br>
-Examples of these includes the candidate's first name, the test time limit, etc.
+Examples of these include the candidate's first name, the test time limit, etc.
 
 Below is a table which shows at which point during the candidate test journey lifecycle each email is sent, and the
 substitution variables that are used for each:
@@ -62,7 +62,7 @@ An explanation on what each variable is referring to is provided below:
 You can also edit the email address from which the above emails are sent. The default email address is
 <a href="mailto:hello@codescreen.dev">hello@codescreen.dev</a>. 
 
-If you want to change this to one of your internal email addresses you use for hiring, just enter it into the
+If you want to change this to one of the internal email addresses you use for hiring, just enter it into the
 `From Email Address` field, and click the `Save` button.
 
 Once you do this, you will receive a verification request email from <a href="https://aws.amazon.com/ses/" target="_blank">Amazon SES</a>,
