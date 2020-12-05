@@ -15,6 +15,9 @@ To edit the email templates, click into the
   <img style="max-width: 60%;" src="templates.png" alt="Test Choice"/>
 </figure>
 
+**Note** that you will not have access to the Emails section on CodeScreen unless you are an admin user. If you are not
+an admin, please contact one of the admin users in your organization, and they will be able to make you an admin.
+
 Each email type has a default template associated with it, and you can view these by clicking `Show default` beside each type.
 
 To edit an email template, click `Edit`. You can then edit the default `HTML` to include your own branding and wording.

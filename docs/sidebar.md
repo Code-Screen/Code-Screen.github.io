@@ -61,7 +61,7 @@
 
 - Adding Users
 
-  - [Adding Your Team Members](users.md)
+  - [Adding New Users](users.md)
 
 - API
 

@@ -25,6 +25,8 @@ the CodeScreen platform to view your Workable `API key`. Once you have your API 
   <img style="max-width: 60%;" src="workable1.png" alt="Workable 1"/>
 </figure>
 
+**Note** that you will not have access to the Integrations section on CodeScreen unless you are an admin user. If you are not
+an admin, please contact one of the admin users in your organization, and they will be able to make you an admin.
 
 ### 2. Add CodeScreen Stage to Job’s Interview Plan
 Once the Workable <> CodeScreen integration is enabled for your organisation, you will be able to add a 

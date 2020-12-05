@@ -24,6 +24,9 @@ Do not send the API key in this initial email.
 
 The Greenhouse Support Team will respond with a `SendSafely` link for you to enter your API key. A notification will be sent to the Greenhouse Support Team after you have entered your API key and they will email you to confirm that your API key has been set up in your account and your integration is enabled.
 
+**Note** that you will not have access to the Integrations section on CodeScreen unless you are an admin user. If you are not
+an admin, please contact one of the admin users in your organization, and they will be able to make you an admin.
+
 ### 2. Add CodeScreen Stage to Job’s Interview Plan
 Once the Greenhouse <> CodeScreen integration is enabled for your organisation, you will be able to add the 
 CodeScreen assessment as an Interview stage.
