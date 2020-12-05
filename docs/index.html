@@ -31,6 +31,20 @@
     color: var(--theme-color,#836FEC);
   }
 
+  .sidebar ul li p.active>a {
+    color: var(--theme-color,#836FEC);
+    font-weight: 600;
+    border-right: 2px solid;
+  }
+
+  .sidebar ul li {
+    cursor: pointer;
+  }
+
+  .sidebar li>p:hover {
+    text-decoration: underline;
+  }
+
   iframe {
     box-shadow: 0 0 10px #ccc;
   }
@@ -47,6 +61,7 @@
       display: none;
     }
   }
+
   </style>
 
 </head>
@@ -63,7 +78,7 @@
 
 <script>
   window.$docsify = {
-    name: 'CodeScreen Docs',
+    name: 'CodeScreen User Guide',
     nameLink: {
       '/': '..'
     },
@@ -91,5 +106,7 @@
 
 <script src="//unpkg.com/docsify@4.9.4/lib/docsify.min.js"></script>
 <script src="//unpkg.com/docsify@4.9.4/lib/plugins/search.min.js"></script>
+
+<script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 
 </html>

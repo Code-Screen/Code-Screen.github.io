@@ -1,0 +1,86 @@
+# Integrating Comeet with CodeScreen
+
+<figure>
+  <figcaption style="font-style: italic;"></figcaption>
+  </br>
+  <img style="max-width: 40%; max-height: 50%;" src="comeet-logo.jpeg" alt="Comeet Logo"/>
+</figure>
+
+The `CodeScreen` integration with `Comeet` allows you to do the following:
+
+* Select which CodeScreen test is required for each role you have on Comeet.
+* Invite candidates to take CodeScreen tests directly from the Comeet platform as candidates enter the assessment stage.
+* Status updates from invitation to completion.
+* Have candidate CodeScreen test reports automatically attach to their Comeet candidate profile and their scores displayed.
+
+The integration is quick and straightforward. It works as follows:
+
+### 1. Enable the Comeet/CodeScreen Integration
+To start, head over to the `Integrations` section on Comeet, find CodeScreen, click `Integrate`, and copy the `API key`.
+Once you have the API key, go to the <a href="https://app.codescreen.dev/#/client-integrations" target="_blank">Integrations</a> section on the CodeScreen platform and copy your Comeet API key into the Comeet API Key box and click `Save changes`.
+
+To complete the integration, click the `Activate` button in the CodeScreen integration section on Comeet.
+
+<figure>
+  <figcaption style="font-style: italic;"></figcaption>
+  </br>
+  <img style="max-width: 60%;" src="comeet1.png" alt="Comeet 1"/>
+</figure>
+
+**Note** that you will not have access to the Integrations section on CodeScreen unless you are an admin user. If you are not
+an admin, please contact one of the admin users in your organization, and they will be able to make you an admin.
+
+### 2. Add CodeScreen Step to Job
+Once the Comeet <> CodeScreen integration is enabled for your organisation, you will be able to add the CodeScreen assessment as an Interview step for any of your jobs you have set up on Comeet.
+
+To do this for an existing job, navigate to the job, and click the `Workflow` tab.
+
+<figure>
+  <figcaption style="font-style: italic;"></figcaption>
+  </br>
+  <img style="max-width: 60%;" src="comeet2.png" alt="Comeet 2"/>
+</figure>
+
+You will then see the list of available CodeScreen tests you can choose from.<br>
+There will be one entry in this list for each test that you currently have on CodeScreen.
+
+<figure>
+  <figcaption style="font-style: italic;"></figcaption>
+  </br>
+  <img style="max-width: 60%;" src="comeet3.png" alt="Comeet 3"/>
+</figure>
+
+### 3. Send and Review the Test
+Once a candidate is moved into the stage that you added the CodeScreen assessment to, you can send them the test by clicking the `Start` button.
+
+<figure>
+  <figcaption style="font-style: italic;"></figcaption>
+  </br>
+  <img style="max-width: 60%;" src="comeet4.png" alt="Comeet 4"/>
+</figure>
+
+When you click Start, CodeScreen sends an email to the candidate containing the instructions for the test.
+
+You are able to edit the email templates that are used to include your own wording and your company’s branding.<br>
+You can read more details about this [here](templates.md). 
+
+The default email template looks like the following:
+
+<figure>
+  <figcaption style="font-style: italic;"></figcaption>
+  </br>
+  <img style="max-width: 60%;" src="comeet5.png" alt="Comeet 5"/>
+</figure>
+
+Once the candidate has submitted their test, you will be notified via email by Comeet, and the result will be viewable on Comeet.
+
+
+<figure>
+  <figcaption style="font-style: italic;"></figcaption>
+  </br>
+  <img style="max-width: 60%;" src="comeet6.png" alt="Comeet 6"/>
+</figure>
+
+You can then click the `Open as a user on CodeScreen` link to view more details about the result on CodeScreen.
+
+And that’s it!
