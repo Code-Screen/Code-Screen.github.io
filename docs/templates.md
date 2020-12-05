@@ -51,9 +51,9 @@ An explanation on what each variable is referring to is provided below:
 * `{firstName}` - The candidate's first name.
 
 * `{testTitle}` - The name of your test that the candidate has been sent.
-* `{companyName}` - The name of your company you set when you signed up to CodeScreen. 
+* `{companyName}` - The name of your company you set when you signed up to CodeScreen. This can be edited <a href="https://app.codescreen.dev/#/client-profile-edit/details" target="_blank">here</a>.
 * `{candidateLinkUrl}` - The link to the candidate's test page on CodeScreen.
-* `{repoUrl}` - The link to the candidate's private repo on GitHub. This can be edited <a href="https://app.codescreen.dev/#/client-profile-edit/details" target="_blank">here</a>.
+* `{repoUrl}` - The link to the candidate's private repo on GitHub.
 * `{timeToCompleteTestSentDisplayValue}` - The number of days the candidate has to complete the test from when they are <br> sent the test, e.g. "1 day", "2 days", etc.
 * `{timeToCompleteTestBeginsDisplayValue}` - The number of hours/days the candidate has to complete the test from when they <br> begin the test, e.g. "3 hours", "1 day", etc.
 

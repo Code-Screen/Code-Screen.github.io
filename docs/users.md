@@ -42,5 +42,5 @@ to sign in for the first time.
  ### Admin Users
  The person who initially creates the account for your organisation on CodeScreen is made an admin user by default.
 
- When a new user is added, they will be created by default as non-admin users. If you would like to change a non-admin user
+ When a new user is added, they will be created by default as a non-admin user. If you would like to change a non-admin user
  to an admin, please message us on our live chat, or via <a href="mailto:hello@codescreen.dev">email</a>, with the name of the user and we will update them on our side.
