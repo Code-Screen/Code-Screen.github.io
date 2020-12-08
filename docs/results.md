@@ -12,7 +12,7 @@ Once you click into the result, you will see a screen that is similiar to the fo
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 70%;" src="codeScreenResult.png" alt="Result"/>
+  <img style="max-width: 80%;" src="codescreenResult.png" alt="Result"/>
 </figure>
 
 This screen is broken into the following sections:
