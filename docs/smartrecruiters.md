@@ -80,7 +80,7 @@ Once you click `SEE RESULT`, you will be redirected to the result page on the Co
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="SmartRecruiters7.png" alt="SmartRecruiters 7"/>
+  <img style="max-width: 80%;" src="SmartRecruiters7.png" alt="SmartRecruiters 7"/>
 </figure>
 
 And that’s it!

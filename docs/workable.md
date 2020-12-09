@@ -85,7 +85,7 @@ After you click on “View report on CodeScreen”, you’ll be taken to a page 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="workable7.png" alt="Workable 7"/>
+  <img style="max-width: 80%;" src="workable7.png" alt="Workable 7"/>
 </figure>
 
 
