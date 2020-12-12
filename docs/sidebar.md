@@ -46,6 +46,7 @@
   - [Viewing Candidates' Results](results.md)
   - [Leaving Feedback](feedback.md)
   - [Requesting Improvements](improvements.md)
+  - [Archiving Candidates](archive.md)
 
 - ATS Integrations
 
