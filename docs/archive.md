@@ -3,7 +3,7 @@
 Once a candidate either passes or fails a CodeScreen test, you can remove them from the Applicants table
 by `Archiving` the candidate.
 
-To do this, click the blue `X`  button beside the candidate's email address.
+To do this, click the blue `X` beside the candidate's email address.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
