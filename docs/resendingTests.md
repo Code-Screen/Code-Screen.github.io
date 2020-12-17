@@ -10,8 +10,10 @@ If you would like to then re-send the test to the candidate, please follow these
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="resendTest1.png" alt="Resend test"/>
+  <img style="max-width: 70%;" src="resendTest1.png" alt="Resend test"/>
 </figure>
+
+<br>
 
 **2.** You will then see the screen below.
 
@@ -22,6 +24,8 @@ If you would like to then re-send the test to the candidate, please follow these
 </figure>
 
 Please click the green `Resend test` button.
+
+<br>
 
 **3.** You will then see the following pop-up:
 
