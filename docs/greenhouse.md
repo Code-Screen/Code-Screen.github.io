@@ -101,8 +101,8 @@ The status of the assessment will be viewable in Greenhouse:
   <img style="max-width: 60%;" src="greenhouse7.png" alt="Greenhouse 7"/>
 </figure>
 
-Once the candidate has submitted their test, you will be notified via email by Greenhouse and the `Interview Kit`
-will contain a link to view the submitted test on CodeScreen.
+Once the candidate has submitted their test, you will be notified via email by Greenhouse and you will be able to view the `Interview Kit`
+for that candidate.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
@@ -110,8 +110,10 @@ will contain a link to view the submitted test on CodeScreen.
   <img style="max-width: 60%;" src="greenhouse8.png" alt="Greenhouse 8"/>
 </figure>
 
-After you click on the Interview Kit on the candidate’s profile, you’ll be taken to a page where there is a link to view the test result on CodeScreen. <br>
-Click `View Report`, which will bring you to a page on CodeScreen similar to the following:
+Inside the Interview Kit section, there is a `Score` field which represents the candidate's score on the test, which is based on how many <br>
+unit test cases the candidate's solution passed. 
+
+You can also view more details about the test result on CodeScreen by clicking `View Report`, which will bring you to a page <br> on CodeScreen similar to the following:
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
