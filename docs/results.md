@@ -35,6 +35,8 @@ The goal of this analysis is to reveal issues with the candidate's code such as 
 We do this to help you speed up the process of reviewing a submission, and make this workflow as close as possible to how you review
 your colleagues' code internally.
 
+Once you click on one of the issue rows, you will be brought to the corresponding line of code on `GitHub`.
+
 ### Test Run Output
 
 This section gives you access to the full output log file that was generated when we built the candidate's submission (compiled the code, ran the unit test cases, etc.).
