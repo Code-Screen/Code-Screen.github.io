@@ -75,3 +75,4 @@
 - Frequently Asked Questions
 
   - [GitHub 404 Error](404Error.md)
+  - [Hidden Test Cases](hiddenTests.md)

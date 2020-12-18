@@ -11,12 +11,12 @@ CodeScreen provides template project setups for each of our supported languages 
 ### Automated test-suite scoring
 CodeScreen supports <strong>automated test-suite scoring</strong> in all of our supported backend languages.
 
-CodeScreen test cases are implemented in code using testing libraries (such as <strong>JUnit</strong>, <strong>XUnit</strong>, etc.), it opens up an abundance of possibilities of what you can test for in a candidate's solution. </br> </br>Object equality, integer comparison (less than, greater than, etc.), proper exception handling, the sort order of lists, etc. are all now possible. </br></br>This allows you to test a candidate's solution in the same way your developers would test code in a real-world working environment.
+CodeScreen test cases are implemented in code using testing libraries (such as <strong>JUnit</strong>, <strong>XUnit</strong>, etc.), which opens up an abundance of possibilities of what you can test for in a candidate's solution. </br> </br>Object equality, integer comparison (less than, greater than, etc.), proper exception handling, the sort order of lists, etc., are all now possible. </br></br>This allows you to test a candidate's solution in the same way your developers would test code in a real-world working environment.
 
 <p>
 
-CodeScreen also supports a concept that we have named <strong>Hidden Tests</strong>. These are test cases that are not visible to the candidate but
-are run against the candidate's solution when we process their code and generate the final report. 
+CodeScreen also supports a concept that we have named <strong>Hidden Tests</strong>. These are unit test cases that are not visible to the candidate but
+are run against the candidate's solution when we process their code and generate the final report. Read [here](hiddenTests.md) for more details.
 
 <p>
 <p>

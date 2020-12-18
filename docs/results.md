@@ -23,7 +23,7 @@ In the top left, you can see the number of unit test cases that passed and faile
 submission. You can also view the details of each failing test case.
 
 ### Code Coverage Result
-Below the unit test cases summary, we show the code coverage results. This is the percentage of the candidate's code that is covered by unit test cases.<br>
+Below the unit test cases summary, we show the code coverage results. This is the percentage of the candidate's code that is covered by unit test cases.<br><br>
 **Note** that we allow the candidate to add their own unit test cases. These are included in the final run of the candidate's
 submission and contribute to the code coverage result, but are not included in the unit test score for the candidate.
 
