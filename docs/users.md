@@ -32,9 +32,7 @@ You can then select which tests you want to give this user access to.
 For each test you select, this user will be able to send tests to candidates, see all results (including access to each candidate's GitHub repo), access to the test's `GitHub` template repos (for custom tests), and be notified when each candidate completes the test.
 <br> If you don't select any tests, then the user will be granted access to all tests.
 
-You can also add the user's `GitHub` username. If you are adding a non-technical user you can leave this blank. If you are
-adding a technical user (developer, tech lead, etc), then you can also leave this blank and the user can add it later when
-they sign in for the first time.
+You can also set the user up as an admin user by checking the `Admin user` checkbox.
 
 You can now click the `Add user` to finish adding the user. The user will then be sent a welcome email containing a link
 to sign in for the first time.
@@ -42,5 +40,6 @@ to sign in for the first time.
  ### Admin Users
  The person who initially creates the account for your organization on CodeScreen is made an admin user by default.
 
- When a new user is added, they will be created by default as a non-admin user. If you would like to change a non-admin user
- to an admin, please message us on our live chat, or via <a href="mailto:hello@codescreen.dev">email</a>, with the name of the user and we will update them on our side.
+ Admin users can edit email templates, add other users, access API keys, and access/update your account's billing details.
+
+ 
