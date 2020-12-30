@@ -42,4 +42,11 @@ to sign in for the first time.
 
  Admin users can edit email templates, add other users, access API keys, and access/update your account's billing details.
 
- 
+  ### Editing Users
+ You can edit users by clicking the pencil icon beside the user's email address.
+
+<figure>
+  <figcaption style="font-style: italic;"></figcaption>
+  </br>
+  <img style="max-width: 60%;" src="editUsers.png" alt="Edit Users"/>
+</figure>
