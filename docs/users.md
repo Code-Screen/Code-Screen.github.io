@@ -32,7 +32,7 @@ You can then select which tests you want to give this user access to.
 For each test you select, this user will be able to send tests to candidates, see all results (including access to each candidate's GitHub repo), access to the test's `GitHub` template repos (for custom tests), and be notified when each candidate completes the test.
 <br> If you don't select any tests, then the user will be granted access to all tests.
 
-You can also set the user up as an admin user by checking the `Admin user` checkbox.
+You can also set which tests will be accessible by this user and create the user as an admin user by checking the `Admin user` checkbox.
 
 You can now click the `Add user` to finish adding the user. The user will then be sent a welcome email containing a link
 to sign in for the first time.
