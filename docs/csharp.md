@@ -26,6 +26,8 @@ All unit tests must use the [`Nunit`](https://nunit.org/) test framework.
 The `.csproj` file should be renamed, and the `RootNamespace` element in this file must be updated to match this
 new name. The only other updates that should go in to the `.csproj` file are dependencies required for your coding test.
 
+The coding test must use `.NET 5.0`.
+
 The maximum memory allowed for a solution to your coding test is 4G.
 
 ### Examples
