@@ -25,7 +25,7 @@ All unit test filenames must end with `.test.js` and all unit test files with fi
 
 All dependencies required for your coding test must be added to the `package.json` file.
 
-The coding test must be compatible with Node.js version 11.7.0.
+The coding test must be compatible with Node.js version `15.5.1`.
 
 The maximum memory allowed for a solution to your coding test is 4G.
 
