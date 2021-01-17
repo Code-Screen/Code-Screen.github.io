@@ -23,7 +23,7 @@ All unit test filenames must end with `"Test"` and all unit test filesnames that
 
 All unit tests must use the [`Junit`](https://junit.org/junit5/) test framework and the `build.gradle` file may only be updated to add dependencies required for your coding test.
 
-Your solution must use/be compatible with `Java 11`.
+The coding test must be compatible with `Java 11`.
 
 The maximum memory allowed for a solution to your coding test is 4G.
 
