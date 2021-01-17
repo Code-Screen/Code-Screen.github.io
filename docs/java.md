@@ -23,6 +23,8 @@ All unit test class names must end with `"Test"` and all unit test classes with 
 
 All unit tests must use the [`Junit`](https://junit.org/junit5/) test framework and the `pom.xml` file may only be updated to add dependencies required for your coding test.
 
+The coding test must be compatible with `Java 11`.
+
 The maximum memory allowed for a solution to your coding test is 4G.
 
 ### Examples
