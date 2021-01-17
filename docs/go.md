@@ -23,11 +23,11 @@ All unit test filenames must end with `_test.go` and all unit test files with na
 
 All unit tests must use the [`Ginkgo`](http://onsi.github.io/ginkgo/) test framework.
 
+The coding test must be compatible with `Go 1.14`.
+
 All dependencies that your coding test requires need to be added to the `go.mod` file.
 
 The maximum memory allowed for a solution to your coding test is 4G.
-
-The Go code must be compatible with `Go` version 1.7.
 
 ### Examples
 
