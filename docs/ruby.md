@@ -25,7 +25,7 @@ All unit test filenames must begin with `test_` and unit test files with filenam
 
 All dependencies required for your coding test must be added to the `Gemfile`.
 
-The coding test must be compatible with `Ruby` version 2.5.3 and the `bundle` version required is 2.0.1.
+Your coding test also must use/be compatible with `Ruby version 3.0`.
 
 The current content of the `Rakefile` must not be modified. You may add to the `Rakefile` as required for your coding test.
 
