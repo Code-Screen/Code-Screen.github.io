@@ -29,8 +29,9 @@ You can then add a new user by clicking the `Add New User` button, which will la
 You can enter the user's `Name`, `Email`, and `Title`. 
 
 You can then select which tests you want to give this user access to.
-For each test you select, this user will be able to send tests to candidates, see all results (including access to each candidate's GitHub repo), access to the test's `GitHub` template repos (for custom tests), and be notified when each candidate completes the test.
-<br> If you don't select any tests, then the user will be granted access to all tests.
+For each test you select, this user will be able to send tests to candidates, see all results (including access to each candidate's GitHub repo), access to the test's `GitHub` template repos (for custom tests), and be notified when each candidate completes the test. 
+
+If you don't select any tests, then the user will be granted access to all tests.
 
 You can also set which tests will be accessible by this user and create the user as an admin user by checking the `Admin user` checkbox.
 
