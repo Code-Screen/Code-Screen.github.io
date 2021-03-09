@@ -37,7 +37,7 @@ An example custom assessment repository, using Angular as the frontend framework
 You can then update each repository with details of your assessment and start sending the test to candidates.
 
 ### Further reading
-Read this [blog post](https://medium.com/codescreen-dev/introducing-template-generators-9c751a50c1f) to find out more about the theory and design principles behind custom full-stack assessments in CodeScreen.
+Read this [blog post](https://blog.codescreen.dev/introducing-template-generators/) to find out more about the theory and design principles behind custom full-stack assessments in CodeScreen.
 
 ### Automated test-suite setup
 Automated test-suite scoring is not currently supported for full-stack assessments.
