@@ -53,6 +53,7 @@
   - [Greenhouse](greenhouse.md)
   - [Workable](workable.md)
   - [JazzHR](https://success.jazzhr.com/hc/en-us/articles/360043286333-Integrating-JazzHR-with-CodeScreen)
+  - [Recruitee](recruitee.md)
   - [SmartRecruiters](smartrecruiters.md)
   - [Comeet](comeet.md)
 
