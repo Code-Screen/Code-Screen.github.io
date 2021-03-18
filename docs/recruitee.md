@@ -8,9 +8,7 @@
 
 The `CodeScreen` integration with `Recruitee` allows you to do the following:
 
-* Select which CodeScreen test is required for each role you have on Recruitee.
-* Invite candidates to take CodeScreen tests directly from the Recruitee platform as candidates enter the assessment stage.
-* Status updates from invitation to completion.
+* Invite candidates to take CodeScreen tests directly from the Recruitee platform.
 * Have candidate CodeScreen test reports automatically attach to their Recruitee candidate profile and their scores displayed.
 
 The integration is quick and straightforward. It works as follows:
