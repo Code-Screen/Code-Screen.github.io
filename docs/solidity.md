@@ -25,6 +25,8 @@ All unit test file names must end with `Test.js` or `Test.sol`, and all unit tes
 
 The `package.json` file should only be modified in order to add any third-party dependencies required for your solution. The `truffle` and `truffle-assertions` versions should not be changed.
 
+The `pragma` version also must not be changed.
+
 The coding test must be compatible with Node.js version `15.5.1`.
 
 The maximum memory allowed for a solution to your coding test is 4G.
