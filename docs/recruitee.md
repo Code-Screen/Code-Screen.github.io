@@ -55,7 +55,7 @@ There will be one entry in this list for each test that you currently have on Co
 
 <br>
 
-Once you select the test, click the `Send` button. You will then see a confirmation message similiar to the following:
+Once you select the test, click the `Send` button. You will then see a confirmation message similar to the following:
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
