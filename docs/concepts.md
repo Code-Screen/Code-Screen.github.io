@@ -18,8 +18,16 @@ CodeScreen test cases are implemented in code using testing libraries (such as <
 CodeScreen also supports a concept that we have named <strong>Hidden Tests</strong>. These are unit test cases that are not visible to the candidate but
 are run against the candidate's solution when we process their code and generate the final report. Read [here](hiddenTests.md) for more details.
 
+### Template repositories
+Once you create a custom test, a private `GitHub` template repository will be created for each language/framework you chose for the test. These repos will contain standard project structures - see the individual language/framework guides below for more details.
+
+**Note** that when a candidate begins a custom test that you send to them, a brand new private `GitHub` repo will be created. This repo will just contain one commit (the initial commit) which contains the current contents of the `master` branch of your template repo. 
+
+The candidate will **not** be able to see the commit history or the other (non-master) branches in your template repo, which means you can keep on iterating on the template repo over time with meaningful commit messages, etc.
+
 <p>
-<p>
+
+### Guides
 The guides for creating custom assessments in all of our supported languages & frameworks are given below: <p>
 
   - [Java (Maven)](java.md)
