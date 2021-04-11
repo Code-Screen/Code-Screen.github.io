@@ -36,6 +36,7 @@ The guides for creating custom assessments in all of our supported languages & f
   - [Kotlin (Gradle)](kotlin.gradle.md)
   - [Scala](scala.md)
   - [JavaScript](javascript.md)
+  - [TypeScript](typescript.md)
   - [Python](python.md)
   - [Ruby](ruby.md)
   - [Go](go.md)
