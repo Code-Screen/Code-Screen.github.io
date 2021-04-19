@@ -45,6 +45,7 @@ The guides for creating custom assessments in all of our supported languages & f
   - [C++](cpp.md)
   - [Solidity](solidity.md)
   - [Swift](swift.md)
+  - [R](r.md)
   - [Angular](angular.md)
   - [AngularJS](angularjs.md)
   - [React](react.md)
