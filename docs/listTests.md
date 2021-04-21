@@ -8,7 +8,7 @@ GET https://app.codescreen.dev/api/listTests
 ### Request
 
 ```
-curl -X GET https://app.codescreen.dev/api/listTests -H 'Authorization: apiToken c5793bc0-4176-4dec-b59c-ff47337f01c4' 
+curl -X GET https://app.codescreen.dev/api/listTests -H 'Authorization: apiKey c5793bc0-4176-4dec-b59c-ff47337f01c4' 
 
 ```
 <br/>For example, if you have the following tests on CodeScreen:

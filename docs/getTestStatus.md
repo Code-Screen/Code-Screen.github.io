@@ -13,7 +13,7 @@ This GET request takes one path parameter, which is the `testInstanceId` that is
 
 ```
 curl -X POST https://app.codescreen.dev/api/testStatus/1b68dc27-6155-41c2-89e3-4e00bd62d227 \
-  -H 'Authorization: apiToken dbf4a385-02ab-7d10-bf0c-5hh991055317'
+  -H 'Authorization: apiKey dbf4a385-02ab-7d10-bf0c-5hh991055317'
 
 ```
 

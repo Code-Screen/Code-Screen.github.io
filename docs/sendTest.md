@@ -27,7 +27,7 @@ The body of this POST request will contain a JSON payload with the following fie
 
 ```
 curl -X POST https://app.codescreen.dev/api/sendTest \
-  -H 'Authorization: apiToken dbf4a385-02ab-7d10-bf0c-5hh991055317' \
+  -H 'Authorization: apiKey dbf4a385-02ab-7d10-bf0c-5hh991055317' \
   -H 'Content-Type: application/json' \
   -d '{
     "testId": "af401f8e-24d9-4889-ad8b-39cc8366b0ac",
