@@ -1,6 +1,6 @@
 # Viewing Results
 
-Once we have completed our analysis of a candidate's solution for one of your tests (which usually takes roughly 10 minutes from when the candidate submits their solution), we will send you an email stating whether the candidate passed or failed the test. This email will also contain a link to view more details
+Once we have completed our analysis of a candidate's solution for one of your tests (which usually takes roughly 10 minutes from when the candidate submits their solution), we will send you an email stating whether the candidate passed or failed the test. <br> This email will also contain a link to view more details
 about the result.
 
 **Note** that if you have integrated CodeScreen with your `Applicant Tracking System (ATS)`, then you will also receive an email
