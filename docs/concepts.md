@@ -15,7 +15,7 @@ CodeScreen test cases are implemented in code using testing libraries (such as <
 
 <p>
   
-**Note** that all unit test files you add are immutable, meaning that they cannot be edited by the candidate. <br> This prevents the scenario whereby the candidate changes all the asserts in your unit tests to pass (e.g. `assert(true == true)`), resulting in CodeScreen marking those unit tests as passing tests and generating an inaccurate score for the candidate. <br> The `README` for your test should include a note stating the unit tests are immutable and that if the candidate wants to add their own unit tests, they need to add these in a separate unit test file(s).
+**Note** that all unit test files you add are immutable, meaning that they cannot be edited by the candidate. This prevents the scenario whereby the candidate changes all the asserts in your unit tests to pass (e.g. `assert(true == true)`), resulting in CodeScreen marking those unit tests as passing tests and generating an inaccurate score for the candidate. <br> The `README` for your test should include a note stating the unit tests are immutable and that if the candidate wants to add their own unit tests, they need to add these in a separate unit test file(s).
   
 <p>
 
