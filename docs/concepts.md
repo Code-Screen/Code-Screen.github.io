@@ -14,6 +14,10 @@ CodeScreen supports <strong>automated test-suite scoring</strong> in all of our 
 CodeScreen test cases are implemented in code using testing libraries (such as <strong>JUnit</strong>, <strong>XUnit</strong>, etc.), which opens up an abundance of possibilities of what you can test for in a candidate's solution. </br> </br>Object equality, integer comparison (less than, greater than, etc.), proper exception handling, the sort order of lists, etc., are all now possible. </br></br>This allows you to test a candidate's solution in the same way your developers would test code in a real-world working environment.
 
 <p>
+  
+**Note** that all unit test files you add are **immutable**, meaning that they cannot be edited by the candidate. <br> This prevents the scenario whereby the candidate changes all the asserts in your unit tests to pass (e.g. `assert(true == true)`), resulting in CodeScreen marking those unit tests as passing tests and generating an inaccurate score for the candidate. <br> The `README` for your test should include a note stating the unit tests are immutable and that if the candidate wants to add their own unit tests, they need to add these in a separate unit test file(s).
+  
+<p>
 
 CodeScreen also supports a concept that we have named <strong>Hidden Tests</strong>. These are unit test cases that are not visible to the candidate but
 are run against the candidate's solution when we process their code and generate the final report. Read [here](hiddenTests.md) for more details.
