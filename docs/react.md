@@ -10,7 +10,7 @@ This repository will contain a skeleton <strong>React</strong> project, and the 
 <figure>
   <figcaption style="font-style: italic;">Example custom React assessment GitHub repository:</figcaption>
   </br>
-  <img style="max-width: 60%;" src="reactRepo.png" alt="React Repo"/>
+  <img style="max-width: 70%;" src="reactRepo.png" alt="React Repo"/>
 </figure>
 
 </br></br>
@@ -18,12 +18,12 @@ This repository will contain a skeleton <strong>React</strong> project, and the 
 You can then update this repository with details of your React assessment and start sending the test to candidates.
 
 ### Automated test-suite setup
-If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as test files that end with `.test.js`.
+If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as unit tests or end-to-end tests.
 
 All unit tests files must use the [`Jest`](https://jestjs.io/) test framework, and all end-to-end tests must use the [`Cypress`](https://www.cypress.io/) E2E test framework.
 
-All unit test filenames must end with `.test.js` and unit test files with filenames that end with `.hidden.test.js` will not be visible to the candidate.
-All end-to-end test filenames must end with `.spec.js` and end-to-end test files with filenames that end with `.hidden.spec.js` will not be visible to the candidate.
+All unit test filenames must end with `.test.js` or `.test.ts`, and unit test files with filenames that end with `.hidden.test.js` or `.hidden.test.ts` will not be visible to the candidate.
+All end-to-end test filenames must end with `.spec.js` or `.spec.ts`, and end-to-end test files with filenames that end with `.hidden.spec.js` or `.hidden.spec.ts` will not be visible to the candidate.
 
 The `package.json` file may be updated to add any third-party libraries required for your test.
 
