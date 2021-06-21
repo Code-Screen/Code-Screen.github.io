@@ -22,7 +22,8 @@ If you would like to add tests that are automatically run by CodeScreen against 
 
 All unit tests files must use the [`Jest`](https://jestjs.io/) test framework, and all end-to-end tests must use the [`Cypress`](https://www.cypress.io/) E2E test framework.
 
-All unit test filenames must end with `.test.js` or `.test.ts`, and unit test files with filenames that end with `.hidden.test.js` or `.hidden.test.ts` will not be visible to the candidate.
+All unit test filenames must end with `.test.js`, `.test.ts` or `.test.tsx`, and unit test files with filenames that end with `.hidden.test.js`,
+ `.hidden.test.ts` or `.hidden.test.tsx` will not be visible to the candidate.
 All end-to-end test filenames must end with `.spec.js` or `.spec.ts`, and end-to-end test files with filenames that end with `.hidden.spec.js` or `.hidden.spec.ts` will not be visible to the candidate.
 
 The `package.json` file may be updated to add any third-party libraries required for your test.
