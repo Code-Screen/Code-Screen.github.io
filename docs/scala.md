@@ -23,9 +23,9 @@ All unit tests must end with `Test.scala` and all tests that end with `HiddenTes
 
 All unit tests must use the [`JUnit`](https://junit.org/junit5/) test framework.
 
-The name of the project in the `build.sbt` must be updated to better match your assessment, and any dependencies required for your coding test must be added to the `build.sbt` file.
+The name of the project in the `build.sbt` should be updated to better match your assessment, and any dependencies required for your coding test must be added to the `build.sbt` file.
 
-The `Scala` version that must be used is 2.12.1.
+The `Scala` version that must be used is 2.13.6.
 
 The maximum memory allowed for a solution to your coding test is 4G.
 
