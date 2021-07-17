@@ -47,6 +47,7 @@ The guides for creating custom assessments in all of our supported languages & f
   - [PHP](php.md)
   - [.NET](csharp.md)
   - [C++](cpp.md)
+  - [Rust](rust.md)
   - [Solidity](solidity.md)
   - [Swift](swift.md)
   - [R](r.md)
