@@ -22,6 +22,7 @@
     - [.NET](csharp.md)
     - [C++](cpp.md)
     - [Rust](rust.md)
+    - [Haskell](haskell.md)
     - [Solidity](solidity.md)
     - [Swift](swift.md)
     - [R](r.md)

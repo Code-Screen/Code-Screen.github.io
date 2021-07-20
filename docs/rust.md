@@ -21,7 +21,7 @@ If you would like to add tests that are automatically run by CodeScreen against 
 
 All tests files must be added in the `tests/` directory and use the `assert Macros` from the `Rust standard library`.
 
-All test filenames must begin with `test.rs` and test files with filenames that end with `hidden_test.rs` will not be visible to the candidate.
+All test filenames must end with `_test.rs` and test files with filenames that end with `_hidden_test.rs` will not be visible to the candidate.
 
 The `Cargo.toml` file should only be modified in order to add any third-party dependencies required for your solution.
 
