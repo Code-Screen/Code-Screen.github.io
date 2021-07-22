@@ -44,6 +44,7 @@ substitution variables that are used for each:
 <td>Expiry Warning</td><td>Sent when there is 30 minutes left before the test expires.</td><td>{firstName}, {testTitle}, {companyName}, {candidateLinkUrl}.</td></tr>
 <td>Acknowledgement</td><td>Sent after the candidates submits their solution for the test.</td><td>{testTitle}, {companyName}.</td></tr>
 <td>Feedback</td><td>Sent to notify the candidate that you have given them feedback on their solution.</td><td>{testTitle}, {companyName}, {repoUrl}.</td></tr>
+<td>Request Changes</td><td>Sent to notify the candidate that you have requested changes on their solution.</td><td>{testTitle}, {companyName}, {candidateLinkUrl}.</td></tr>
 </tbody></table>
 
 An explanation on what each variable is referring to is provided below:
