@@ -25,6 +25,8 @@ All integration tests must extend [`ActionDispatch::IntegrationTest`](https://ap
 
 All unit/integration test filenames must begin with `test_` and unit/integration test files with filenames that begin with `test_hidden` will not be visible to the candidate.
 
+If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, etc.
+
 All dependencies required for your coding test must be added to the `Gemfile`.
 
 The coding test must be compatible with `Ruby` version 2.5.3 and the `bundle` version required is 2.0.1.

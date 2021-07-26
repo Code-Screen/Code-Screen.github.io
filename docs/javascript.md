@@ -23,6 +23,8 @@ All unit tests use the `Jest` testing framework.
 
 All unit test file names must end with `".spec.js"` and all unit test files with file names ending with `".hidden.spec.js"` will not be visible to the candidate.
 
+If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, etc.
+
 The `package.json` file should only be modified in order to add any third-party dependencies required for your solution. The `jest` and `babel` versions should not be changed.
 
 The coding test must be compatible with Node.js version `15.5.1`.

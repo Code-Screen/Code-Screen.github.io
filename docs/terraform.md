@@ -38,4 +38,6 @@ Note that the candidate's Terraform code must use/be compatible with Terraform v
 
 You can add more than one unit test files. All unit test file names must end with `_test.go`, and all unit test classes with names that end with `_hidden_test.go` will not be visible to the candidate. These hidden tests allow you to test candidate's solutions against edge cases etc.
 
+If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, etc.
+
 The existing dependencies and versions in the `go.mod` file must not be modified.

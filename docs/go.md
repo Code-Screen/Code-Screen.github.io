@@ -21,6 +21,8 @@ If you would like to add tests that are automatically run by CodeScreen against 
 
 All unit test filenames must end with `_test.go` and all unit test files with names ending with `_hidden_test.go` will not be visible to the candidate.
 
+If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, etc.
+
 All unit tests must use the [`Ginkgo`](http://onsi.github.io/ginkgo/) test framework.
 
 The coding test must be compatible with `Go 1.15`.
