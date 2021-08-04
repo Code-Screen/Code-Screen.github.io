@@ -53,6 +53,7 @@
   - [Leaving Feedback](feedback.md)
   - [Requesting Improvements](improvements.md)
   - [Archiving Candidates](archive.md)
+  - [Notification Preferences](notifications.md)
 
 - ATS Integrations
 
