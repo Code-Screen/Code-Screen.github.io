@@ -13,7 +13,7 @@ solution (which is when their access to the repo is revoked).
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 70%;" src="hiddenTest2.png" alt="HiddenTests2"/>
+  <img style="max-width: 80%;" src="hiddenTest2.png" alt="HiddenTests2"/>
 </figure>
 
 <br>

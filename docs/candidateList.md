@@ -1,0 +1,33 @@
+# Viewing Candidates
+
+When you click into a test from the home screen, you will see a table containing all the candidates you have sent the test to.
+
+This table is broken into three different sections:
+
+`In Progress` - Candidates who have been sent the test but have not yet started/finished.
+
+`Passed` - Candidates who have passed the test.
+
+`Failed` - Candidates who have failed the test.
+
+<figure>
+  <figcaption style="font-style: italic;"></figcaption>
+  </br>
+  <img style="max-width: 80%;" src="inProgress.png" alt="Send Test 3"/>
+</figure>
+
+<br>
+
+An [Activity Log](activityLog.md) is available for each candidate, which provides a real-time overview of how a candidate is progressing through your test.
+
+Both the Passed and Failed sections will contain a `Score` field, which is calculated as the number of passing unit tests ÷ number of total unit tests, given as a percentage. You can also sort the candidates by score.
+
+The Failed section will also contain a `Reason` field, which will either be `Unit Tests` or `Expired`.
+
+<figure>
+  <figcaption style="font-style: italic;"></figcaption>
+  </br>
+  <img style="max-width: 80%;" src="failedSection.png" alt="Send Test 3"/>
+</figure>
+
+You can then click the [See Result](results.md) button which will bring you to a screen containing the full report we generated for the candidate.

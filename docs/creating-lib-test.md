@@ -29,4 +29,7 @@ You will also notice that we display a recommended maximum `Test time limit`. Pl
 to be successfully solved within 60-90 minutes. We do, however, suggest a time greater than this to avoid making candidates 
 feel unnecessarily stressed, which allows them to perform better on the test.
 
+All of our library tests contain a suite of unit tests. A candidate's solution must pass all of these unit tests for us to mark them as having
+passed the test.
+
 Once you have filled out all the above, then click the `Publish` button, and you can start [sending](sendingTests.md) your new test to candidates!
