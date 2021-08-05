@@ -47,12 +47,17 @@
   - [Sending Tests](sendingTests.md)
   - [Re-sending Tests](resendingTests.md)
 
+- Viewing Candidates
+
+  - [Viewing Candidate List](candidateList.md)
+  - [Activity Log](activityLog.md)
+  - [Archiving Candidates](archive.md)
+
 - Viewing Results
 
   - [Viewing Candidates' Results](results.md)
   - [Leaving Feedback](feedback.md)
   - [Requesting Improvements](improvements.md)
-  - [Archiving Candidates](archive.md)
   - [Notification Preferences](notifications.md)
 
 - ATS Integrations

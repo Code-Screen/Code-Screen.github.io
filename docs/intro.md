@@ -12,6 +12,7 @@ This guide is broken into the following sections:
 * [Creating Custom Tests](concepts.md)
 * [Creating Library Tests](choosing-lib-test.md)
 * [Sending Tests](sendingTests.md)
+* [Viewing Candidates](candidateList.md)
 * [Viewing Results](results.md)
 * [ATS Integrations](greenhouse.md)
 * [Email Templates](templates.md)

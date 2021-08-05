@@ -1,6 +1,6 @@
 # Archiving Candidates
 
-Once candidates either pass or fail a CodeScreen test, you can remove them from the Applicants table
+Once candidates either pass or fail a CodeScreen test, you can remove them from the Candidates table
 by `Archiving` the candidate.
 
 To do this, click the checkbox beside each candidate you want to archive. 
@@ -35,4 +35,4 @@ As stated in the pop-up, we will keep the candidates' results on our systems, so
 on our live chat or via <a href="mailto:hello@codescreen.dev">email</a>. <br>You can also request us to delete the results permanently,
 again by messaging us on our live chat or via <a href="mailto:hello@codescreen.dev">email</a>.
 
-Once you click the blue `Archive` button, the candidates will no longer appear in the Applicant list table for that test.
+Once you click the blue `Archive` button, the candidates will no longer appear in the Candidate list table for that test.

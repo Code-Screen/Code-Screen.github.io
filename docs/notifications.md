@@ -19,8 +19,8 @@ notification inbox inside the CodeScreen application.
 
 <br>
 
-You can stop receiving these notifications for a test by clicking into the test from the home screen, then clicking the
-`Review test` link in the top right of the screen, and then scrolling down to the `Notification Preferences` section:
+You can stop receiving these notifications for a test by clicking into the test from the home screen, then click the
+`Review test` link in the top right of the screen, and then scroll down to the `Notification Preferences` section:
 
 <br>
 
@@ -32,7 +32,7 @@ You can stop receiving these notifications for a test by clicking into the test 
 
 <br>
 
-You can then untick the `Email` box if you want to stop receiving email notifications for this test, and untick the 
+You can then untick the `Email` box if you want to stop receiving email notifications for this test and untick the 
 `In-App` box if you want to stop receiving in-app notifications for this test. Finally, click the `Save changes` button to
 save your new notification preferences.
 
