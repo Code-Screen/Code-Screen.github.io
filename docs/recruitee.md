@@ -84,5 +84,6 @@ To view the full result report, click `Open`, where you’ll be taken to a page 
   <img style="max-width: 80%;" src="codescreenResult.png" alt="Recruitee 12"/>
 </figure>
 
-
 And that’s it!
+
+If you are not currently using Recruitee and want to learn more about their platform, click <a href="https://recruitee.grsm.io/41woqjbhnyls" target="_blank">here</a>.
