@@ -23,12 +23,12 @@ All unit test filenames must begin with `test_` and all test files with names be
 
 If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, etc.
 
-All unit tests must use the [`pytest`](https://docs.pytest.org/en/latest/) unit test framework, version 4.4.0.
+All unit tests must use the [`pytest`](https://docs.pytest.org/en/latest/) unit test framework, version `6.0.0`.
 
 Any dependencies required for your coding test need to be included in the `requirements.txt` file and must be available to download using the 
 [`pip`](https://pip.pypa.io/en/stable/) package installer.
 
-The Python code must be compatible with `Python` version 3.7.
+The Python code must be compatible with `Python` version `3.8`.
 
 The maximum memory allowed for a solution to your coding test is 4G.
 
