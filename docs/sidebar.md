@@ -46,6 +46,7 @@
 
   - [Sending Tests](sendingTests.md)
   - [Re-sending Tests](resendingTests.md)
+  - [Extending Time](extendingTime.md)
 
 - Viewing Candidates
 
