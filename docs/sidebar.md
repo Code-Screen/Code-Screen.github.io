@@ -32,6 +32,7 @@
     - [React Native](reactnative.md)
     - [Vue.js](vue.md)
     - [Rails](rails.md)
+    - [WordPress](wordpress.md)
     - [Terraform](terraform.md)
     - [Ansible](ansible.md)
     - [PowerShell](powershell.md)

@@ -60,6 +60,7 @@ The guides for creating custom assessments in all of our supported languages & f
   - [React Native](reactnative.md)
   - [Vue.js](vue.md)
   - [Rails](rails.md)
+  - [WordPress](wordpress.md)
   - [Terraform](terraform.md)
   - [Ansible](ansible.md)
   - [PowerShell](powershell.md)
