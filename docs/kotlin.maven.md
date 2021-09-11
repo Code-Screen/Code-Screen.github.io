@@ -21,7 +21,8 @@ If you would like to add tests that are automatically run by CodeScreen against 
 
 All unit test filenames must end with `"Test"` and all unit test filenames that end with `"HiddenTest"` will not be visible to the candidate. These hidden tests allow you to test candidate's solutions against edge cases etc.
 
-If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, etc.
+If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of 
+these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.kt`, etc.
 
 All unit tests must use the [`Junit`](https://junit.org/junit5/) test framework and the `pom.xml` file may only be updated to add dependencies required for your coding test.
 

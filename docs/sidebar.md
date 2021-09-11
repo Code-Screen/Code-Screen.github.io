@@ -47,7 +47,7 @@
 
   - [Sending Tests](sendingTests.md)
   - [Re-sending Tests](resendingTests.md)
-  - [Extending Time](extendingTime.md)
+  - [Extending Time](extending-time.md)
 
 - Viewing Candidates
 
@@ -60,6 +60,7 @@
   - [Viewing Candidates' Results](results.md)
   - [Leaving Feedback](feedback.md)
   - [Requesting Improvements](improvements.md)
+  - [Editing Results](edit-result.md)
   - [Notification Preferences](notifications.md)
 
 - ATS Integrations

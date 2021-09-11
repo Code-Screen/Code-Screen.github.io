@@ -23,7 +23,8 @@ All unit tests must use the `Truffle` testing framework. They can be written in 
 
 All unit test file names must end with `Test.js` or `Test.sol`, and all unit test files with file names ending with `HiddenTest.js` or `HiddenTest.sol` will not be visible to the candidate.
 
-If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, etc.
+If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of 
+these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.sol`, etc.
 
 The `package.json` file should only be modified in order to add any third-party dependencies required for your solution. The `truffle` and `truffle-assertions` versions should not be changed.
 

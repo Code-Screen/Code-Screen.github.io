@@ -21,7 +21,7 @@ If you would like to add tests that are automatically run by CodeScreen against 
 
 All unit test filenames must begin with `test_` and all test files with names beginning with `test_hidden_` will not be visible to the candidate.
 
-If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, etc.
+If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `hidden_foo.py`, etc.
 
 All unit tests must use the [`pytest`](https://docs.pytest.org/en/latest/) unit test framework, version `6.0.0`.
 

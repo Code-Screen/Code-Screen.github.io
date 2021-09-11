@@ -26,7 +26,8 @@ All unit test filenames must end with `.test.js`, `.test.ts` or `.test.tsx`, and
  `.hidden.test.ts` or `.hidden.test.tsx` will not be visible to the candidate.
 All end-to-end test filenames must end with `.spec.js` or `.spec.ts`, and end-to-end test files with filenames that end with `.hidden.spec.js` or `.hidden.spec.ts` will not be visible to the candidate.
 
-If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, etc.
+If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of 
+these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.js`, etc.
 
 The `package.json` file may be updated to add any third-party libraries required for your test.
 

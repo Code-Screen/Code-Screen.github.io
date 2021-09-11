@@ -27,7 +27,8 @@ If you would like to add tests that are automatically run by CodeScreen against 
 
 All unit test class filenames must end with `Tests.swift` and the test classes with filenames that end with `HiddenTests.swift` will not be visible to the candidate. All unit tests must use the [XCTest](https://developer.apple.com/documentation/xctest) testing framework.
 
-If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, etc.
+If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of 
+these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.swift`, etc.
 
 `Xcode` version 12.1 must be used.
 

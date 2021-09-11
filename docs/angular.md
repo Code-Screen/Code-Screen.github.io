@@ -26,7 +26,7 @@ test runner.
 
 All unit test filenames must end with `.spec.ts` and unit test files with filenames that end with `.hidden.spec.ts` will not be visible to the candidate.
 
-If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, etc.
+If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `hidden-foo.ts`, etc.
 
 Your test must use `Angular 8`, and the `package.json` file may only be changed if you want to add third-party libraries to your test. All the current versions of the dependencies in `package.json` and `package-lock.json` must not be changed. 
 

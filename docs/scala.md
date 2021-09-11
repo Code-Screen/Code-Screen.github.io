@@ -21,7 +21,8 @@ If you would like to add tests that are automatically run by CodeScreen against 
 
 All unit tests must end with `Test.scala` and all tests that end with `HiddenTest.scala` will not be visible to the candidate.
 
-If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, etc.
+If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of 
+these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.scala`, etc.
 
 All unit tests must use the [`JUnit`](https://junit.org/junit5/) test framework.
 

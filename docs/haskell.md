@@ -23,7 +23,8 @@ All unit tests files must be added in the `test/` directory and use the `Hspec` 
 
 All test filenames must end with `Spec.hs` and test files with filenames that end with `HiddenSpec.hs` will not be visible to the candidate.
 
-If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, etc.
+If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of 
+these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.hs`, etc.
 
 The `package.yaml` file should only be modified in order to add any third-party dependencies required for your solution.
 
