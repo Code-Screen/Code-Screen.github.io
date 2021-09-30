@@ -19,7 +19,7 @@ The integration is quick and straightforward. It works as follows:
 To start, head over to the <a href="https://app.codescreen.dev/#/client-integrations" target="_blank">Integrations</a> section on 
 the CodeScreen platform to view your Greenhouse `API key`. Once you have your API key, fill out the form at <a href="https://www.greenhouse.io/asksupport" target="_blank">www.greenhouse.io/asksupport</a> or <a href="https://support.greenhouse.io/hc/en-us/requests/new" target="_blank">click here</a> to open a ticket. 
 
-Do not send the API key in this initial email.
+Please do not include your API key in this initial support request.
 
 The Greenhouse Support Team will respond with a `SendSafely` link for you to enter your API key. A notification will be sent to the Greenhouse Support Team after you have entered your API key and they will email you to confirm that your API key has been set up in your account and your integration is enabled.
 
