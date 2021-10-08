@@ -70,6 +70,7 @@
   - [JazzHR](https://help.jazzhr.com/s/article/Integrating-JazzHR-with-CodeScreen)
   - [Recruitee](recruitee.md)
   - [SmartRecruiters](smartrecruiters.md)
+  - [Teamtailor](teamtailor.md)
   - [Comeet](comeet.md)
 
 - Email Templates

@@ -81,7 +81,7 @@ When candidates are moved into the CodeScreen interview stage, Greenhouse will d
 
 When you click Send Test, CodeScreen sends an email containing the instructions for the test. 
 
-You are able to edit the email templates that are used to include your own wording and your company’s branding.<br>
+You are able to edit the email templates that are used to include your own wording and your company’s branding.
 You can read more details about this [here](templates.md). 
 
 The default email template looks like the following:
@@ -109,10 +109,11 @@ for that candidate.
   <img style="max-width: 60%;" src="greenhouse8.png" alt="Greenhouse 8"/>
 </figure>
 
-Inside the Interview Kit section, there is a `Score` field which represents the candidate's score on the test, which is based on how many <br>
+Inside the Interview Kit section, there is a `Score` field which represents the candidate's score on the test, which is based on how many
 unit test cases the candidate's solution passed. 
 
-You can also view more details about the test result on CodeScreen by clicking `View Report`, which will bring you to a page <br> on CodeScreen similar to the following:
+You can also view more details about the test result on CodeScreen by clicking `View Report`, which will bring you to a 
+page on CodeScreen similar to the following:
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
