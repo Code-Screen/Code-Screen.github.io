@@ -17,7 +17,7 @@ The integration is quick and straightforward. It works as follows:
 
 ### 1. Enable the Teamtailor/CodeScreen Integration
 To start, head over to the `Settings` section on Teamtailor, find CodeScreen from the `Integrations` list on the right of the page and
-click the `Finish installation`.
+click the `Finish installation` button.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
