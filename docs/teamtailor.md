@@ -128,3 +128,6 @@ clicking the result link, which will bring you to a page on CodeScreen similar t
 </figure>
 
 And that’s it, you're all set!
+
+A video demo showing the integration in action is available to view 
+<a href="https://www.loom.com/share/c5e35d10f26347aba5baba597acc7228" target="_blank">here</a>.
