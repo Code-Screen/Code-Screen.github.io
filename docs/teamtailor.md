@@ -135,7 +135,7 @@ clicking the result link, which will bring you to a page on CodeScreen similar t
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 80%;" src="codescreenResult.png" alt="Teamtailor 9"/>
+  <img style="max-width: 80%;" src="codescreenResult.png" alt="Teamtailor 10"/>
 </figure>
 
 And that’s it, you're all set!
