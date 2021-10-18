@@ -16,7 +16,18 @@ The `CodeScreen` integration with `Teamtailor` allows you to do the following:
 The integration is quick and straightforward. It works as follows:
 
 ### 1. Enable the Teamtailor/CodeScreen Integration
-To start, head over to the `Settings` section on Teamtailor, find CodeScreen from the `Integrations` list on the right of the page and
+To start, head over to the `Marketplace` section on Teamtailor, click the CodeScreen entry from the Assessments list and click
+the `Activate` button in the popup:
+
+<figure>
+  <figcaption style="font-style: italic;"></figcaption>
+  </br>
+  <img style="max-width: 70%;" src="Teamtailor_10.png" alt="Teamtailor"/>
+</figure>
+
+<br>
+
+Now head over to the `Settings` section on Teamtailor, find CodeScreen from the `Integrations` list on the right of the page and
 click the `Finish installation` button.
 
 <figure>
