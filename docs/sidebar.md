@@ -24,6 +24,7 @@
     - [Rust](rust.md)
     - [Haskell](haskell.md)
     - [Solidity](solidity.md)
+    - [SQL](sql.md)
     - [Swift](swift.md)
     - [R](r.md)
     - [Angular](angular.md)

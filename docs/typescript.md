@@ -21,7 +21,7 @@ If you would like to add tests that are automatically run by CodeScreen against 
 
 All unit tests use the `Jest` testing framework.
 
-All unit test file names must end with `".spec.ts"` and all unit test files with file names ending with `".hidden.spec.ts"` will not be visible to the candidate.
+All unit test file names must end with `.spec.ts` and all unit test files with file names ending with `.hidden.spec.ts` will not be visible to the candidate.
 
 If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `hidden-foo.ts`, etc.
 
