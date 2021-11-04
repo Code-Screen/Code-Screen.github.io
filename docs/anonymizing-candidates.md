@@ -1,7 +1,7 @@
 # Anonymizing Candidates
 
-CodeScreen provides the option to anonymize any data about a candidate that would reveal the candidate's gender, ethnicity, etc. This can
-help remove any unconscious bias that may be present when reviewing a candidate's solution to one of your CodeScreen tests, which promotes
+CodeScreen provides the option to anonymize any data about a candidate that would reveal the candidate's gender or ethnicity.
+This removes unconscious bias when reviewing a candidate's solution to one of your CodeScreen tests, which promotes
 Diversity, Equity and Inclusion (DEI) in your organization.
 
 ---
@@ -34,6 +34,8 @@ To get started, click the `Anonymize candidates` check box when creating a new t
 
 Our email & in-app notifications will also use the candidate's random name when notifying you that a result is ready to view.
 
+The image displayed for each candidate will always stay as the initials of the candidate's random name.
+
 ### Viewing GitHub Repos
 
 We also remove any mention of the candidate's name and GitHub username from their GitHub solution repo. We do this in three
@@ -63,7 +65,7 @@ different places:
 
 ---
 
-The result of this process is that the reviewer does not know any personal information about the candidate whose code they are reviewing,
-which means the candidate's solution is assessed fairly.
+The result of this process is that the reviewer does not know any personal information about the candidate, which means the 
+candidate's solution is assessed fairly.
 
 **Note** that the workflow from the candidate's point of view stays exactly the same as before.
