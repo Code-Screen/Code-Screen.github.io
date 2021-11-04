@@ -17,5 +17,6 @@ This guide is broken into the following sections:
 * [ATS Integrations](greenhouse.md)
 * [Email Templates](templates.md)
 * [Adding Users](users.md)
+* [Anonymizing Candidates](anonymizing-candidates.md)
 * [CodeScreen API](auth.md)
 * [FAQ](404Error.md)

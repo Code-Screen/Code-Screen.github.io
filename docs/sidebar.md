@@ -82,6 +82,10 @@
 
   - [Adding New Users](users.md)
 
+- Anonymizing Candidates
+
+  - [Anonymizing Candidates](anonymizing-candidates.md)
+
 - API
 
   - [Authentication](auth.md)
