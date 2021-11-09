@@ -27,6 +27,7 @@
     - [SQL](sql.md)
     - [Swift](swift.md)
     - [R](r.md)
+    - [Web](web.md)
     - [Angular](angular.md)
     - [AngularJS](angularjs.md)
     - [React](react.md)

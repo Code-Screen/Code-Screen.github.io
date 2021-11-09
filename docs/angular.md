@@ -19,9 +19,9 @@ You can then update this repository with details of your Angular assessment and 
 
 ### Automated test-suite setup
 
-If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as test files that end with `.spec.ts`.
+If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as unit test files that end with `.spec.ts`.
 
-All unit tests files must use the Angular default [`Jasmine`](https://angular.io/guide/testing) test framework and [`Karma`](https://angular.io/guide/testing)
+All unit tests files must use the Angular default [Jasmine](https://angular.io/guide/testing) test framework and [Karma](https://angular.io/guide/testing)
 test runner.
 
 All unit test filenames must end with `.spec.ts` and unit test files with filenames that end with `.hidden.spec.ts` will not be visible to the candidate.
