@@ -37,15 +37,21 @@ substitution variables that are used for each:
 <tr>
 <td>Begin Test</td><td>When a candidate is initially sent the test.</td><td>{firstName}, {testTitle}, {companyName}, {candidateLinkUrl},
 {timeToCompleteTestSentDisplayValue}, {timeToCompleteTestBeginsDisplayValue}.</td></tr>
-<tr>
+<tr style="background-color: white;">
 <td>Test Details</td><td>When a candidate begins the test.</td><td>{testTitle}, {companyName}, {candidateLinkUrl}, {repoUrl}.</td></tr>
 <tr>
-<td>First Commit Pushed</td><td>When a candidate pushes their first commit(s) to their GitHub repo.</td><td>{testTitle}, {companyName}, {candidateLinkUrl}.</td></tr>
+<td>First Commit</td><td>When a candidate pushes their first commit(s) to their GitHub repo.</td><td>{testTitle}, {companyName}, {candidateLinkUrl}.</td></tr>
+<tr style="background-color: white;">
 <td>Expiry Warning</td><td>Sent when there is 30 minutes left before the test expires.</td><td>{firstName}, {testTitle}, {companyName}, {candidateLinkUrl}.</td></tr>
+<tr>
 <td>Acknowledgement</td><td>Sent after the candidates submits their solution for the test.</td><td>{testTitle}, {companyName}.</td></tr>
+<tr style="background-color: white;">
 <td>Feedback</td><td>Sent to notify the candidate that you have given them feedback on their solution.</td><td>{testTitle}, {companyName}, {repoUrl}.</td></tr>
+<tr>
 <td>Request Changes</td><td>Sent to notify the candidate that you have requested changes on their solution.</td><td>{testTitle}, {companyName}, {candidateLinkUrl}.</td></tr>
 </tbody></table>
+
+<br>
 
 An explanation on what each variable is referring to is provided below:
 
