@@ -61,7 +61,7 @@ different places:
 
 <br>
 
-**3.** We remove the Contributors page that is usually displayed on the right-hand side of the repo page on GitHub.
+**3.** We remove the Contributors section that is usually displayed on the right-hand side of the repo page on GitHub.
 
 ---
 
