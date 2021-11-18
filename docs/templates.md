@@ -36,7 +36,7 @@ substitution variables that are used for each:
 </thead><tbody>
 <tr>
 <td>Begin Test</td><td>When a candidate is initially sent the test.</td><td>{firstName}, {testTitle}, {companyName}, {candidateLinkUrl},
-{timeToCompleteTestSentDisplayValue}, {timeToCompleteTestBeginsDisplayValue}.</td></tr>
+{dateTimeToBeginTestDisplayValue}, {timeToCompleteTestBeginsDisplayValue}.</td></tr>
 <tr style="background-color: white;">
 <td>Test Details</td><td>When a candidate begins the test.</td><td>{testTitle}, {companyName}, {candidateLinkUrl}, {repoUrl}.</td></tr>
 <tr>
@@ -61,7 +61,7 @@ An explanation on what each variable is referring to is provided below:
 * `{companyName}` - The name of your company you set when you signed up to CodeScreen. This can be edited <a href="https://app.codescreen.dev/#/client-profile-edit/details" target="_blank">here</a>.
 * `{candidateLinkUrl}` - The link to the candidate's test page on CodeScreen.
 * `{repoUrl}` - The link to the candidate's private repo on GitHub.
-* `{timeToCompleteTestSentDisplayValue}` - The number of days the candidate has to complete the test from when they are <br> sent the test, e.g. "1 day", "2 days", etc.
+* `{dateTimeToBeginTestDisplayValue}` - The date time the candidate has until to begin the test, e.g. "11th November at 18:30 (UTC)". This is always displayed in the UTC timezone.
 * `{timeToCompleteTestBeginsDisplayValue}` - The number of hours/days the candidate has to complete the test from when they <br> begin the test, e.g. "3 hours", "1 day", etc.
 
 ### Editing the From Email Address
