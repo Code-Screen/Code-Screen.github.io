@@ -51,6 +51,7 @@ The guides for creating custom assessments in all of our supported languages & f
   - [C++](cpp.md)
   - [Rust](rust.md)
   - [Haskell](haskell.md)
+  - [Elixir](elixir.md)
   - [Solidity](solidity.md)
   - [Swift](swift.md)
   - [R](r.md)

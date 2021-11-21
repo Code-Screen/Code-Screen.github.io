@@ -23,6 +23,7 @@
     - [C++](cpp.md)
     - [Rust](rust.md)
     - [Haskell](haskell.md)
+    - [Elixir](elixir.md)
     - [Solidity](solidity.md)
     - [SQL](sql.md)
     - [Swift](swift.md)
