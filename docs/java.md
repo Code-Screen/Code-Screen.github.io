@@ -26,7 +26,7 @@ these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`,
 
 All unit tests must use the [`Junit`](https://junit.org/junit5/) test framework and the `pom.xml` file may only be updated to add dependencies required for your coding test.
 
-The coding test must be compatible with `Java 11`.
+The coding test must be compatible with `Java 16`.
 
 The maximum memory allowed for a solution to your coding test is 4G.
 
