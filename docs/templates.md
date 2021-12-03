@@ -46,9 +46,9 @@ substitution variables that are used for each:
 <tr>
 <td>Acknowledgement</td><td>Sent after the candidates submits their solution for the test.</td><td>{testTitle}, {companyName}.</td></tr>
 <tr style="background-color: white;">
-<td>Feedback</td><td>Sent to notify the candidate that you have given them feedback on their solution.</td><td>{testTitle}, {companyName}, {repoUrl}.</td></tr>
+<td>Feedback</td><td>Sent to notify the candidate that you have given them feedback on their solution.</td><td>{testTitle}, {companyName}, {repoUrl}, {comments}.</td></tr>
 <tr>
-<td>Request Changes</td><td>Sent to notify the candidate that you have requested changes on their solution.</td><td>{testTitle}, {companyName}, {candidateLinkUrl}.</td></tr>
+<td>Request Changes</td><td>Sent to notify the candidate that you have requested changes on their solution.</td><td>{testTitle}, {companyName}, {candidateLinkUrl},{comments}.</td></tr>
 </tbody></table>
 
 <br>
@@ -63,6 +63,7 @@ An explanation on what each variable is referring to is provided below:
 * `{repoUrl}` - The link to the candidate's private repo on GitHub.
 * `{dateTimeToBeginTestDisplayValue}` - The date time the candidate has until to begin the test, e.g. "11th November at 18:30 (UTC)". This is always displayed in the UTC timezone.
 * `{timeToCompleteTestBeginsDisplayValue}` - The number of hours/days the candidate has to complete the test from when they <br> begin the test, e.g. "3 hours", "1 day", etc.
+* `{comments}` - The list of comments that have been left on the candidate's GitHub repo when feedback is given/changes are requested.
 
 ### Editing the From Email Address
 
