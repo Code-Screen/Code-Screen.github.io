@@ -27,9 +27,9 @@ are run against the candidate's solution when we process their code and generate
 ### Template repositories
 Once you create a custom test, a private `GitHub` template repository will be created for each language/framework you chose for the test. These repos will contain standard project structures - see the individual language/framework guides below for more details.
 
-**Note** that when a candidate begins a custom test that you send to them, a brand new private `GitHub` repo will be created. This repo will just contain one commit (the initial commit) which contains the current contents of the `master` branch of your template repo. 
+**Note** that when a candidate begins a custom test that you send to them, a brand new private `GitHub` repo will be created. This repo will just contain one commit (the initial commit) which contains the current contents of the `main` branch of your template repo. 
 
-The candidate will **not** be able to see the commit history or the other (non-master) branches in your template repo, which means you can keep on iterating on the template repo over time with meaningful commit messages, etc.
+The candidate will **not** be able to see the commit history or the other (non-main) branches in your template repo, which means you can keep on iterating on the template repo over time with meaningful commit messages, etc.
 
 <p>
 
