@@ -24,10 +24,10 @@ All unit test class filenames must end with `Test.php` and the test classes with
 If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of 
 these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.php`, etc.
 
-`PHP` version 7.2 must be used and all dependencies that your coding test requires need to be added to the `composer.json`
+Your test must use/be compatible with `PHP` version 8.0 and all dependencies that your coding test requires need to be added to the `composer.json`
 file.
 
-All unit tests must use be located in the `tests/` directory and use the [`PHPUnit`](https://phpunit.de)(version 8.1.2) testing framework.
+All unit tests must use be located in the `tests/` directory and use the [`PHPUnit`](https://phpunit.de)(version 9.3.0) testing framework.
 
 The maximum memory allowed for a solution to your coding test is 4G.
 
