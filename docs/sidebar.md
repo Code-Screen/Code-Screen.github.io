@@ -57,7 +57,7 @@
 
   - [Viewing Candidate List](candidateList.md)
   - [Activity Log](activityLog.md)
-  - [Archiving Candidates](archive.md)
+  - [Deleting Candidates](deleting-candidates.md)
 
 - Viewing Results
 
