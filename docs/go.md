@@ -10,7 +10,7 @@ This repository will contain a skeleton <strong>Go</strong> project, and the REA
 <figure>
   <figcaption style="font-style: italic;">Example custom Go assessment GitHub repository:</figcaption>
   </br>
-  <img style="max-width: 60%;" src="goRepo.png" alt="Go Repo"/>
+  <img style="max-width: 70%;" src="goRepo.png" alt="Go Repo"/>
 </figure>
 
 </br></br>

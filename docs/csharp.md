@@ -10,7 +10,7 @@ This repository will contain a skeleton <strong>.NET</strong> project, and the R
 <figure>
   <figcaption style="font-style: italic;">Example custom .NET assessment GitHub repository:</figcaption>
   </br>
-  <img style="max-width: 60%;" src="csharpRepo.png" alt=".NET Repo"/>
+  <img style="max-width: 70%;" src="csharpRepo.png" alt=".NET Repo"/>
 </figure>
 
 </br></br>

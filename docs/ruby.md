@@ -10,7 +10,7 @@ This repository will contain a skeleton <strong>Ruby</strong> project, and the R
 <figure>
   <figcaption style="font-style: italic;">Example custom Ruby assessment GitHub repository:</figcaption>
   </br>
-  <img style="max-width: 60%;" src="rubyRepo.png" alt="Ruby Repo"/>
+  <img style="max-width: 70%;" src="rubyRepo.png" alt="Ruby Repo"/>
 </figure>
 
 </br></br>

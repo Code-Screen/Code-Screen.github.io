@@ -10,7 +10,7 @@ This repository will contain a skeleton <strong>Node.js</strong> project, and th
 <figure>
   <figcaption style="font-style: italic;">Example custom JavaScript (Node.js) assessment GitHub repository:</figcaption>
   </br>
-  <img style="max-width: 60%;" src="javascriptRepo.png" alt="JavaScript Repo"/>
+  <img style="max-width: 70%;" src="javascriptRepo.png" alt="JavaScript Repo"/>
 </figure>
 
 </br></br>

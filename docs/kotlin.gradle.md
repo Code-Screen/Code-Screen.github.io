@@ -10,7 +10,7 @@ This repository will contain a skeleton <strong>Gradle</strong> project, and the
 <figure>
   <figcaption style="font-style: italic;">Example custom Kotlin (Gradle) assessment GitHub repository:</figcaption>
   </br>
-  <img style="max-width: 60%;" src="kotlin_gradle_repo.png" alt="Kotlin Repo"/>
+  <img style="max-width: 70%;" src="kotlin_gradle_repo.png" alt="Kotlin Repo"/>
 </figure>
 
 </br></br>

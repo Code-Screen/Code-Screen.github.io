@@ -10,7 +10,7 @@ This repository will contain a skeleton <strong>Maven</strong> project, and the 
 <figure>
   <figcaption style="font-style: italic;">Example custom Kotlin (Maven) assessment GitHub repository:</figcaption>
   </br>
-  <img style="max-width: 60%;" src="kotlin_repo.png" alt="Kotlin Repo"/>
+  <img style="max-width: 70%;" src="kotlin_repo.png" alt="Kotlin Repo"/>
 </figure>
 
 </br></br>

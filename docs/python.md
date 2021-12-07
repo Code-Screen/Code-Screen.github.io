@@ -10,7 +10,7 @@ This repository will contain a skeleton <strong>Python</strong> project, and the
 <figure>
   <figcaption style="font-style: italic;">Example custom Python assessment GitHub repository:</figcaption>
   </br>
-  <img style="max-width: 60%;" src="pythonRepo.png" alt="Python Repo"/>
+  <img style="max-width: 70%;" src="pythonRepo.png" alt="Python Repo"/>
 </figure>
 
 </br></br>

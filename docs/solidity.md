@@ -10,7 +10,7 @@ This repository will contain a skeleton <strong>Solidity</strong> project, and t
 <figure>
   <figcaption style="font-style: italic;">Example custom Solidity assessment GitHub repository:</figcaption>
   </br>
-  <img style="max-width: 60%;" src="solidityRepo.png" alt="Solidity Repo"/>
+  <img style="max-width: 70%;" src="solidityRepo.png" alt="Solidity Repo"/>
 </figure>
 
 </br></br>
