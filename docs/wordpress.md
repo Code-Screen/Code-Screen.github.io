@@ -10,7 +10,7 @@ This repository will contain a skeleton <strong>WordPress</strong> project, and 
 <figure>
   <figcaption style="font-style: italic;">Example custom WordPress assessment GitHub repository:</figcaption>
   </br>
-  <img style="max-width: 60%;" src="wordpressRepo.png" alt="WordPress Repo"/>
+  <img style="max-width: 70%;" src="wordpressRepo.png" alt="WordPress Repo"/>
 </figure>
 
 </br></br>

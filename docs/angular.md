@@ -10,7 +10,7 @@ This repository will contain a skeleton <strong>Angular 8</strong> project, and 
 <figure>
   <figcaption style="font-style: italic;">Example custom Angular assessment GitHub repository:</figcaption>
   </br>
-  <img style="max-width: 60%;" src="angularRepo.png" alt="Angular Repo"/>
+  <img style="max-width: 70%;" src="angularRepo.png" alt="Angular Repo"/>
 </figure>
 
 </br></br>

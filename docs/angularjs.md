@@ -10,7 +10,7 @@ This repository will contain a skeleton <strong>AngularJS</strong> project, and 
 <figure>
   <figcaption style="font-style: italic;">Example custom AngularJS assessment GitHub repository:</figcaption>
   </br>
-  <img style="max-width: 60%;" src="angularjsRepo.png" alt="Angular Repo"/>
+  <img style="max-width: 70%;" src="angularjsRepo.png" alt="Angular Repo"/>
 </figure>
 
 </br></br>

@@ -10,7 +10,7 @@ This repository will contain a skeleton <strong>React Native</strong> project, a
 <figure>
   <figcaption style="font-style: italic;">Example custom React Native assessment GitHub repository:</figcaption>
   </br>
-  <img style="max-width: 60%;" src="reactNativeRepo.png" alt="Angular Repo"/>
+  <img style="max-width: 70%;" src="reactNativeRepo.png" alt="React Native Repo"/>
 </figure>
 
 </br></br>

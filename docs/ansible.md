@@ -11,7 +11,7 @@ We leave it up to you to decide your assessment's directory layout etc.</br></br
 <figure>
   <figcaption style="font-style: italic;">Example custom Ansible assessment GitHub repository:</figcaption>
   </br>
-  <img style="max-width: 60%;" src="ansibleRepo.png" alt="Ansible Repo"/>
+  <img style="max-width: 70%;" src="ansibleRepo.png" alt="Ansible Repo"/>
 </figure>
 
 </br></br>
