@@ -80,6 +80,7 @@
 - Email Templates
 
   - [Editing Email Templates](templates.md)
+  - [Editing From Email Address](editing-from-email-address.md)
 
 - Adding Users
 

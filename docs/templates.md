@@ -12,7 +12,7 @@ To edit the email templates, click into the
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="templates.png" alt="Test Choice"/>
+  <img style="max-width: 60%;" src="templates.png" alt="Email Templates"/>
 </figure>
 
 **Note** that you will not have access to the Emails section on CodeScreen unless you are an admin user. If you are not
@@ -64,14 +64,3 @@ An explanation on what each variable is referring to is provided below:
 * `{dateTimeToBeginTestDisplayValue}` - The date time the candidate has until to begin the test, e.g. "11th November at 18:30 (UTC)". This is always displayed in the UTC timezone.
 * `{timeToCompleteTestBeginsDisplayValue}` - The number of hours/days the candidate has to complete the test from when they <br> begin the test, e.g. "3 hours", "1 day", etc.
 * `{comments}` - The list of comments that have been left on the candidate's GitHub repo when feedback is given/changes are requested.
-
-### Editing the From Email Address
-
-You can also edit the email address from which the above emails are sent. The default email address is
-<a href="mailto:hello@codescreen.dev">hello@codescreen.dev</a>. 
-
-If you want to change this to one of the internal email addresses you use for hiring, just enter it into the
-`From Email Address` field, and click the `Save` button.
-
-Once you do this, you will receive a verification request email from <a href="https://aws.amazon.com/ses/" target="_blank">Amazon SES</a>,
-our email provider. You just need to click the link in that email, and then we will be able to send emails from the email address you added!
