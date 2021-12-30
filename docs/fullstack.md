@@ -1,6 +1,6 @@
 # Creating Custom Full-Stack Assessments
 CodeScreen allows you to add your own full-stack assessments and send it to candidates.</br></br>
-To begin, log on to [CodeScreen](https://app.codescreen.dev/#/login), click <strong>Add new test</strong>, and select <strong>Custom test</strong>.</br>
+To begin, log on to [CodeScreen](https://app.codescreen.com/#/login), click <strong>Add new test</strong>, and select <strong>Custom test</strong>.</br>
 
 You can then add the description of your test, choose which combination of frontend frameworks and backend languages you want the candidate to choose to build their solution to your assessment in, and set the time limit for the test.</br>
 
@@ -37,7 +37,7 @@ An example custom assessment repository, using Angular as the frontend framework
 You can then update each repository with details of your assessment and start sending the test to candidates.
 
 ### Further reading
-Read this [blog post](https://blog.codescreen.dev/introducing-template-generators/) to find out more about the theory and design principles behind custom full-stack assessments in CodeScreen.
+Read this [blog post](https://blog.codescreen.com/introducing-template-generators/) to find out more about the theory and design principles behind custom full-stack assessments in CodeScreen.
 
 ### Automated test-suite setup
 Automated test-suite scoring is not currently supported for full-stack assessments.

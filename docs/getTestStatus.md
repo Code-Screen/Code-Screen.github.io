@@ -1,7 +1,7 @@
 # Test Status
 
 The ```
-GET https://app.codescreen.dev/api/testStatus/{testInstanceId}
+GET https://app.codescreen.com/api/testStatus/{testInstanceId}
 ``` endpoint allows you to retrieve the status of a given CodeScreen test.
 
 
@@ -12,7 +12,7 @@ This GET request takes one path parameter, which is the `testInstanceId` that is
 <br/>An example request is shown below:
 
 ```
-curl -X POST https://app.codescreen.dev/api/testStatus/1b68dc27-6155-41c2-89e3-4e00bd62d227 \
+curl -X POST https://app.codescreen.com/api/testStatus/1b68dc27-6155-41c2-89e3-4e00bd62d227 \
   -H 'Authorization: apiKey dbf4a385-02ab-7d10-bf0c-5hh991055317'
 
 ```
@@ -42,7 +42,7 @@ The body of this POST request will contain a JSON payload with the following fie
 ```
 {
     "status": "Complete",
-    "result_url": "https://app.codescreen.dev/#/codescreenresultccb3b988-d07a-45b4-b60b-76cc52be32cg"
+    "result_url": "https://app.codescreen.com/#/codescreenresultccb3b988-d07a-45b4-b60b-76cc52be32cg"
     "score": 75
     "metadata": {
         "issueCount" : 10

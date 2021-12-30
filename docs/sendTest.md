@@ -1,7 +1,7 @@
 # Send Test
 
 The ```
-POST https://app.codescreen.dev/api/sendTest
+POST https://app.codescreen.com/api/sendTest
 ``` endpoint allows you to send a CodeScreen test to a candidate.
 
 
@@ -26,7 +26,7 @@ The body of this POST request will contain a JSON payload with the following fie
 <br/>An example request is shown below:
 
 ```
-curl -X POST https://app.codescreen.dev/api/sendTest \
+curl -X POST https://app.codescreen.com/api/sendTest \
   -H 'Authorization: apiKey dbf4a385-02ab-7d10-bf0c-5hh991055317' \
   -H 'Content-Type: application/json' \
   -d '{

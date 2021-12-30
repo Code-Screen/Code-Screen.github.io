@@ -6,7 +6,7 @@ to use.
 You can create as many users as you like as all of our pricing plans come with an unlimited number of users.
 
 You can view all existing users by clicking the
-<a href="https://app.codescreen.dev/#/client-templates" target="_blank">Team</a> section on the top toolbar on CodeScreen, 
+<a href="https://app.codescreen.com/#/client-templates" target="_blank">Team</a> section on the top toolbar on CodeScreen, 
 which will take you to the following screen:
 
 <figure>

@@ -1,6 +1,6 @@
 # Creating Custom Solidity Assessments
 CodeScreen allows you to add your own assessment and send it to candidates.</br></br>
-To begin, log on to [CodeScreen](https://app.codescreen.dev/#/login), click <strong>Add new test</strong>, and select <strong>Custom test</strong>.</br>
+To begin, log on to [CodeScreen](https://app.codescreen.com/#/login), click <strong>Add new test</strong>, and select <strong>Custom test</strong>.</br>
 
 You can then add the description of your test, choose <strong>Solidity</strong> from the drop-down list of available backend languages, and set the time limit for the test.</br>
 

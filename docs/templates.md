@@ -7,7 +7,7 @@ We provide the option to edit these email templates to include your company's lo
 more of a consistent experience across your interview process.
 
 To edit the email templates, click into the
-<a href="https://app.codescreen.dev/#/client-templates" target="_blank">Emails</a> section on the top toolbar on CodeScreen, which will take you to the following screen:
+<a href="https://app.codescreen.com/#/client-templates" target="_blank">Emails</a> section on the top toolbar on CodeScreen, which will take you to the following screen:
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
@@ -58,7 +58,7 @@ An explanation on what each variable is referring to is provided below:
 * `{firstName}` - The candidate's first name.
 
 * `{testTitle}` - The name of your test that the candidate has been sent.
-* `{companyName}` - The name of your company you set when you signed up to CodeScreen. This can be edited <a href="https://app.codescreen.dev/#/client-profile-edit/details" target="_blank">here</a>.
+* `{companyName}` - The name of your company you set when you signed up to CodeScreen. This can be edited <a href="https://app.codescreen.com/#/client-profile-edit/details" target="_blank">here</a>.
 * `{candidateLinkUrl}` - The link to the candidate's test page on CodeScreen.
 * `{repoUrl}` - The link to the candidate's private repo on GitHub.
 * `{dateTimeToBeginTestDisplayValue}` - The date time the candidate has until to begin the test, e.g. "11th November at 18:30 (UTC)". This is always displayed in the UTC timezone.

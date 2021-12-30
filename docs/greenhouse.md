@@ -16,7 +16,7 @@ The `CodeScreen` integration with `Greenhouse` allows you to do the following:
 The integration is quick and straightforward. It works as follows:
 
 ### 1. Enable the Greenhouse/CodeScreen Integration
-To start, head over to the <a href="https://app.codescreen.dev/#/client-integrations" target="_blank">Integrations</a> section on 
+To start, head over to the <a href="https://app.codescreen.com/#/client-integrations" target="_blank">Integrations</a> section on 
 the CodeScreen platform to view your Greenhouse `API key`. Once you have your API key, fill out the form at <a href="https://www.greenhouse.io/asksupport" target="_blank">www.greenhouse.io/asksupport</a> or <a href="https://support.greenhouse.io/hc/en-us/requests/new" target="_blank">click here</a> to open a ticket. 
 
 Please do not include your API key in this initial support request.

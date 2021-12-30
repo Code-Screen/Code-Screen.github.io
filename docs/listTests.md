@@ -1,14 +1,14 @@
 # List Tests
 
 The ```
-GET https://app.codescreen.dev/api/listTests
+GET https://app.codescreen.com/api/listTests
 ``` endpoint will retrieve the list of tests that you have created on CodeScreen.
 
 
 ### Request
 
 ```
-curl -X GET https://app.codescreen.dev/api/listTests -H 'Authorization: apiKey c5793bc0-4176-4dec-b59c-ff47337f01c4' 
+curl -X GET https://app.codescreen.com/api/listTests -H 'Authorization: apiKey c5793bc0-4176-4dec-b59c-ff47337f01c4' 
 
 ```
 <br/>For example, if you have the following tests on CodeScreen:

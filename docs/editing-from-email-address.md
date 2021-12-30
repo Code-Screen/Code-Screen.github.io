@@ -4,7 +4,7 @@ You can also edit the email address from which the emails to candidates are sent
 <a href="mailto:hello@codescreen.dev">hello@codescreen.dev</a>. 
 
 If you want to change this to one of the internal email addresses you use for hiring, enter it into the
-`From Email Address` field at the bottom of the <a href="https://app.codescreen.dev/#/client-templates" target="_blank">Emails</a> section,
+`From Email Address` field at the bottom of the <a href="https://app.codescreen.com/#/client-templates" target="_blank">Emails</a> section,
 and click the `Save` button:
 
 <figure>
