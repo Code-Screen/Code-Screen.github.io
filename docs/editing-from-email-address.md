@@ -1,7 +1,7 @@
 # Editing the From Email Address
 
 You can also edit the email address from which the emails to candidates are sent. The default email address is
-<a href="mailto:hello@codescreen.dev">hello@codescreen.dev</a>. 
+<a href="mailto:hello@codescreen.com">hello@codescreen.com</a>.
 
 If you want to change this to one of the internal email addresses you use for hiring, enter it into the
 `From Email Address` field at the bottom of the <a href="https://app.codescreen.com/#/client-templates" target="_blank">Emails</a> section,

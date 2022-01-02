@@ -16,7 +16,7 @@ To get started, click the `Anonymize candidates` check box when creating a new t
 
 <br>
 
-**Note** if you want to turn this feature on for one of your existing tests, please let us know via <a href="mailto:hello@codescreen.dev">email</a>
+**Note** if you want to turn this feature on for one of your existing tests, please let us know via <a href="mailto:hello@codescreen.com">email</a>
  or our live chat and we will switch it on for you.
 
  Once you send a test to a candidate when the anonymize candidates feature is enabled, we will display random names for each candidate
