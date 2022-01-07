@@ -63,6 +63,18 @@ Once you select the test, click the `Send` button. You will then see a confirmat
   <img style="max-width: 70%;" src="recruitee9.png" alt="Recruitee 9"/>
 </figure>
 
+CodeScreen then sends the candidate an email containing the instructions for the test. 
+
+You are able to edit the email templates that are used to include your own wording and your company’s branding. You can read more details about this [here](templates.md). 
+
+The default email template looks like the following:
+
+<figure>
+  <figcaption style="font-style: italic;"></figcaption>
+  </br>
+  <img style="max-width: 60%;" src="recruitee10.png" alt="Workable 5"/>
+</figure>
+
 
 
 ### 3. Review the test result.

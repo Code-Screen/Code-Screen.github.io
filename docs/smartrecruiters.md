@@ -55,8 +55,7 @@ Click `Select`, then click `Continue` and finally click `Send` to send the test 
 
 When you click Send, CodeScreen sends an email to the candidate containing the instructions for the test.
 
-You are able to edit the email templates that are used to include your own wording and your company’s branding.<br>
-You can read more details about this [here](templates.md). 
+You are able to edit the email templates that are used to include your own wording and your company’s branding. You can read more details about this [here](templates.md). 
 
 The default email template looks like the following:
 
