@@ -15,7 +15,6 @@ curl -X GET https://app.codescreen.com/api/listTests -H 'Authorization: apiKey c
 
 ![Tests Table](tests.png)
 
-
 ### Response
 
 If the request has succeeded, the response will be a `200 OK` containing JSON with the following properties:
