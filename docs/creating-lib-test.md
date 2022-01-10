@@ -10,8 +10,8 @@ Once you choose a library test, you then need to give it a name (e.g. Python Dev
 
 <br>
 
-You can also set the deadline & time limit for the test and select whether a video recording is required from the candidate to explain their
-solution. Please read <a href="https://code-screen.github.io/Candidate-Video-Docs" target="_blank">here</a> for more details on video recordings.
+You can then set the deadline & time limit for the test. You can also select whether a <a href="https://code-screen.github.io/Candidate-Video-Docs" target="_blank">video recording</a> is required from the candidate to explain their
+solution and if you want to <a href="https://code-screen.github.io/docs/#/anonymizing-candidates" target="_blank">anonymize candidate</a> details.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
@@ -21,7 +21,7 @@ solution. Please read <a href="https://code-screen.github.io/Candidate-Video-Doc
 
 <br>
 
-* `Deadline` - The maximum number of days the candidate has to complete the test once it is sent to them.
+* `Deadline` - The maximum number of days the candidate has to start the test once it is sent to them.
 
 * `Time limit` - The maximum number of hours/days the candidate has to complete the test once they start the test.
 

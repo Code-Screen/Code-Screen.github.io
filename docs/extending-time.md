@@ -22,7 +22,7 @@ You will then see the following pop-up:
 <br>
 
 If the candidate has not started the test, the number of hours/days you choose here will be added to the 
-`existing deadline` the candidate has to submit their solution from when they were sent the test. The `existing deadline`
+`existing deadline` the candidate has to start the test from when they were sent the test. The `existing deadline`
 here refers to the `Deadline` value you had set for this test when you sent the test to this candidate.
 
 If the candidate has started the test, the number of hours/days you choose here will be added to the
