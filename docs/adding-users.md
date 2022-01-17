@@ -1,4 +1,4 @@
-# Managing Users
+# Adding Users
 
 CodeScreen has been built in a way that makes it easy for any of your colleagues (recruiters, hiring managers, and developers)
 to use.

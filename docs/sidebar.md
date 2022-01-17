@@ -73,7 +73,7 @@
   - [Workable](integrating-workable-with-codescreen.md)
   - [JazzHR](https://help.jazzhr.com/s/article/Integrating-JazzHR-with-CodeScreen)
   - [Recruitee](integrating-recruitee-with-codescreen.md)
-  - [SmartRecruiters](docs/integrating-smartrecruiters-with-codescreen.md)
+  - [SmartRecruiters](integrating-smartrecruiters-with-codescreen.md)
   - [Teamtailor](integrating-teamtailor-with-codescreen.md)
   - [Comeet](integrating-comeet-with-codescreen.md)
 
