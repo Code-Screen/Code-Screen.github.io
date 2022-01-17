@@ -6,7 +6,7 @@ about the result.
 **Note** that if you have integrated CodeScreen with your `Applicant Tracking System (ATS)`, then you will also receive an email
 from them. 
 
-We also allow you to customize how you want to be notified when a result is ready. Read [here](notifications.md) for more details.
+We also allow you to customize how you want to be notified when a result is ready. Read [here](notification-preferences.md) for more details.
 
 Once you click into the result, you will see a screen that is similiar to the following:
 
@@ -54,12 +54,12 @@ A link to the candidate's code on `GitHub`.
 ### Request Changes
 
 We provide a workflow that allows you to easily give candidates a "second shot" at the test.
-Click [here](improvements.md) for more details.
+Click [here](request-improvements-on-candidates-result.md) for more details.
 
 ### Give Feedback
 
 We also provide a nice workflow that enables you to give feedback to a candidate on their solution.
-Click [here](feedback.md) for more details.
+Click [here](giving-feedback-to-candidates.md) for more details.
 
 
 

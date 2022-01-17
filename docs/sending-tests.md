@@ -18,7 +18,7 @@ Then click the `Send test` link beside the test name.
   <img style="max-width: 40%;" src="sendTest1.png" alt="Send Test 1"/>
 </figure>
 
-**Note** you can also send tests directly from your `Applicant Tracking System (ATS)` if you use an ATS that we integrate with. Check our ATS integration guides [here](greenhouse.md).
+**Note** you can also send tests directly from your `Applicant Tracking System (ATS)` if you use an ATS that we integrate with. Check our ATS integration guides [here](integrating-greenhouse-with-codescreen.md).
 
 Once you click `Send test`, you will see the following pop-up:
 
@@ -49,4 +49,4 @@ Once the test is sent, the candidate(s) will receive an email containing instruc
 
 To read more about the workflow for the candidate, click <a href="https://code-screen.github.io/Candidates-Docs/#/README" target="_blank">here</a>.
 
-Once the test has been sent, you will then [see a table](candidateList.md) that contains all the candidates that this test has been sent to.
+Once the test has been sent, you will then [see a table](viewing-candidates.md) that contains all the candidates that this test has been sent to.

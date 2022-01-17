@@ -9,7 +9,7 @@ When you click `Add new test` on CodeScreen, you will be given the following two
 </figure>
 
 `Library Tests` are assessments that we provide off the shelf for you to use. **Note** if you want to learn more about
-`Custom Tests`, click [here](concepts.md).
+`Custom Tests`, click [here](custom-test-concepts.md).
 
 Once you click on Library test, you will see the following screen which contains a summary of each of our library tests:
 
@@ -41,4 +41,4 @@ To find out more information about a test, click the `More detail` blue button:
 <br>
 
 To choose a test, just click on the row for the test you want to select. Once you select a test, you will be brought to<br>
-the [Create Library Test](creating-lib-test.md) screen.
+the [Create Library Test](creating-library-test.md) screen.

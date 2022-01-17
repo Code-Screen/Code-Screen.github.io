@@ -82,7 +82,7 @@ When candidates are moved into the CodeScreen interview stage, Greenhouse will d
 When you click Send Test, CodeScreen sends an email containing the instructions for the test. 
 
 You are able to edit the email templates that are used to include your own wording and your company’s branding.
-You can read more details about this [here](templates.md). 
+You can read more details about this [here](editing-email-templates.md). 
 
 The default email template looks like the following:
 

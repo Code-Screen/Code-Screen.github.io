@@ -21,6 +21,6 @@ solution (which is when their access to the repo is revoked).
 These hidden tests are run against the candidate’s solution and count towards the final score. These allow you to test each candidate 
 solution against <br> edge test cases, etc.
 
-Hidden tests are included in all our off-the-shelf [library test assessments](choosing-lib-test.md) and are available for you to add to your 
-[custom test assessments](concepts.md).
+Hidden tests are included in all our off-the-shelf [library test assessments](choosing-library-test.md) and are available for you to add to your 
+[custom test assessments](custom-test-concepts.md).
 

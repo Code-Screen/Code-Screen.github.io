@@ -4,87 +4,87 @@
 
 - Creating Custom Tests
 
-  - [Concepts](concepts.md)
+  - [Concepts](custom-test-concepts.md)
 
   - Languages & Frameworks
 
-    - [Java (Maven)](java.md)
-    - [Java (Gradle)](java.gradle.md)
-    - [Kotlin (Maven)](kotlin.maven.md)
-    - [Kotlin (Gradle)](kotlin.gradle.md)
-    - [Scala](scala.md)
-    - [JavaScript](javascript.md)
-    - [TypeScript](typescript.md)
-    - [Python](python.md)
-    - [Ruby](ruby.md)
-    - [Go](go.md)
-    - [PHP](php.md)
-    - [.NET](csharp.md)
-    - [C++](cpp.md)
-    - [Rust](rust.md)
-    - [Haskell](haskell.md)
-    - [Elixir](elixir.md)
-    - [Solidity](solidity.md)
-    - [SQL](sql.md)
-    - [Swift](swift.md)
-    - [R](r.md)
-    - [Web](web.md)
-    - [Angular](angular.md)
-    - [AngularJS](angularjs.md)
-    - [React](react.md)
-    - [React Native](reactnative.md)
-    - [Vue.js](vue.md)
-    - [Rails](rails.md)
-    - [Django](django.md)
-    - [WordPress](wordpress.md)
-    - [Terraform](terraform.md)
-    - [Ansible](ansible.md)
-    - [PowerShell](powershell.md)
-    - [Full-Stack](fullstack.md)
+    - [Java (Maven)](creating-custom-java-maven-assessments.md)
+    - [Java (Gradle)](creating-custom-java-gradle-assessments.md)
+    - [Kotlin (Maven)](creating-custom-kotlin-maven-assessments.md)
+    - [Kotlin (Gradle)](creating-custom-kotlin-gradle-assessments.md)
+    - [Scala](creating-custom-scala-assessments.md)
+    - [JavaScript](creating-custom-javascript-assessments.md)
+    - [TypeScript](creating-custom-typescript-assessments.md)
+    - [Python](creating-custom-python-assessments.md)
+    - [Ruby](creating-custom-ruby-assessments.md)
+    - [Go](creating-custom-go-assessments.md)
+    - [PHP](creating-custom-php-assessments.md)
+    - [.NET](creating-custom-csharp-assessments.md)
+    - [C++](creating-custom-c-plus-plus-assessments.md)
+    - [Rust](creating-custom-rust-assessments.md)
+    - [Haskell](creating-custom-haskell-assessments.md)
+    - [Elixir](creating-custom-elixir-assessments.md)
+    - [Solidity](creating-custom-solidity-assessments.md)
+    - [SQL](creating-custom-sql-assessments.md)
+    - [Swift](creating-custom-swift-assessments.md)
+    - [R](creating-custom-r-assessments.md)
+    - [Web](creating-custom-web-assessments.md)
+    - [Angular](creating-custom-angular-assessments.md)
+    - [AngularJS](creating-custom-angular-js-assessments.md)
+    - [React](creating-custom-react-assessments.md)
+    - [React Native](creating-custom-react-native-assessments.md)
+    - [Vue.js](creating-custom-vue-js-assessments.md)
+    - [Rails](creating-custom-rails-assessments.md)
+    - [Django](creating-custom-django-assessments.md)
+    - [WordPress](creating-custom-wordpress-assessments.md)
+    - [Terraform](creating-custom-terraform-assessments.md)
+    - [Ansible](creating-custom-ansible-assessments.md)
+    - [PowerShell](creating-custom-powershell-assessments.md)
+    - [Full-Stack](creating-custom-full-stack-assessments.md)
 
 - Creating Library Tests
 
-  - [Choosing Library Test](choosing-lib-test.md)
-  - [Creating Library Test](creating-lib-test.md)
+  - [Choosing Library Test](choosing-library-test.md)
+  - [Creating Library Test](creating-library-test.md)
 
 - Sending Tests
 
-  - [Sending Tests](sendingTests.md)
-  - [Re-sending Tests](resendingTests.md)
-  - [Extending Time](extending-time.md)
+  - [Sending Tests](sending-tests.md)
+  - [Re-sending Tests](resending-tests.md)
+  - [Extending Time](extending-candidate-time.md)
 
 - Viewing Candidates
 
-  - [Viewing Candidate List](candidateList.md)
-  - [Activity Log](activityLog.md)
+  - [Viewing Candidate List](viewing-candidates.md)
+  - [Activity Log](viewing-activity-log.md)
   - [Deleting Candidates](deleting-candidates.md)
 
 - Viewing Results
 
-  - [Viewing Candidates' Results](results.md)
-  - [Leaving Feedback](feedback.md)
-  - [Requesting Improvements](improvements.md)
-  - [Editing Results](edit-result.md)
-  - [Notification Preferences](notifications.md)
+  - [Viewing Candidates' Results](viewing-candidate-result.md)
+  - [Leaving Feedback](giving-feedback-to-candidates.md)
+  - [Requesting Improvements](request-improvements-on-candidates-result.md)
+  - [Editing Results](edit-candidate-result.md)
+  - [Notification Preferences](notification-preferences.md)
 
 - ATS Integrations
 
-  - [Greenhouse](greenhouse.md)
-  - [Workable](workable.md)
+  - [Greenhouse](integrating-greenhouse-with-codescreen.md)
+  - [Workable](integrating-workable-with-codescreen.md)
   - [JazzHR](https://help.jazzhr.com/s/article/Integrating-JazzHR-with-CodeScreen)
-  - [Recruitee](recruitee.md)
-  - [SmartRecruiters](smartrecruiters.md)
-  - [Teamtailor](teamtailor.md)
-  - [Comeet](comeet.md)
+  - [Recruitee](integrating-recruitee-with-codescreen.md)
+  - [SmartRecruiters](docs/integrating-smartrecruiters-with-codescreen.md)
+  - [Teamtailor](integrating-teamtailor-with-codescreen.md)
+  - [Comeet](integrating-comeet-with-codescreen.md)
 
 - Email Templates
 
-  - [Editing Email Templates](templates.md)
+  - [Editing Email Templates](editing-email-templates.md)
   - [Editing From Email Address](editing-from-email-address.md)
 
-- Adding Users
+- Managing Users
 
-  - [Adding New Users](users.md)
+  - [Adding New Users](adding-users.md)
 
 - Anonymizing Candidates
 
@@ -92,13 +92,13 @@
 
 - API
 
-  - [Authentication](auth.md)
-  - [List Tests Endpoint](listTests.md)
-  - [Send Test Endpoint](sendTest.md)
-  - [Test Status Endpoint](getTestStatus.md)
-  - [Error Responses](errors.md)
+  - [Authentication](api-authentication)
+  - [List Tests Endpoint](list-tests-endpoint.md)
+  - [Send Test Endpoint](send-test-endpoint.md)
+  - [Test Status Endpoint](get-test-status-endpoint.md)
+  - [Error Responses](api-error-codes.md)
 
 - Frequently Asked Questions
 
-  - [GitHub 404 Error](404Error.md)
-  - [Hidden Test Cases](hiddenTests.md)
+  - [GitHub 404 Error](handling-github-404-error.md)
+  - [Hidden Test Cases](hidden-tests.md)

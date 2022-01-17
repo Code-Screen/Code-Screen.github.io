@@ -18,7 +18,7 @@ This table is broken into three different sections:
 
 <br>
 
-An [Activity Log](activityLog.md) is available for each candidate, which provides a real-time overview of how a candidate is progressing through your test.
+An [Activity Log](viewing-activity-log.md) is available for each candidate, which provides a real-time overview of how a candidate is progressing through your test.
 
 Both the Passed and Failed sections will contain a `Score` field, which is calculated as the number of passing unit tests ÷ number of total unit tests, given as a percentage. You can also sort the candidates by score.
 
@@ -30,4 +30,4 @@ The Failed section will also contain a `Reason` field, which will either be `Uni
   <img style="max-width: 80%;" src="failedSection.png" alt="Send Test 3"/>
 </figure>
 
-You can then click the [See Result](results.md) button which will bring you to a screen containing the full report we generated for the candidate.
+You can then click the [See Result](viewing-candidate-result.md) button which will bring you to a screen containing the full report we generated for the candidate.

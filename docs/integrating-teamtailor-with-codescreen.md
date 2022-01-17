@@ -95,7 +95,7 @@ will be automatically sent to the candidate.
 The candidate will receive an email containing the instructions for the test.
 
 You can edit the email templates that are used to include your own wording and your company’s branding. You can read more
-details about this [here](templates.md). 
+details about this [here](editing-email-templates.md). 
 
 The default email template looks like the following:
 
