@@ -1,4 +1,4 @@
-# Overview
+# CodeScreen User Guide
 
 ### Introduction
 CodeScreen is the real-world developer assessment platform, allowing you to accelerate your hiring by screening developers fairly, quickly, and accurately.
