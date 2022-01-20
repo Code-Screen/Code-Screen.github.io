@@ -5,6 +5,6 @@ There is an `Activity Log` available for each candidate, which provides a real-t
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 50%;" src="sendTest4.png" alt="Send Test 4"/>
+  <img style="max-width: 60%;" src="activityLog.png" alt="Viewing Activity Log"/>
 </figure>
 
