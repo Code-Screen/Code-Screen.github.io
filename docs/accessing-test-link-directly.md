@@ -18,7 +18,8 @@ To do this, follow the steps below:
 
 <br>
 
-<strong>3</strong>. The email will open in a new tab in your browser. Now right-click the `Click here to continue` blue button and click `Copy link address` (or `Copy` on Windows) to copy the link to your clipboard:
+<strong>3</strong>. The email will open in a new tab in your browser. Now right-click the `Click here to continue` blue button and click `Copy link address` 
+(or `Copy link` on Safari/Firefox) to copy the link to your clipboard:
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
