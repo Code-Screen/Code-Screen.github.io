@@ -44,7 +44,7 @@
 
 - Creating Library Tests
 
-  - [Choosing Library Test](choosing-library-test.md)
+  - [Selecting Library Test](selecting-library-test.md)
   - [Creating Library Test](creating-library-test.md)
 
 - Sending Tests

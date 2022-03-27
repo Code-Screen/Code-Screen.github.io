@@ -10,7 +10,7 @@ The goal of this user guide is to provide you with all the information and guida
 This guide is broken into the following sections:
 
 * [Creating Custom Tests](custom-test-concepts.md)
-* [Creating Library Tests](choosing-library-test.md)
+* [Creating Library Tests](selecting-library-test.md)
 * [Sending Tests](sending-tests.md)
 * [Viewing Candidates](viewing-candidates.md)
 * [Viewing Results](viewing-candidate-result.md)

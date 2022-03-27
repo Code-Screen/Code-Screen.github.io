@@ -1,4 +1,4 @@
-# Choosing a Library Test
+# Selecting a Library Test
 
 When you click `Add new test` on CodeScreen, you will be given the following two choices:
 
@@ -11,7 +11,7 @@ When you click `Add new test` on CodeScreen, you will be given the following two
 `Library Tests` are assessments that we provide off the shelf for you to use. **Note** if you want to learn more about
 `Custom Tests`, click [here](custom-test-concepts.md).
 
-Once you click on Library test, you will see the following screen which contains a summary of each of our library tests:
+Once you click the `Library test` button, you will see the following screen which contains a summary of each of our library tests:
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
@@ -19,8 +19,10 @@ Once you click on Library test, you will see the following screen which contains
   <img style="max-width: 70%;" src="libTestSummary.png" alt="Lib Test Summary"/>
 </figure>
 
+<br>
+
 You can filter these tests based on which `language/framework` the test is available in,
- which `skills` are assessed during the test, <br> and what the `difficulty level` of the test is.
+ which `skills` are assessed during the test, and what the `difficulty level` of the test is.
 
 Each test is available in multiple languages/frameworks and assesses various skills (e.g. Databases, APIs, REST, etc.).
 
@@ -40,5 +42,6 @@ To find out more information about a test, click the `More detail` blue button:
 
 <br>
 
-To choose a test, just click on the row for the test you want to select. Once you select a test, you will be brought to<br>
-the [Create Library Test](creating-library-test.md) screen.
+The `More detail` section contains the full list of skills assessed during the test and a link to the GitHub repository for each language the test is available in. Each repository contains a full description of the test.
+
+To select a test, just click the `Select` arrow button beside the name of the test you want to select. Once you select a test, you will be brought to the [Create Library Test](creating-library-test.md) screen.
