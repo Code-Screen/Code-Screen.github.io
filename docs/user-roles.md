@@ -14,7 +14,7 @@ A list of all non-admin roles (and the languages/frameworks it covers) is given 
 - `Mobile` - Swift.
 - `DevOps` - Terraform.
 - `DBA` - SQL.
-- `Data Science` - R.
+- `DataScience` - R.
 
 For a user that has a certain role, they can add/edit/delete tests in that role's category, view results for tests in that category and send new tests out to candidates in that category.
 
