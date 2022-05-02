@@ -5,17 +5,17 @@ to use.
 
 You can create as many users as you like as all of our pricing plans come with an unlimited number of users.
 
-You can view all existing users by clicking the
-<a href="https://app.codescreen.com/#/client-templates" target="_blank">Team</a> section on the top toolbar on CodeScreen, 
-which will take you to the following screen:
+You can add new users by clicking the `Your Account` entry in the drop down list that pops after you click on your name at the top right of the toolbar, and then choosing `Users` from the sections on the left:
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="users.png" alt="Users"/>
+  <img style="max-width: 80%;" src="adding-users-1.png" alt="Adding Users 1"/>
 </figure>
 
-**Note** that you will not have access to the Teams section on CodeScreen unless you are an admin user. If you are not
+<br>
+
+**Note** that you will not have access to the `Users` section on CodeScreen unless you are an admin user. If you are not
 an admin, please contact one of the admin users in your organization, and they will be able to make you an admin.
 
 You can then add a new user by clicking the `Add New User` button, which will launch the following pop-up:
