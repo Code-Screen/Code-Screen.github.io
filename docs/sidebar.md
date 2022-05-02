@@ -85,7 +85,7 @@
 - Managing Users
 
   - [Adding New Users](adding-users.md)
-  - [Editing User Roles](editing-user-roles.md)
+  - [User Roles](user-roles.md)
   - [Deleting Users](deleting-users.md)
 
 - Anonymizing Candidates
