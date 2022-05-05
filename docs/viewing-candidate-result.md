@@ -39,6 +39,8 @@ your colleagues' code internally.
 
 Once you click on one of the issue rows, you will be brought to the corresponding line of code on `GitHub`.
 
+**Note** we only include the issues that we find in the files that the candidate added/edited.
+
 ### Test Run Output
 
 This section gives you access to the full output log file that was generated when we built the candidate's submission (compiled the code, ran the unit test cases, etc.).
