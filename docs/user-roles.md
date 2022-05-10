@@ -27,3 +27,5 @@ If you want to edit the roles of an existing user, you can click on the 3 bullet
   </br>
   <img style="max-width: 80%;" src="edit-roles.png" alt="Editing Roles"/>
 </figure>
+
+**Note** that once you edit the roles for a user, the user will need to log out of CodeScreen & log back in for the changes to take effect.
