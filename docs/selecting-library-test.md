@@ -16,7 +16,7 @@ Once you click the `Library test` button, you will see the following screen whic
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 70%;" src="libTestSummary.png" alt="Lib Test Summary"/>
+  <img style="max-width: 90%;" src="libTestSummary.png" alt="Lib Test Summary"/>
 </figure>
 
 <br>
@@ -37,7 +37,7 @@ To find out more information about a test, click the `More detail` blue button:
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 70%;" src="lib-tests.png" alt="Lib Test Summary"/>
+  <img style="max-width: 90%;" src="lib-tests.png" alt="Lib Test Summary"/>
 </figure>
 
 <br>
