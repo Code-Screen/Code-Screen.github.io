@@ -16,6 +16,8 @@ Once you click into the result, you will see a screen that is similiar to the fo
   <img style="max-width: 90%;" src="codescreenResult.png" alt="Result"/>
 </figure>
 
+<br>
+
 This screen is broken into the following sections:
 
 ### Unit Test Cases Result
