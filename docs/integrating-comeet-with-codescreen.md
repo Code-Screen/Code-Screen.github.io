@@ -24,8 +24,10 @@ To complete the integration, click the `Activate` button in the CodeScreen integ
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="comeet1.png" alt="Comeet 1"/>
+  <img style="max-width: 80%;" src="comeet1.png" alt="Comeet 1"/>
 </figure>
+
+<br>
 
 **Note** that you will not have access to the Integrations section on CodeScreen unless you are an admin user. If you are not
 an admin, please contact one of the admin users in your organization, and they will be able to make you an admin.
@@ -38,8 +40,10 @@ To do this for an existing job, navigate to the job, and click the `Workflow` ta
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="comeet2.png" alt="Comeet 2"/>
+  <img style="max-width: 80%;" src="comeet2.png" alt="Comeet 2"/>
 </figure>
+
+<br>
 
 You will then see the list of available CodeScreen tests you can choose from.<br>
 There will be one entry in this list for each test that you currently have on CodeScreen.
@@ -47,8 +51,10 @@ There will be one entry in this list for each test that you currently have on Co
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="comeet3.png" alt="Comeet 3"/>
+  <img style="max-width: 80%;" src="comeet3.png" alt="Comeet 3"/>
 </figure>
+
+<br>
 
 ### 3. Send and Review the Test
 Once a candidate is moved into the stage that you added the CodeScreen assessment to, you can send them the test by clicking the `Start` button.
@@ -56,8 +62,10 @@ Once a candidate is moved into the stage that you added the CodeScreen assessmen
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="comeet4.png" alt="Comeet 4"/>
+  <img style="max-width: 80%;" src="comeet4.png" alt="Comeet 4"/>
 </figure>
+
+<br>
 
 When you click Start, CodeScreen sends an email to the candidate containing the instructions for the test.
 
@@ -68,8 +76,10 @@ The default email template looks like the following:
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="comeet5.png" alt="Comeet 5"/>
+  <img style="max-width: 50%;" src="comeet5.png" alt="Comeet 5"/>
 </figure>
+
+<br>
 
 Once the candidate has submitted their test, you will be notified via email by Comeet, and the result will be viewable on Comeet.
 
@@ -77,9 +87,19 @@ Once the candidate has submitted their test, you will be notified via email by C
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="comeet6.png" alt="Comeet 6"/>
+  <img style="max-width: 80%;" src="comeet6.png" alt="Comeet 6"/>
 </figure>
 
-You can then click the `Open as a user on CodeScreen` link to view more details about the result on CodeScreen.
+<br>
 
-And that’s it!
+You can then click the `Open as a user on CodeScreen` which will bring you to a page on CodeScreen similar to the following:
+
+<figure>
+  <figcaption style="font-style: italic;"></figcaption>
+  </br>
+  <img style="max-width: 90%;" src="codescreenResult.png" alt="Teamtailor 10"/>
+</figure>
+
+<br>
+
+And that’s it, you're all set!
