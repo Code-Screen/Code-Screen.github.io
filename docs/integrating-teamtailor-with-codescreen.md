@@ -22,7 +22,7 @@ the `Activate` button in the popup:
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 70%;" src="Teamtailor_10.png" alt="Teamtailor"/>
+  <img style="max-width: 80%;" src="Teamtailor_10.png" alt="Teamtailor"/>
 </figure>
 
 <br>
@@ -33,7 +33,7 @@ click the `Finish installation` button.
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 70%;" src="Teamtailor_1.png" alt="Teamtailor 1"/>
+  <img style="max-width: 80%;" src="Teamtailor_1.png" alt="Teamtailor 1"/>
 </figure>
 
 <br>
@@ -52,7 +52,7 @@ To do this for an existing job, navigate to a job and click into the `Triggers` 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="Teamtailor_2.png" alt="Teamtailor 2"/>
+  <img style="max-width: 70%;" src="Teamtailor_2.png" alt="Teamtailor 2"/>
 </figure>
 
 <br>
@@ -92,6 +92,8 @@ will be automatically sent to the candidate.
   <img style="max-width: 60%;" src="Teamtailor_6.png" alt="Teamtailor 6"/>
 </figure>
 
+<br>
+
 The candidate will receive an email containing the instructions for the test.
 
 You can edit the email templates that are used to include your own wording and your company’s branding. You can read more
@@ -102,7 +104,7 @@ The default email template looks like the following:
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="Teamtailor_7.png" alt="Teamtailor 7"/>
+  <img style="max-width: 50%;" src="Teamtailor_7.png" alt="Teamtailor 7"/>
 </figure>
 
 <br>
@@ -135,7 +137,7 @@ clicking the result link, which will bring you to a page on CodeScreen similar t
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 80%;" src="codescreenResult.png" alt="Teamtailor 10"/>
+  <img style="max-width: 90%;" src="codescreenResult.png" alt="Teamtailor 10"/>
 </figure>
 
 And that’s it, you're all set!
