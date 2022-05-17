@@ -37,8 +37,10 @@ To do this for an existing job, navigate to a job, and click into the `Workflow`
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="workable2.png" alt="Workable 2"/>
+  <img style="max-width: 70%;" src="workable2.png" alt="Workable 2"/>
 </figure>
+
+<br>
 
 Now select CodeScreen, and choose from your list of available tests.
 
@@ -47,8 +49,10 @@ There will be one entry in this list for each test that you currently have on Co
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="workable3.png" alt="Workable 3"/>
+  <img style="max-width: 70%;" src="workable3.png" alt="Workable 3"/>
 </figure>
+
+<br>
 
 ### 3. Send and Review the Test
 Once a candidate is moved into the stage of the pipeline that you added the CodeScreen assessment to, you can send them the test by clicking the Send test button.
@@ -56,7 +60,7 @@ Once a candidate is moved into the stage of the pipeline that you added the Code
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="workable4.png" alt="Workable 4"/>
+  <img style="max-width: 70%;" src="workable4.png" alt="Workable 4"/>
 </figure>
 
 When you click Send Test, CodeScreen sends an email containing the instructions for the test. 
@@ -68,8 +72,10 @@ The default email template looks like the following:
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="workable5.png" alt="Workable 5"/>
+  <img style="max-width: 50%;" src="workable5.png" alt="Workable 5"/>
 </figure>
+
+<br>
 
 Once the candidate has submitted their test, you will be notified via email by Workable, and the result will be viewable on Workable.
 
@@ -79,14 +85,17 @@ Once the candidate has submitted their test, you will be notified via email by W
   <img style="max-width: 60%;" src="workable6.png" alt="Workable 6"/>
 </figure>
 
+<br>
+
 After you click on “View report on CodeScreen”, you’ll be taken to a page similar to the following:
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 80%;" src="codescreenResult.png" alt="Workable 7"/>
+  <img style="max-width: 90%;" src="codescreenResult.png" alt="Workable 7"/>
 </figure>
 
+<br>
 
 And that’s it!
 
