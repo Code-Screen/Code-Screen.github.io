@@ -29,6 +29,8 @@ the CodeScreen platform to view your Recruitee `API token`. Once you have your A
   <img style="max-width: 60%;" src="recruitee3.png" alt="Recruitee 3"/>
 </figure>
 
+<br>
+
 **Note** that you will not have access to the Integrations section on CodeScreen unless you are an admin user. If you are not
 an admin, please contact one of the admin users in your organization, and they will be able to make you an admin.
 
@@ -42,6 +44,8 @@ To do this, click on a candidate, scroll down to the bottom of their profile pag
   </br>
   <img style="max-width: 60%;" src="recruitee7.png" alt="Recruitee 7"/>
 </figure>
+
+<br>
 
 Now, choose which test you want to send to the candidate from your list of available tests.
 
@@ -63,6 +67,8 @@ Once you select the test, click the `Send` button. You will then see a confirmat
   <img style="max-width: 70%;" src="recruitee9.png" alt="Recruitee 9"/>
 </figure>
 
+<br>
+
 CodeScreen then sends the candidate an email containing the instructions for the test. 
 
 You are able to edit the email templates that are used to include your own wording and your company’s branding. You can read more details about this [here](editing-email-templates.md). 
@@ -72,10 +78,10 @@ The default email template looks like the following:
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="recruitee10.png" alt="Workable 5"/>
+  <img style="max-width: 50%;" src="recruitee10.png" alt="Workable 5"/>
 </figure>
 
-
+<br>
 
 ### 3. Review the test result.
 Once the candidate has submitted their test, you will be notified via email by CodeScreen, and the result will be available on Recruitee.
@@ -86,6 +92,8 @@ Once the candidate has submitted their test, you will be notified via email by C
   <img style="max-width: 70%;" src="recruitee11.png" alt="Recruitee 11"/>
 </figure>
 
+<br>
+
 The percentage value represents the percentage of unit test cases that the candidate's solution passed.
 
 To view the full result report, click `Open`, where you’ll be taken to a page on CodeScreen that similar to the following:
@@ -93,7 +101,7 @@ To view the full result report, click `Open`, where you’ll be taken to a page 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 80%;" src="codescreenResult.png" alt="Recruitee 12"/>
+  <img style="max-width: 90%;" src="codescreenResult.png" alt="Recruitee 12"/>
 </figure>
 
 And that’s it!
