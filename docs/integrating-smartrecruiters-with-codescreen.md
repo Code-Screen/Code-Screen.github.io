@@ -26,8 +26,10 @@ To do this for an existing candidate, navigate to the candidate, and click `Brow
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="SmartRecruiters1.png" alt="SmartRecruiters 1"/>
+  <img style="max-width: 80%;" src="SmartRecruiters1.png" alt="SmartRecruiters 1"/>
 </figure>
+
+<br>
 
 You will then see a list of skill test providers, and you can find the available CodeScreen tests by choosing CodeScreen from the filter list.
 
@@ -37,6 +39,8 @@ You will then see a list of skill test providers, and you can find the available
   <img style="max-width: 60%;" src="SmartRecruiters2.png" alt="SmartRecruiters 2"/>
 </figure>
 
+<br>
+
 There will be one entry in this list for each test that you currently have set up on CodeScreen:
 
 <figure>
@@ -45,6 +49,8 @@ There will be one entry in this list for each test that you currently have set u
   <img style="max-width: 60%;" src="SmartRecruiters3.png" alt="SmartRecruiters 1"/>
 </figure>
 
+<br>
+
 Click `Select`, then click `Continue` and finally click `Send` to send the test to the candidate.
 
 <figure>
@@ -52,6 +58,8 @@ Click `Select`, then click `Continue` and finally click `Send` to send the test 
   </br>
   <img style="max-width: 60%;" src="SmartRecruiters4.png" alt="SmartRecruiters 4"/>
 </figure>
+
+<br>
 
 When you click Send, CodeScreen sends an email to the candidate containing the instructions for the test.
 
@@ -62,8 +70,10 @@ The default email template looks like the following:
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="SmartRecruiters5.png" alt="SmartRecruiters 4"/>
+  <img style="max-width: 50%;" src="SmartRecruiters5.png" alt="SmartRecruiters 4"/>
 </figure>
+
+<br>
 
 ### 3. Review the Test
 Once the candidate has submitted their test, you will be notified via email by SmartRecruiters, and the result will be viewable on the SmartRecruiters’s page for that candidate:
@@ -74,12 +84,14 @@ Once the candidate has submitted their test, you will be notified via email by S
   <img style="max-width: 60%;" src="SmartRecruiters6.png" alt="SmartRecruiters 6"/>
 </figure>
 
+<br>
+
 Once you click `SEE RESULT`, you will be redirected to the result page on the CodeScreen platform:
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 80%;" src="SmartRecruiters7.png" alt="SmartRecruiters 7"/>
+  <img style="max-width: 90%;" src="SmartRecruiters7.png" alt="SmartRecruiters 7"/>
 </figure>
 
 And that’s it!
