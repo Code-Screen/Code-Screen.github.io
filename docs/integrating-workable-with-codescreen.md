@@ -16,7 +16,7 @@ The `CodeScreen` integration with `Workable` allows you to do the following:
 The integration is quick and straightforward. It works as follows:
 
 ### 1. Enable the Workable/CodeScreen Integration
-To start, head over to the <a href="https://app.codescreen.com/#/client-integrations" target="_blank">Integrations</a> section on 
+To start, head over to the <a href="https://app.codescreen.com/integrations" target="_blank">Integrations</a> section on 
 the CodeScreen platform to view your Workable `API key`. Once you have your API key, go to the `Integrations` section on Workable, find CodeScreen in the Assessment Providers section, and enter the API key.
 
 <figure>

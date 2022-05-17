@@ -14,7 +14,7 @@ The `CodeScreen` integration with `Recruitee` allows you to do the following:
 The integration is quick and straightforward. It works as follows:
 
 ### 1. Enable the Recruitee/CodeScreen Integration
-To start, head over to the <a href="https://app.codescreen.com/#/client-integrations" target="_blank">Integrations</a> section on 
+To start, head over to the <a href="https://app.codescreen.com/integrations" target="_blank">Integrations</a> section on 
 the CodeScreen platform to view your Recruitee `API token`. Once you have your API token, go to the `Settings` section on Recruitee and then click `Apps and plugins` on the left  sidebar. Find CodeScreen in the `Integrations` list, click the `Integrate now` button, enter your API token, and click `Integrate`.
 
 <figure>

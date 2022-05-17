@@ -38,7 +38,7 @@ click the `Finish installation` button.
 
 <br>
 
-Once this is done, copy the Integration key, go to the <a href="https://app.codescreen.com/#/client-integrations" target="_blank">Integrations</a> section on the CodeScreen platform and copy your Integration key into the Teamtailor API Key box and click `Save changes`.
+Once this is done, copy the Integration key, go to the <a href="https://app.codescreen.com/integrations" target="_blank">Integrations</a> section on the CodeScreen platform and copy your Integration key into the Teamtailor API Key box and click `Save changes`.
 
 **Note** that you will not have access to the Integrations section on CodeScreen unless you are an admin user. If you are not
 an admin, please contact one of the admin users in your organization, and they will be able to make you an admin.

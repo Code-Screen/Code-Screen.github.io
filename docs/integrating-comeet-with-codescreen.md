@@ -17,7 +17,7 @@ The integration is quick and straightforward. It works as follows:
 
 ### 1. Enable the Comeet/CodeScreen Integration
 To start, head over to the `Integrations` section on Comeet, find CodeScreen, click `Integrate`, and copy the `API key`.
-Once you have the API key, go to the <a href="https://app.codescreen.com/#/client-integrations" target="_blank">Integrations</a> section on the CodeScreen platform and copy your Comeet API key into the Comeet API Key box and click `Save changes`.
+Once you have the API key, go to the <a href="https://app.codescreen.com/integrations" target="_blank">Integrations</a> section on the CodeScreen platform and copy your Comeet API key into the Comeet API Key box and click `Save changes`.
 
 To complete the integration, click the `Activate` button in the CodeScreen integration section on Comeet.
 
