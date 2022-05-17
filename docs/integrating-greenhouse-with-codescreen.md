@@ -35,8 +35,10 @@ To do this for an existing job, navigate to a job (All Jobs>Job Name) and click 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="greenhouse1.png" alt="Greenhouse 1"/>
+  <img style="max-width: 70%;" src="greenhouse1.png" alt="Greenhouse 1"/>
 </figure>
+
+<br>
 
 From the Job Setup page, navigate to `Interview Plan` on the left-hand panel. Scroll down the page and click `+ Add a Stage`.
 
@@ -45,6 +47,8 @@ From the Job Setup page, navigate to `Interview Plan` on the left-hand panel. Sc
   </br>
   <img style="max-width: 60%;" src="greenhouse2.png" alt="Greenhouse 2"/>
 </figure>
+
+<br>
 
 From the Add Stage dialog box, select the `Codescreen` stage. When finished, click `Add` to apply the stage to the 
 job’s interview plan.
@@ -55,6 +59,8 @@ job’s interview plan.
   <img style="max-width: 60%;" src="greenhouse3.png" alt="Greenhouse 3"/>
 </figure>
 
+<br>
+
 ### 3. Configure CodeScreen Stage
 Once the stage has been added to the job’s interview plan, click `Edit Take Home Test`.
 Use the provided drop-down menu to choose which test you want to add to this job’s interview plan.
@@ -64,8 +70,10 @@ There will be one entry in this drop-down list for each test that you currently 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="greenhouse4.png" alt="Greenhouse 4"/>
+  <img style="max-width: 70%;" src="greenhouse4.png" alt="Greenhouse 4"/>
 </figure>
+
+<br>
 
 Select the appropriate test and assign at least one Greenhouse user to grade/review submitted assessments. <br>
 When finished, click `Save`.
@@ -79,6 +87,8 @@ When candidates are moved into the CodeScreen interview stage, Greenhouse will d
   <img style="max-width: 60%;" src="greenhouse5.png" alt="Greenhouse 5"/>
 </figure>
 
+<br>
+
 When you click Send Test, CodeScreen sends an email containing the instructions for the test. 
 
 You are able to edit the email templates that are used to include your own wording and your company’s branding.
@@ -89,8 +99,10 @@ The default email template looks like the following:
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="greenhouse6.png" alt="Greenhouse 6"/>
+  <img style="max-width: 50%;" src="greenhouse6.png" alt="Greenhouse 6"/>
 </figure>
+
+<br>
 
 The status of the assessment will be viewable in Greenhouse:
 
@@ -99,6 +111,8 @@ The status of the assessment will be viewable in Greenhouse:
   </br>
   <img style="max-width: 60%;" src="greenhouse7.png" alt="Greenhouse 7"/>
 </figure>
+
+<br>
 
 Once the candidate has submitted their test, you will be notified via email by Greenhouse and you will be able to view the `Interview Kit`
 for that candidate.
@@ -109,6 +123,8 @@ for that candidate.
   <img style="max-width: 60%;" src="greenhouse8.png" alt="Greenhouse 8"/>
 </figure>
 
+<br>
+
 Inside the Interview Kit section, there is a `Score` field which represents the candidate's score on the test, which is based on how many
 unit test cases the candidate's solution passed. 
 
@@ -118,8 +134,10 @@ page on CodeScreen similar to the following:
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 80%;" src="greenhouse9.png" alt="Greenhouse 9"/>
+  <img style="max-width: 90%;" src="greenhouse9.png" alt="Greenhouse 9"/>
 </figure>
+
+<br>
 
 And that’s it!
 
