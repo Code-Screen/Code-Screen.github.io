@@ -3,7 +3,7 @@
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 40%; max-height: 50%;" src="TeamtailorLogo.jpeg" alt="Greenhouse Logo"/>
+  <img style="max-width: 40%; max-height: 50%;" src="TeamtailorLogo.jpeg" alt="Teamtailor Logo"/>
 </figure>
 
 The `CodeScreen` integration with `Teamtailor` allows you to do the following:
