@@ -20,7 +20,11 @@ This table is broken into three different sections:
 
 An [Activity Log](viewing-activity-log.md) is available for each candidate, which provides a real-time overview of how a candidate is progressing through your test.
 
-Both the Passed and Failed sections will contain a `Score` field, which is calculated as the number of passing unit tests ÷ number of total unit tests, given as a percentage. You can also sort the candidates by score.
+In the `In Progress` section, the `Time Left` initially shows how long the candidate has to start the test (based on the Deadline value for your test). Once a candidate starts their test, it shows how long they have to complete the test (based on the Time Limit value for your test). 
+
+You can see if a candidate has started the test by checking if the language icon is shown beside their name or if the Started Test event is present in the Activity Log.
+
+Both the `Passed` and `Failed` sections will contain a `Score` field, which is calculated as the number of passing unit tests ÷ number of total unit tests, given as a percentage. You can also sort the candidates by score.
 
 The Failed section will also contain a `Reason` field, which will either be `Unit Tests` or `Expired`.
 
