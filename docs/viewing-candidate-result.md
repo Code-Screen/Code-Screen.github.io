@@ -55,6 +55,10 @@ The amount of time it took the candidate to complete the test.
 
 A link to the candidate's code on `GitHub`.
 
+### GitHub Unified Diff
+
+A link to view all changes/additions between the initial commit and the candidate's last commit (i.e. before any hidden tests were added). This helps speed up the review process as you can view the candidate's solution in its entirety rather than on a per commit basis.
+
 ### Request Changes
 
 We provide a workflow that allows you to easily give candidates a "second shot" at the test.
