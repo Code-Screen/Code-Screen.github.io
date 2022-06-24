@@ -28,8 +28,6 @@ All unit tests must use the [`Junit`](https://junit.org/junit5/) test framework 
 
 The coding test must be compatible with `Java 16`.
 
-The maximum memory allowed for a solution to your coding test is 4G.
-
 ### Examples
 
 An **example** `Java` assessment that uses automated test suite scoring can be seen here:<br/>

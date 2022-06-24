@@ -32,8 +32,6 @@ these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`,
 
 `Xcode` version 12.1 must be used.
 
-The maximum memory allowed for a solution to your coding test is 4G.
-
 ### Examples
 
 Check out our `Swift` library assessments to see examples of how our Swift assesments are structured.

@@ -29,8 +29,6 @@ The `package.json` file should only be modified in order to add any third-party 
 
 The coding test must be compatible with Node.js version `15.5.1`.
 
-The maximum memory allowed for a solution to your coding test is 4G.
-
 ### Examples
 
 An **example** `TypeScript` assessment that uses automated test suite scoring can be seen here:<br/>

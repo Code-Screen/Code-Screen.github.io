@@ -32,8 +32,6 @@ The `pragma` version also must not be changed.
 
 The coding test must be compatible with Node.js version `15.5.1`.
 
-The maximum memory allowed for a solution to your coding test is 4G.
-
 The maximum size that this repo can be is 400MB.
 
 

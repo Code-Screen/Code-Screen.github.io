@@ -28,8 +28,6 @@ these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`,
 
 The `package.yaml` file should only be modified in order to add any third-party dependencies required for your solution.
 
-The maximum memory allowed for a solution to your coding test is 4G.
-
 ### Examples
 
 An **example** `Haskell` assessment that uses automated test suite scoring can be seen here:<br/>

@@ -30,8 +30,6 @@ The name of the project in the `build.sbt` should be updated to better match you
 
 The `Scala` version that must be used is 2.13.6.
 
-The maximum memory allowed for a solution to your coding test is 4G.
-
 ### Examples
 
 An **example** `Scala` assessment that uses automated test suite scoring can be seen here:<br/>

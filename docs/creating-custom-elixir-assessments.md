@@ -29,5 +29,3 @@ these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`,
 The `mix.exs` file should only be modified in order to change the name of the project and add any third-party dependencies required for your test.
 
 Your coding test must use/be comptabible with `Elixir 1.13` and `Erlang/OTP 24`.
-
-The maximum memory allowed for a solution to your coding test is 4G.

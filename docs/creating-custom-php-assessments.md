@@ -29,8 +29,6 @@ file.
 
 All unit tests must use be located in the `tests/` directory and use the [`PHPUnit`](https://phpunit.de)(version 9.3.0) testing framework.
 
-The maximum memory allowed for a solution to your coding test is 4G.
-
 ### Examples
 
 An **example** `PHP` assessment that uses automated test suite scoring can be seen here:<br/>

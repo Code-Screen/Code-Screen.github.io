@@ -32,5 +32,3 @@ All dependencies required for your coding test must be added to the `Gemfile`.
 The coding test must be compatible with `Ruby` version 2.5.3 and the `bundle` version required is 2.0.1.
 
 The current content of the `Rakefile` must not be modified. You may add to the `Rakefile` as required for your coding test.
-
-The maximum memory allowed for a solution to your coding test is 4G.

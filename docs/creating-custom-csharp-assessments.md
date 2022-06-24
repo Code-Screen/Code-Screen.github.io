@@ -31,8 +31,6 @@ new name. The only other updates that should go in to the `.csproj` file are dep
 
 The coding test must use `.NET 5.0`.
 
-The maximum memory allowed for a solution to your coding test is 4G.
-
 ### Examples
 
 An **example** `.NET` assessment that uses automated test suite scoring can be seen here:<br/>
