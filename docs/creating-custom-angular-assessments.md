@@ -35,4 +35,4 @@ The other config files in the template repo must also not be changed, including 
 
 ### Examples
 
-Please see our Angular library tests for more information on our Angular automated test suites are set up.
+Please see our Angular library tests for more information on how our Angular automated test suites are set up.
