@@ -51,6 +51,10 @@ This section gives you access to the full output log file that was generated whe
 
 The amount of time it took the candidate to complete the test.
 
+### Plagiarism Check Passed
+
+The result of our plagiarism check for this solution. A green tick means that no similarities to all previous solutions for this test have been detected. A red X means we have found enough similarities with another solution that warrants further investigation. We also provide a link to review the comparisons further.
+
 ### Github Repo
 
 A link to the candidate's code on `GitHub`.
