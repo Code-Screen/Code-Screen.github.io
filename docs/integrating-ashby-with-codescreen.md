@@ -61,6 +61,10 @@ Once you enter `CodeScreen API key` and `Ashby API key`, the integration will be
 
 <br>
 
+**Important**
+
+In order for CodeScreen to update results inside Ashby, we also need to securely store your `Ashby API key` on our system. To do this, please contact us via <a href="mailto:hello@codescreen.com">email</a>/live chat, and we will explain this process to you. This process will only take 5 minutes to complete.
+
 ### 2. Send Test To Candidate
 Once the Ashby <> CodeScreen integration is enabled for your organization, you will be able to send a CodeScreen test to a candidate from Ashby.
 
