@@ -1,18 +1,18 @@
-# Test Status
+# assessment Status
 
 The ```
-GET https://app.codescreen.com/api/testStatus/{testInstanceId}
-``` endpoint allows you to retrieve the status of a given CodeScreen test.
+GET https://app.codescreen.com/api/assessmentStatus/{assessmentInstanceId}
+``` endpoint allows you to retrieve the status of a given CodeScreen assessment.
 
 
 ### Request
 
-This GET request takes one path parameter, which is the `testInstanceId` that is initially provided as the response to the <a href="#sendTest">Send Test endpoint</a>. 
+This GET request takes one path parameter, which is the `assessmentInstanceId` that is initially provided as the response to the <a href="#sendassessment">Send assessment endpoint</a>. 
 
 <br/>An example request is shown below:
 
 ```
-curl -X POST https://app.codescreen.com/api/testStatus/1b68dc27-6155-41c2-89e3-4e00bd62d227 \
+curl -X POST https://app.codescreen.com/api/assessmentStatus/1b68dc27-6155-41c2-89e3-4e00bd62d227 \
   -H 'Authorization: apiKey dbf4a385-02ab-7d10-bf0c-5hh991055317'
 
 ```
@@ -29,12 +29,12 @@ The body of this POST request will contain a JSON payload with the following fie
 <td style="white-space: nowrap;">Property Name</td><td>Type</td><td>Required</td><td>Description</td></tr>
 </thead><tbody>
 <tr>
-<td>status</td><td>String</td><td>Yes</td><td>Describes the current state of the test instance. If the test has been completed and results are available, this value will be `"Complete"`. If the test has been started but not yet completed, this value will be `"In_Progress"`. Otherwise it will be `"Not_Started"`.</td></tr>
+<td>status</td><td>String</td><td>Yes</td><td>Describes the current state of the assessment instance. If the assessment has been completed and results are available, this value will be `"Complete"`. If the assessment has been started but not yet completed, this value will be `"In_Progress"`. Otherwise it will be `"Not_Started"`.</td></tr>
 <tr>
-<td>result_url</td><td>String</td><td>No</td><td>The url of the result page for this CodeScreen test. Only present if the candidate has completed the test.</td></tr>
+<td>result_url</td><td>String</td><td>No</td><td>The url of the result page for this CodeScreen assessment. Only present if the candidate has completed the assessment.</td></tr>
 <tr>
-<td>score</td><td>Integer</td><td>No</td><td>The candidate's score in the test, out of 100. Only present if candidate has completed the test and the number of unit tests for this test is greater than 0.</td></tr>
-<td>metadata</td><td>Object</td><td>Yes</td><td>A non-nested object containing keys and values that will be displayed with this test result. This is used for custom values that you woul like to be displayed as part of the result. If you would like custom data returned as part of this response, please email us at <a href="mailto:hello@codescreen.com">hello@codescreen.com</a>.</td></tr>
+<td>score</td><td>Integer</td><td>No</td><td>The candidate's score in the assessment, out of 100. Only present if candidate has completed the assessment and the number of unit tests for this assessment is greater than 0.</td></tr>
+<td>metadata</td><td>Object</td><td>Yes</td><td>A non-nested object containing keys and values that will be displayed with this assessment result. This is used for custom values that you woul like to be displayed as part of the result. If you would like custom data returned as part of this response, please email us at <a href="mailto:hello@codescreen.com">hello@codescreen.com</a>.</td></tr>
 </tbody></table>
 
 </br>An example response is shown below:

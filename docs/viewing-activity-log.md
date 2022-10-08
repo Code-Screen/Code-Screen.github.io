@@ -1,6 +1,6 @@
 # Activity Log
 
-There is an `Activity Log` available for each candidate, which provides a real-time overview of how a candidate is progressing through your test. <br> This makes it very easy for you to track candidates’ journeys through your tests.
+There is an `Activity Log` available for each candidate, which provides a real-time overview of how a candidate is progressing through your assessment. <br> This makes it very easy for you to track candidates’ journeys through your assessments.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>

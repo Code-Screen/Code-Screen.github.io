@@ -1,6 +1,6 @@
 # Requesting Improvements
 
-If a candidate completes a CodeScreen test but fails, you can give them a "second shot" by requesting improvements
+If a candidate completes a CodeScreen assessment but fails, you can give them a "second shot" by requesting improvements
 on their solution.
 
 To do this, follow these instructions:
@@ -56,7 +56,7 @@ Enter your comment about where the candidate went wrong and what you think they 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="sourceFileComment.png" alt="Resend test"/>
+  <img style="max-width: 60%;" src="sourceFileComment.png" alt="Resend assessment"/>
 </figure>
 
 <br>
@@ -67,8 +67,8 @@ That's it! You can now go back to the result screen on CodeScreen and click the 
 
 **Note** that once you click `Request changes`, your access to the candidate's GitHub repo will be revoked, and the candidate is granted back access.
 
-Also, please **note** that the candidate won't be able to see the hidden test case files after they get access back to the repo.<br>
-So please **do not** leave comments on the `"Added back hidden test files"` commit, as the candidate will not be able
+Also, please **note** that the candidate won't be able to see the hidden assessment case files after they get access back to the repo.<br>
+So please **do not** leave comments on the `"Added back hidden assessment files"` commit, as the candidate will not be able
 to see these comments.
 
 Once the candidate addresses your comments and submits their updated solution, we re-run our analysis and grant you back access to the repo.

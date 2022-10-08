@@ -1,12 +1,12 @@
 # Anonymizing Candidates
 
 CodeScreen provides the option to anonymize any data about a candidate that would reveal the candidate's gender or ethnicity.
-This removes unconscious bias when reviewing a candidate's solution to one of your CodeScreen tests, which promotes
+This removes unconscious bias when reviewing a candidate's solution to one of your CodeScreen assessments, which promotes
 Diversity, Equity and Inclusion (DEI) in your organization.
 
 ---
 
-To get started, click the `Anonymize candidates` check box when creating a new test:
+To get started, click the `Anonymize candidates` check box when creating a new assessment:
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
@@ -16,10 +16,10 @@ To get started, click the `Anonymize candidates` check box when creating a new t
 
 <br>
 
-**Note** if you want to turn this feature on for one of your existing tests, please let us know via <a href="mailto:hello@codescreen.com">email</a>
+**Note** if you want to turn this feature on for one of your existing assessments, please let us know via <a href="mailto:hello@codescreen.com">email</a>
  or our live chat and we will switch it on for you.
 
- Once you send a test to a candidate when the anonymize candidates feature is enabled, we will display random names for each candidate
+ Once you send a assessment to a candidate when the anonymize candidates feature is enabled, we will display random names for each candidate
  and no longer show their email address:
 
 <figure>

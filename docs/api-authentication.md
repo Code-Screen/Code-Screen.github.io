@@ -1,7 +1,7 @@
 # Getting Started
 
 ### Introduction
-The CodeScreen API can be used to send and retrieve CodeScreen tests programmatically.
+The CodeScreen API can be used to send and retrieve CodeScreen assessments programmatically.
 <p> A common use-case of the API is for companies that do not use one of the Applicant Tracking Systems that we integrate with is to add CodeScreen into their interview process workflow programmatically.</p>
 
 ### Authentication
@@ -17,6 +17,6 @@ The API key needs to be prefixed by the string `apiKey`.
 An example request is shown below:
 
 ```
-curl -X GET https://app.codescreen.com/api/listTests -H 'Authorization: apiKey c5793bc0-4176-4dec-b59c-ff47337f01c4' 
+curl -X GET https://app.codescreen.com/api/listAssessments -H 'Authorization: apiKey c5793bc0-4176-4dec-b59c-ff47337f01c4' 
 
 ```

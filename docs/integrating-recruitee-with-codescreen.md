@@ -8,8 +8,8 @@
 
 The `CodeScreen` integration with `Recruitee` allows you to do the following:
 
-* Invite candidates to take CodeScreen tests directly from the Recruitee platform.
-* Have candidate CodeScreen test reports automatically attach to their Recruitee candidate profile and their scores displayed.
+* Invite candidates to take CodeScreen assessments directly from the Recruitee platform.
+* Have candidate CodeScreen assessment reports automatically attach to their Recruitee candidate profile and their scores displayed.
 
 The integration is quick and straightforward. It works as follows:
 
@@ -34,10 +34,10 @@ the CodeScreen platform to view your Recruitee `API token`. Once you have your A
 **Note** that you will not have access to the Integrations section on CodeScreen unless you are an admin user. If you are not
 an admin, please contact one of the admin users in your organization, and they will be able to make you an admin.
 
-### 2. Send CodeScreen test to candidate
-Once the Recruitee <> CodeScreen integration is enabled for your organization, you will be able to send CodeScreen tests to candidates from inside Recruitee.
+### 2. Send CodeScreen assessment to candidate
+Once the Recruitee <> CodeScreen integration is enabled for your organization, you will be able to send CodeScreen assessments to candidates from inside Recruitee.
 
-To do this, click on a candidate, scroll down to the bottom of their profile page, and click the `Send test` button on the right of the CodeScreen box.
+To do this, click on a candidate, scroll down to the bottom of their profile page, and click the `Send assessment` button on the right of the CodeScreen box.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
@@ -47,9 +47,9 @@ To do this, click on a candidate, scroll down to the bottom of their profile pag
 
 <br>
 
-Now, choose which test you want to send to the candidate from your list of available tests.
+Now, choose which assessment you want to send to the candidate from your list of available assessments.
 
-There will be one entry in this list for each test that you currently have on CodeScreen.
+There will be one entry in this list for each assessment that you currently have on CodeScreen.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
@@ -59,7 +59,7 @@ There will be one entry in this list for each test that you currently have on Co
 
 <br>
 
-Once you select the test, click the `Send` button. You will then see a confirmation message similar to the following:
+Once you select the assessment, click the `Send` button. You will then see a confirmation message similar to the following:
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
@@ -69,7 +69,7 @@ Once you select the test, click the `Send` button. You will then see a confirmat
 
 <br>
 
-CodeScreen then sends the candidate an email containing the instructions for the test. 
+CodeScreen then sends the candidate an email containing the instructions for the assessment. 
 
 You are able to edit the email templates that are used to include your own wording and your company’s branding. You can read more details about this [here](editing-email-templates.md). 
 
@@ -83,8 +83,8 @@ The default email template looks like the following:
 
 <br>
 
-### 3. Review the test result.
-Once the candidate has submitted their test, you will be notified via email by CodeScreen, and the result will be available on Recruitee.
+### 3. Review the assessment result.
+Once the candidate has submitted their assessment, you will be notified via email by CodeScreen, and the result will be available on Recruitee.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>

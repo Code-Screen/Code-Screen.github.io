@@ -8,10 +8,10 @@
 
 The `CodeScreen` integration with `Workable` allows you to do the following:
 
-* Select which CodeScreen test is required for each role you have on Workable.
-* Invite candidates to take CodeScreen tests directly from the Workable platform as candidates enter the assessment stage.
+* Select which CodeScreen assessment is required for each role you have on Workable.
+* Invite candidates to take CodeScreen assessments directly from the Workable platform as candidates enter the assessment stage.
 * Status updates from invitation to completion.
-* Have candidate CodeScreen test reports automatically attach to their Workable candidate profile and their scores displayed.
+* Have candidate CodeScreen assessment reports automatically attach to their Workable candidate profile and their scores displayed.
 
 The integration is quick and straightforward. It works as follows:
 
@@ -32,7 +32,7 @@ an admin, please contact one of the admin users in your organization, and they w
 Once the Workable <> CodeScreen integration is enabled for your organization, you will be able to add a 
 CodeScreen assessment to any of your Workable job’s workflow.
 
-To do this for an existing job, navigate to a job, and click into the `Workflow` section, and click the `Add Assessment test` button.
+To do this for an existing job, navigate to a job, and click into the `Workflow` section, and click the `Add Assessment assessment` button.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
@@ -42,9 +42,9 @@ To do this for an existing job, navigate to a job, and click into the `Workflow`
 
 <br>
 
-Now select CodeScreen, and choose from your list of available tests.
+Now select CodeScreen, and choose from your list of available assessments.
 
-There will be one entry in this list for each test that you currently have on CodeScreen.
+There will be one entry in this list for each assessment that you currently have on CodeScreen.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
@@ -54,8 +54,8 @@ There will be one entry in this list for each test that you currently have on Co
 
 <br>
 
-### 3. Send and Review the Test
-Once a candidate is moved into the stage of the pipeline that you added the CodeScreen assessment to, you can send them the test by clicking the Send test button.
+### 3. Send and Review the assessment
+Once a candidate is moved into the stage of the pipeline that you added the CodeScreen assessment to, you can send them the assessment by clicking the Send assessment button.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
@@ -63,7 +63,7 @@ Once a candidate is moved into the stage of the pipeline that you added the Code
   <img style="max-width: 70%;" src="workable4.png" alt="Workable 4"/>
 </figure>
 
-When you click Send Test, CodeScreen sends an email containing the instructions for the test. 
+When you click Send assessment, CodeScreen sends an email containing the instructions for the assessment. 
 
 You are able to edit the email templates that are used to include your own wording and your company’s branding. You can read more details about this [here](editing-email-templates.md). 
 
@@ -77,7 +77,7 @@ The default email template looks like the following:
 
 <br>
 
-Once the candidate has submitted their test, you will be notified via email by Workable, and the result will be viewable on Workable.
+Once the candidate has submitted their assessment, you will be notified via email by Workable, and the result will be viewable on Workable.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>

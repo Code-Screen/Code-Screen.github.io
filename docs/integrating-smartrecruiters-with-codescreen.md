@@ -8,20 +8,20 @@
 
 The `CodeScreen` integration with `SmartRecruiters` allows you to do the following:
 
-* Select which CodeScreen test is required for each role you have on SmartRecruiters.
-* Invite candidates to take CodeScreen tests directly from the SmartRecruiters platform as candidates enter the assessment stage.
+* Select which CodeScreen assessment is required for each role you have on SmartRecruiters.
+* Invite candidates to take CodeScreen assessments directly from the SmartRecruiters platform as candidates enter the assessment stage.
 * Status updates from invitation to completion.
-* Have candidate CodeScreen test reports automatically attach to their SmartRecruiters candidate profile and their scores displayed.
+* Have candidate CodeScreen assessment reports automatically attach to their SmartRecruiters candidate profile and their scores displayed.
 
 The integration is quick and straightforward. It works as follows:
 
 ### 1. Enable the SmartRecruiters/CodeScreen Integration
 To do this, first, let your contact at SmartRecruiters know that you would like to integrate with CodeScreen. <br> They will then send us your SmartRecruiters customer ID, which we will add to your CodeScreen account, and we will notify you that the integration has been enabled.
 
-### 2. Send CodeScreen test to a candidate
+### 2. Send CodeScreen assessment to a candidate
 Once the SmartRecruiters <> CodeScreen integration is enabled for your organization, you will be able to start sending CodeScreen assessments to candidates via the SmartRecruiters platform.
 
-To do this for an existing candidate, navigate to the candidate, and click `Browse` beside `Skills Tests` in the `Assessments` section in the bottom right of the screen.
+To do this for an existing candidate, navigate to the candidate, and click `Browse` beside `Skills assessments` in the `Assessments` section in the bottom right of the screen.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
@@ -31,7 +31,7 @@ To do this for an existing candidate, navigate to the candidate, and click `Brow
 
 <br>
 
-You will then see a list of skill test providers, and you can find the available CodeScreen tests by choosing CodeScreen from the filter list.
+You will then see a list of skill assessment providers, and you can find the available CodeScreen assessments by choosing CodeScreen from the filter list.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
@@ -41,7 +41,7 @@ You will then see a list of skill test providers, and you can find the available
 
 <br>
 
-There will be one entry in this list for each test that you currently have set up on CodeScreen:
+There will be one entry in this list for each assessment that you currently have set up on CodeScreen:
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
@@ -51,7 +51,7 @@ There will be one entry in this list for each test that you currently have set u
 
 <br>
 
-Click `Select`, then click `Continue` and finally click `Send` to send the test to the candidate.
+Click `Select`, then click `Continue` and finally click `Send` to send the assessment to the candidate.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
@@ -61,7 +61,7 @@ Click `Select`, then click `Continue` and finally click `Send` to send the test 
 
 <br>
 
-When you click Send, CodeScreen sends an email to the candidate containing the instructions for the test.
+When you click Send, CodeScreen sends an email to the candidate containing the instructions for the assessment.
 
 You are able to edit the email templates that are used to include your own wording and your company’s branding. You can read more details about this [here](editing-email-templates.md). 
 
@@ -75,8 +75,8 @@ The default email template looks like the following:
 
 <br>
 
-### 3. Review the Test
-Once the candidate has submitted their test, you will be notified via email by SmartRecruiters, and the result will be viewable on the SmartRecruiters’s page for that candidate:
+### 3. Review the assessment
+Once the candidate has submitted their assessment, you will be notified via email by SmartRecruiters, and the result will be viewable on the SmartRecruiters’s page for that candidate:
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>

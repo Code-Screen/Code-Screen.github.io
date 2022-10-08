@@ -1,6 +1,6 @@
 # Notification Preferences
 
-By default, once a candidate passes/fails one of your tests, or when a test expires, you will be notified by email.
+By default, once a candidate passes/fails one of your assessments, or when a assessment expires, you will be notified by email.
 
 <figure>
   <figcaption style="font-style: italic;">Email Notification:</figcaption>

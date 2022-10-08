@@ -8,10 +8,10 @@
 
 The `CodeScreen` integration with `Comeet` allows you to do the following:
 
-* Select which CodeScreen test is required for each role you have on Comeet.
-* Invite candidates to take CodeScreen tests directly from the Comeet platform as candidates enter the assessment stage.
+* Select which CodeScreen assessment is required for each role you have on Comeet.
+* Invite candidates to take CodeScreen assessments directly from the Comeet platform as candidates enter the assessment stage.
 * Status updates from invitation to completion.
-* Have candidate CodeScreen test reports automatically attach to their Comeet candidate profile and their scores displayed.
+* Have candidate CodeScreen assessment reports automatically attach to their Comeet candidate profile and their scores displayed.
 
 The integration is quick and straightforward. It works as follows:
 
@@ -45,8 +45,8 @@ To do this for an existing job, navigate to the job, and click the `Workflow` ta
 
 <br>
 
-You will then see the list of available CodeScreen tests you can choose from.<br>
-There will be one entry in this list for each test that you currently have on CodeScreen.
+You will then see the list of available CodeScreen assessments you can choose from.<br>
+There will be one entry in this list for each assessment that you currently have on CodeScreen.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
@@ -56,8 +56,8 @@ There will be one entry in this list for each test that you currently have on Co
 
 <br>
 
-### 3. Send and Review the Test
-Once a candidate is moved into the stage that you added the CodeScreen assessment to, you can send them the test by clicking the `Start` button.
+### 3. Send and Review the assessment
+Once a candidate is moved into the stage that you added the CodeScreen assessment to, you can send them the assessment by clicking the `Start` button.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
@@ -67,7 +67,7 @@ Once a candidate is moved into the stage that you added the CodeScreen assessmen
 
 <br>
 
-When you click Start, CodeScreen sends an email to the candidate containing the instructions for the test.
+When you click Start, CodeScreen sends an email to the candidate containing the instructions for the assessment.
 
 You are able to edit the email templates that are used to include your own wording and your company’s branding. You can read more details about this [here](editing-email-templates.md). 
 
@@ -81,7 +81,7 @@ The default email template looks like the following:
 
 <br>
 
-Once the candidate has submitted their test, you will be notified via email by Comeet, and the result will be viewable on Comeet.
+Once the candidate has submitted their assessment, you will be notified via email by Comeet, and the result will be viewable on Comeet.
 
 
 <figure>

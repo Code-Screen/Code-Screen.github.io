@@ -8,10 +8,10 @@
 
 The `CodeScreen` integration with `Ashby` allows you to do the following:
 
-* Select which CodeScreen test is required for each job you have on Ashby.
-* Invite candidates to take CodeScreen tests directly from the Ashby platform as candidates enter the assessment/coding test stage.
+* Select which CodeScreen assessment is required for each job you have on Ashby.
+* Invite candidates to take CodeScreen assessments directly from the Ashby platform as candidates enter the assessment/coding assessment stage.
 * Status updates from invitation to completion.
-* Have candidate CodeScreen test reports automatically attach to their Ashby candidate profile and their scores displayed.
+* Have candidate CodeScreen assessment reports automatically attach to their Ashby candidate profile and their scores displayed.
 
 The integration is quick and straightforward. It works as follows:
 
@@ -65,8 +65,8 @@ Once you enter `CodeScreen API key` and `Ashby API key`, the integration will be
 
 In order for CodeScreen to update results inside Ashby, we also need to securely store your `Ashby API key` on our system. To do this, please contact us via <a href="mailto:hello@codescreen.com">email</a>/live chat, and we will explain this process to you. This process will only take 5 minutes to complete.
 
-### 2. Send Test To Candidate
-Once the Ashby <> CodeScreen integration is enabled for your organization, you will be able to send a CodeScreen test to a candidate from Ashby.
+### 2. Send assessment To Candidate
+Once the Ashby <> CodeScreen integration is enabled for your organization, you will be able to send a CodeScreen assessment to a candidate from Ashby.
 
 To do this, click into a candidate and then click `New Activity` -> `Assessment`:
 
@@ -78,7 +78,7 @@ To do this, click into a candidate and then click `New Activity` -> `Assessment`
 
 <br>
 
-You can then choose which CodeScreen test you want to send to the candidate. There is a one-to-one mapping here between the tests you have created on CodeScreen and the tests
+You can then choose which CodeScreen assessment you want to send to the candidate. There is a one-to-one mapping here between the assessments you have created on CodeScreen and the assessments
 available to send from Ashby.
 
 <figure>
@@ -89,7 +89,7 @@ available to send from Ashby.
 
 <br>
 
-Once you click `Add Activity`, you can then click the `Start Assessment` purple button to send the test to the candidate:
+Once you click `Add Activity`, you can then click the `Start Assessment` purple button to send the assessment to the candidate:
 
 
 <figure>
@@ -100,7 +100,7 @@ Once you click `Add Activity`, you can then click the `Start Assessment` purple 
 
 <br>
 
-The candidate will receive an email containing the instructions for the test.
+The candidate will receive an email containing the instructions for the assessment.
 
 You can edit the email templates that are used to include your own wording and your company’s branding. You can read more
 details about this [here](editing-email-templates.md). 
@@ -115,7 +115,7 @@ The default email template looks like the following:
 
 <br>
 
-The status of the test for the candidate will then be viewable in Ashby:
+The status of the assessment for the candidate will then be viewable in Ashby:
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
@@ -125,9 +125,9 @@ The status of the test for the candidate will then be viewable in Ashby:
 
 <br>
 
-### 3. Review Test results
+### 3. Review assessment results
 
-Once the candidate has submitted their test, you will be notified via email by CodeScreen and you will be able to view the
+Once the candidate has submitted their assessment, you will be notified via email by CodeScreen and you will be able to view the
 result for that candidate inside Ashby.
 
 <figure>
@@ -138,7 +138,7 @@ result for that candidate inside Ashby.
 
 <br>
 
-You can also view more details about the test result on CodeScreen by clicking the `View in CodeScreen` link, which will bring you to a page on CodeScreen similar to the following:
+You can also view more details about the assessment result on CodeScreen by clicking the `View in CodeScreen` link, which will bring you to a page on CodeScreen similar to the following:
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>

@@ -8,10 +8,10 @@
 
 The `CodeScreen` integration with `Teamtailor` allows you to do the following:
 
-* Select which CodeScreen test is required for each job you have on Teamtailor.
-* Invite candidates to take CodeScreen tests directly from the Teamtailor platform as candidates enter the assessment/coding test stage.
+* Select which CodeScreen assessment is required for each job you have on Teamtailor.
+* Invite candidates to take CodeScreen assessments directly from the Teamtailor platform as candidates enter the assessment/coding assessment stage.
 * Status updates from invitation to completion.
-* Have candidate CodeScreen test reports automatically attach to their Teamtailor candidate profile and their scores displayed.
+* Have candidate CodeScreen assessment reports automatically attach to their Teamtailor candidate profile and their scores displayed.
 
 The integration is quick and straightforward. It works as follows:
 
@@ -57,7 +57,7 @@ To do this for an existing job, navigate to a job and click into the `Triggers` 
 
 <br>
 
-Click the `+` button for the stage in which you want a CodeScreen test to be sent and then select the
+Click the `+` button for the stage in which you want a CodeScreen assessment to be sent and then select the
 `Send webhook CodeScreen` option from the pop-up.
 
 <figure>
@@ -68,8 +68,8 @@ Click the `+` button for the stage in which you want a CodeScreen test to be sen
 
 <br>
 
-You will then be able to choose which CodeScreen test you want to be automatically sent to each candidate once they enter
-this stage of the job. There is a one-to-one mapping here between the tests you have created on CodeScreen and the tests
+You will then be able to choose which CodeScreen assessment you want to be automatically sent to each candidate once they enter
+this stage of the job. There is a one-to-one mapping here between the assessments you have created on CodeScreen and the assessments
 available to send from Teamtailor.
 
 <figure>
@@ -80,10 +80,10 @@ available to send from Teamtailor.
 
 <br>
 
-Select your test and click the `Add trigger` button to complete the process.
+Select your assessment and click the `Add trigger` button to complete the process.
 
-### 3. Send and Review the Test
-When candidates are moved into the interview stage that you added the CodeScreen Webhook trigger to, a CodeScreen test
+### 3. Send and Review the assessment
+When candidates are moved into the interview stage that you added the CodeScreen Webhook trigger to, a CodeScreen assessment
 will be automatically sent to the candidate.
 
 <figure>
@@ -94,7 +94,7 @@ will be automatically sent to the candidate.
 
 <br>
 
-The candidate will receive an email containing the instructions for the test.
+The candidate will receive an email containing the instructions for the assessment.
 
 You can edit the email templates that are used to include your own wording and your company’s branding. You can read more
 details about this [here](editing-email-templates.md). 
@@ -109,7 +109,7 @@ The default email template looks like the following:
 
 <br>
 
-The status of the test for each candidate will be viewable in Teamtailor in the profile section for that candidate.
+The status of the assessment for each candidate will be viewable in Teamtailor in the profile section for that candidate.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
@@ -119,7 +119,7 @@ The status of the test for each candidate will be viewable in Teamtailor in the 
 
 <br>
 
-Once the candidate has submitted their test, you will be notified via email by CodeScreen and you will be able to view the
+Once the candidate has submitted their assessment, you will be notified via email by CodeScreen and you will be able to view the
 result for that candidate inside Teamtailor.
 
 <figure>
@@ -130,8 +130,8 @@ result for that candidate inside Teamtailor.
 
 <br>
 
-The result contains a `Score` field which represents the candidate's score on the test, which is based on how many
-unit test cases the candidate's solution passed. You can also view more details about the test result on CodeScreen by 
+The result contains a `Score` field which represents the candidate's score on the assessment, which is based on how many
+unit test cases the candidate's solution passed. You can also view more details about the assessment result on CodeScreen by 
 clicking the result link, which will bring you to a page on CodeScreen similar to the following:
 
 <figure>

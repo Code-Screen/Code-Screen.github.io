@@ -9,11 +9,11 @@ The goal of this user guide is to provide you with all the information and guida
 
 This guide is broken into the following sections:
 
-* [Creating Custom Tests](custom-test-concepts.md)
-* [Creating Library Tests](selecting-library-test.md)
-* [Sending Tests](sending-tests.md)
+* [Creating Custom Assessments](custom-assessment-concepts.md)
+* [Creating Library Assessments](selecting-library-assessment.md)
+* [Sending Assessments](sending-assessments.md)
 * [Viewing Candidates](viewing-candidates.md)
-* [Viewing Results](viewing-candidate-result.md)
+* [Viewing Candidate Report](viewing-candidate-report.md)
 * [ATS Integrations](integrating-greenhouse-with-codescreen.md)
 * [Email Templates](editing-email-templates.md)
 * [Managing Users](adding-users.md)

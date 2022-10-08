@@ -1,6 +1,6 @@
-# Editing Results
+# Editing Result
 
-You can override the score and status of a candidate's result. This is useful, for example, if your test does not use 
+You can override the score and status of a candidate's result. This is useful, for example, if your assessment does not use 
 unit tests and you have a different rubric for evaluating candidates' submissions.
 
 To do this, click the edit pencil icon beside the candidate's score in the candidate list screen:

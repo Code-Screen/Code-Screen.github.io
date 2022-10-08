@@ -2,9 +2,9 @@
 
   - [Introduction](intro.md)
 
-- Creating Custom Tests
+- Creating Custom Assessments
 
-  - [Concepts](custom-test-concepts.md)
+  - [Concepts](custom-assessment-concepts.md)
 
   - Languages & Frameworks
 
@@ -42,15 +42,15 @@
     - [PowerShell](creating-custom-powershell-assessments.md)
     - [Full-Stack](creating-custom-full-stack-assessments.md)
 
-- Creating Library Tests
+- Creating Library Assessments
 
-  - [Selecting Library Test](selecting-library-test.md)
-  - [Creating Library Test](creating-library-test.md)
+  - [Selecting Library Assessments](selecting-library-assessment.md)
+  - [Creating Library Assessments](creating-library-assessment.md)
 
-- Sending Tests
+- Sending Assessments
 
-  - [Sending Tests](sending-tests.md)
-  - [Re-sending Tests](resending-tests.md)
+  - [Sending Assessments](sending-assessments.md)
+  - [Re-sending Assessments](resending-assessments.md)
   - [Extending Time](extending-candidate-time.md)
 
 - Viewing Candidates
@@ -61,10 +61,10 @@
 
 - Viewing Results
 
-  - [Viewing Candidates' Results](viewing-candidate-result.md)
+  - [Viewing Candidate Report](viewing-candidate-report.md)
   - [Leaving Feedback](giving-feedback-to-candidates.md)
   - [Requesting Improvements](request-improvements-on-candidates-result.md)
-  - [Editing Results](edit-candidate-result.md)
+  - [Editing Result](edit-candidate-result.md)
   - [Notification Preferences](notification-preferences.md)
 
 - ATS Integrations
@@ -96,13 +96,13 @@
 - API
 
   - [Authentication](api-authentication)
-  - [List Tests Endpoint](list-tests-endpoint.md)
-  - [Send Test Endpoint](send-test-endpoint.md)
-  - [Test Status Endpoint](get-test-status-endpoint.md)
+  - [List Assessments Endpoint](list-assessments-endpoint.md)
+  - [Send Assessment Endpoint](send-assessment-endpoint.md)
+  - [Assessment Status Endpoint](get-assessment-status-endpoint.md)
   - [Error Responses](api-error-codes.md)
 
 - Frequently Asked Questions
 
   - [GitHub 404 Error](handling-github-404-error.md)
-  - [Hidden Test Cases](hidden-tests.md)
-  - [Accessing Test Link](accessing-test-link-directly.md)
+  - [Hidden Test Cases](hidden-unit-tests.md)
+  - [Accessing Assessment Link](accessing-assessment-link-directly.md)

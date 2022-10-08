@@ -1,7 +1,7 @@
 # Editing Email Templates
 
-Candidates receive multiple emails from CodeScreen during their journey through a CodeScreen test, from when they
-are initially sent a test to when they submit their solution.
+Candidates receive multiple emails from CodeScreen during their journey through a CodeScreen assessment, from when they
+are initially sent a assessment to when they submit their solution.
 
 We provide the option to edit these email templates to include your company's logo and wording, which gives the candidate
 more of a consistent experience across your interview process.
@@ -24,9 +24,9 @@ To edit an email template, click `Edit`. You can then edit the default `HTML` to
 Editing HTML can be easily performed by you or by one of your developer colleagues if you are a non-technical user. If this is not an option, then please message on our live chat and we can do this for you.
 
 Each email template has a set of `substitution variables` that we use to dynamically insert information into the email HTML.<br>
-Examples of these include the candidate's first name, the test time limit, etc.
+Examples of these include the candidate's first name, the assessment time limit, etc.
 
-Below is a table which shows at which point during the candidate test journey lifecycle each email is sent, and the
+Below is a table which shows at which point during the candidate assessment journey lifecycle each email is sent, and the
 substitution variables that are used for each:
 
 <table>
@@ -35,20 +35,20 @@ substitution variables that are used for each:
 <td style="white-space: nowrap;"><strong>Email name</strong></td><td><strong>Sent point</strong></td><td><strong> Variables used</strong></td></tr>
 </thead><tbody>
 <tr>
-<td>Begin Test</td><td>When a candidate is initially sent the test.</td><td>{firstName}, {testTitle}, {companyName}, {candidateLinkUrl},
-{dateTimeToBeginTestDisplayValue}, {timeToCompleteTestBeginsDisplayValue}.</td></tr>
+<td>Begin Assessment</td><td>When a candidate is initially sent the assessment.</td><td>{firstName}, {assessmentTitle}, {companyName}, {candidateLinkUrl},
+{dateTimeToBeginassessmentDisplayValue}, {timeToCompleteassessmentBeginsDisplayValue}.</td></tr>
 <tr style="background-color: white;">
-<td>Test Details</td><td>When a candidate begins the test.</td><td>{testTitle}, {companyName}, {candidateLinkUrl}, {repoUrl}.</td></tr>
+<td>Assessment Details</td><td>When a candidate begins the assessment.</td><td>{assessmentTitle}, {companyName}, {candidateLinkUrl}, {repoUrl}.</td></tr>
 <tr>
-<td>First Commit</td><td>When a candidate pushes their first commit(s) to their GitHub repo.</td><td>{testTitle}, {companyName}, {candidateLinkUrl}.</td></tr>
+<td>First Commit</td><td>When a candidate pushes their first commit(s) to their GitHub repo.</td><td>{assessmentTitle}, {companyName}, {candidateLinkUrl}.</td></tr>
 <tr style="background-color: white;">
-<td>Expiry Warning</td><td>Sent when there is 30 minutes left before the test expires.</td><td>{firstName}, {testTitle}, {companyName}, {candidateLinkUrl}.</td></tr>
+<td>Expiry Warning</td><td>Sent when there is 30 minutes left before the assessment expires.</td><td>{firstName}, {assessmentTitle}, {companyName}, {candidateLinkUrl}.</td></tr>
 <tr>
-<td>Acknowledgement</td><td>Sent after the candidates submits their solution for the test.</td><td>{testTitle}, {companyName}.</td></tr>
+<td>Acknowledgement</td><td>Sent after the candidates submits their solution for the assessment.</td><td>{assessmentTitle}, {companyName}.</td></tr>
 <tr style="background-color: white;">
-<td>Feedback</td><td>Sent to notify the candidate that you have given them feedback on their solution.</td><td>{testTitle}, {companyName}, {repoUrl}, {comments}.</td></tr>
+<td>Feedback</td><td>Sent to notify the candidate that you have given them feedback on their solution.</td><td>{assessmentTitle}, {companyName}, {repoUrl}, {comments}.</td></tr>
 <tr>
-<td>Request Changes</td><td>Sent to notify the candidate that you have requested changes on their solution.</td><td>{testTitle}, {companyName}, {candidateLinkUrl},{comments}.</td></tr>
+<td>Request Changes</td><td>Sent to notify the candidate that you have requested changes on their solution.</td><td>{assessmentTitle}, {companyName}, {candidateLinkUrl},{comments}.</td></tr>
 </tbody></table>
 
 <br>
@@ -57,10 +57,10 @@ An explanation on what each variable is referring to is provided below:
 
 * `{firstName}` - The candidate's first name.
 
-* `{testTitle}` - The name of your test that the candidate has been sent.
+* `{assessmentTitle}` - The name of your assessment that the candidate has been sent.
 * `{companyName}` - The name of your company you set when you signed up to CodeScreen. This can be edited <a href="https://app.codescreen.com/#/client-profile-edit/details" target="_blank">here</a>.
-* `{candidateLinkUrl}` - The link to the candidate's test page on CodeScreen.
+* `{candidateLinkUrl}` - The link to the candidate's assessment page on CodeScreen.
 * `{repoUrl}` - The link to the candidate's private repo on GitHub.
-* `{dateTimeToBeginTestDisplayValue}` - The date time the candidate has until to begin the test, e.g. "11th November at 18:30 (UTC)". This is always displayed in the UTC timezone.
-* `{timeToCompleteTestBeginsDisplayValue}` - The number of hours/days the candidate has to complete the test from when they <br> begin the test, e.g. "3 hours", "1 day", etc.
+* `{dateTimeToBeginassessmentDisplayValue}` - The date time the candidate has until to begin the assessment, e.g. "11th November at 18:30 (UTC)". This is always displayed in the UTC timezone.
+* `{timeToCompleteassessmentBeginsDisplayValue}` - The number of hours/days the candidate has to complete the assessment from when they <br> begin the assessment, e.g. "3 hours", "1 day", etc.
 * `{comments}` - The list of comments that have been left on the candidate's GitHub repo when feedback is given/changes are requested.

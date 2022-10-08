@@ -1,6 +1,6 @@
 # Leaving Feedback
 
-Once a candidate completes a CodeScreen test, you can give feedback on their submission by
+Once a candidate completes a CodeScreen assessment, you can give feedback on their submission by
 leave comments on their code in their `GitHub` repository.
 
 To do this, follow these instructions:
@@ -57,7 +57,7 @@ Enter your comment, and then click the `Add single comment` button. You can add 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="sourceFileComment.png" alt="Resend test"/>
+  <img style="max-width: 60%;" src="sourceFileComment.png" alt="Resend assessment"/>
 </figure>
 
 <br>
@@ -66,6 +66,6 @@ Enter your comment, and then click the `Add single comment` button. You can add 
 
 That's it! You can now go back to the result screen on CodeScreen and click the `Give feedback` link again to complete the workflow. <br>You can also view this [video](https://www.loom.com/share/06698af02c084c52bba9a895283d815c) to see the steps described above in action.
 
-**Note** that the candidate will be granted access back to the repo, but they won't be able to see the hidden test case files.<br>
-So please **do not** leave comments on the `"Added back hidden test files"` commit, as the candidate will not be able
+**Note** that the candidate will be granted access back to the repo, but they won't be able to see the hidden assessment case files.<br>
+So please **do not** leave comments on the `"Added back hidden assessment files"` commit, as the candidate will not be able
 to see these comments.

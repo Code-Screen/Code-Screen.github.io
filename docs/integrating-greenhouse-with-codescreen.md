@@ -8,10 +8,10 @@
 
 The `CodeScreen` integration with `Greenhouse` allows you to do the following:
 
-* Select which CodeScreen test is required for each role you have on Greenhouse.
-* Invite candidates to take CodeScreen tests directly from the Greenhouse platform as candidates enter the assessment stage.
+* Select which CodeScreen assessment is required for each role you have on Greenhouse.
+* Invite candidates to take CodeScreen assessments directly from the Greenhouse platform as candidates enter the assessment stage.
 * Status updates from invitation to completion.
-* Have candidate CodeScreen test reports automatically attach to their Greenhouse candidate profile and their scores displayed.
+* Have candidate CodeScreen assessment reports automatically attach to their Greenhouse candidate profile and their scores displayed.
 
 The integration is quick and straightforward. It works as follows:
 
@@ -62,10 +62,10 @@ job’s interview plan.
 <br>
 
 ### 3. Configure CodeScreen Stage
-Once the stage has been added to the job’s interview plan, click `Edit Take Home Test`.
-Use the provided drop-down menu to choose which test you want to add to this job’s interview plan.
+Once the stage has been added to the job’s interview plan, click `Edit Take Home assessment`.
+Use the provided drop-down menu to choose which assessment you want to add to this job’s interview plan.
 
-There will be one entry in this drop-down list for each test that you currently have on CodeScreen.
+There will be one entry in this drop-down list for each assessment that you currently have on CodeScreen.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
@@ -75,11 +75,11 @@ There will be one entry in this drop-down list for each test that you currently 
 
 <br>
 
-Select the appropriate test and assign at least one Greenhouse user to grade/review submitted assessments. <br>
+Select the appropriate assessment and assign at least one Greenhouse user to grade/review submitted assessments. <br>
 When finished, click `Save`.
 
-### 4. Send and Review the Test
-When candidates are moved into the CodeScreen interview stage, Greenhouse will display a `Send Test` link.
+### 4. Send and Review the assessment
+When candidates are moved into the CodeScreen interview stage, Greenhouse will display a `Send assessment` link.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
@@ -89,7 +89,7 @@ When candidates are moved into the CodeScreen interview stage, Greenhouse will d
 
 <br>
 
-When you click Send Test, CodeScreen sends an email containing the instructions for the test. 
+When you click Send assessment, CodeScreen sends an email containing the instructions for the assessment. 
 
 You are able to edit the email templates that are used to include your own wording and your company’s branding.
 You can read more details about this [here](editing-email-templates.md). 
@@ -114,7 +114,7 @@ The status of the assessment will be viewable in Greenhouse:
 
 <br>
 
-Once the candidate has submitted their test, you will be notified via email by Greenhouse and you will be able to view the `Interview Kit`
+Once the candidate has submitted their assessment, you will be notified via email by Greenhouse and you will be able to view the `Interview Kit`
 for that candidate.
 
 <figure>
@@ -125,10 +125,10 @@ for that candidate.
 
 <br>
 
-Inside the Interview Kit section, there is a `Score` field which represents the candidate's score on the test, which is based on how many
+Inside the Interview Kit section, there is a `Score` field which represents the candidate's score on the assessment, which is based on how many
 unit test cases the candidate's solution passed. 
 
-You can also view more details about the test result on CodeScreen by clicking `View Report`, which will bring you to a 
+You can also view more details about the assessment result on CodeScreen by clicking `View Report`, which will bring you to a 
 page on CodeScreen similar to the following:
 
 <figure>

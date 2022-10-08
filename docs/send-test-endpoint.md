@@ -1,8 +1,8 @@
-# Send Test
+# Bulk Send assessment
 
 The ```
-POST https://app.codescreen.com/api/sendTest
-``` endpoint allows you to send a CodeScreen test to a candidate.
+POST https://app.codescreen.com/api/bulkSendassessment
+``` endpoint allows you to send a CodeScreen assessment to multiple candidates at once.
 
 
 ### Request
@@ -15,22 +15,22 @@ The body of this POST request will contain a JSON payload with the following fie
 <td style="white-space: nowrap;">Property Name</td><td>Type</td><td>Required</td><td>Description</td></tr>
 </thead><tbody>
 <tr>
-<td>testId</td><td>String</td><td>Yes</td><td>The unique identifier of the test that you are sending to a candidate. Initially provided as a response to the <a href="#listTests">List Tests endpoint</a>.</td></tr>
+<td>assessmentId</td><td>String</td><td>Yes</td><td>The unique identifier of the assessment that you are sending to a candidate. Initially provided as a response to the <a href="#listassessments">List assessments endpoint</a>.</td></tr>
 <tr>
 <td>firstName</td><td>String</td><td>Yes</td><td>The first name of the candidate.</td></tr>
 <tr>
 <td>lastName</td><td>String</td><td>Yes</td><td>The last name of the candidate.</td></tr>
-<td>email</td><td>String</td><td>Yes</td><td>The candidate’s email address. The test link will be sent to this address.</td></tr>
+<td>email</td><td>String</td><td>Yes</td><td>The candidate’s email address. The assessment link will be sent to this address.</td></tr>
 </tbody></table>
 
 <br/>An example request is shown below:
 
 ```
-curl -X POST https://app.codescreen.com/api/sendTest \
+curl -X POST https://app.codescreen.com/api/sendassessment \
   -H 'Authorization: apiKey dbf4a385-02ab-7d10-bf0c-5hh991055317' \
   -H 'Content-Type: application/json' \
   -d '{
-    "testId": "af401f8e-24d9-4889-ad8b-39cc8366b0ac",
+    "assessmentId": "af401f8e-24d9-4889-ad8b-39cc8366b0ac",
     "firstName": "John",
     "lastName": "Smith",
 	"email" : "john.smith@gmail.com"
@@ -48,18 +48,18 @@ If the request has succeeded, the response will be a `200 OK` containing JSON wi
 <td style="white-space: nowrap;">Property Name</td><td>Type</td><td>Required</td><td>Description</td></tr>
 </thead><tbody>
 <tr>
-<td>testInstanceId</td><td>String</td><td>Yes</td><td>The unique identifier for the test instance that was send to the candidate. This id can be used to track the status of this test using the <a href="#getTestStatus">Test Status endpoint</a>.</td></tr>
+<td>assessmentInstanceId</td><td>String</td><td>Yes</td><td>The unique identifier for the assessment instance that was send to the candidate. This id can be used to track the status of this assessment using the <a href="#getassessmentStatus">assessment Status endpoint</a>.</td></tr>
 </tbody></table>
 
 An example response is shown below:
 
 ```
 {
-    "testInstanceId": "1b68dc27-6155-41c2-89e3-4e00bd62d227"
+    "assessmentInstanceId": "1b68dc27-6155-41c2-89e3-4e00bd62d227"
 }
 
 ```
 
-<br/>The candidate is then sent an email to begin the test:
+<br/>The candidate is then sent an email to begin the assessment:
 
 ![Candidate email](candidateEmail.png)
