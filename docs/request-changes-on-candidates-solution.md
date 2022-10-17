@@ -1,9 +1,29 @@
-# Requesting Improvements
+# Requesting Changes
 
-If a candidate completes a CodeScreen assessment but fails, you can give them a "second shot" by requesting improvements
-on their solution.
+If a candidate completes a CodeScreen assessment but fails, you can give them a "second shot" by requesting changes on their solution.
 
-To do this, follow these instructions:
+To do this, first click into the candidate's report, and then click `Request Changes`. The following pop-up will appear:
+
+<figure>
+  <figcaption style="font-style: italic;"></figcaption>
+  </br>
+  <img style="max-width: 40%;" src="requestChanges.png" alt="Request Changes"/>
+</figure>
+
+<br>
+
+You can either then leave comments directly in text box shown above & click the Submit button, or you can leave comments inside the candidate's GitHub repo (see section below for more details) and then click the Submit button.
+
+That's it! The candidate will receive an email containing your comments, the candidate is granted back access to their GitHub repo and the candidate is moved back into the In Progress column.
+
+Your access to the candidate's GitHub repo will be revoked once you hit the Submit button. Once the candidate addresses your comments and submits their updated solution, we re-run our analysis and grant you back access to the repo.
+
+**Note** that all hidden unit test files are removed from the candidate's repo before we grant them back access.
+
+- - -
+
+### Adding Comments to GitHub repo
+
 
 **1.** Navigate to the candidate's **GitHub** repository, and click on the commits section.
 
@@ -61,14 +81,6 @@ Enter your comment about where the candidate went wrong and what you think they 
 
 <br>
 
-- - -
+Once you have added your comments to the GitHub repo, go back to Request Changes pop-up in the CodeScreen application and click the Submit button.
 
-That's it! You can now go back to the result screen on CodeScreen and click the `Request changes` link again to complete the workflow. <br>You can also view this [video](https://www.loom.com/share/06698af02c084c52bba9a895283d815c) to see the steps described above in action.
-
-**Note** that once you click `Request changes`, your access to the candidate's GitHub repo will be revoked, and the candidate is granted back access.
-
-Also, please **note** that the candidate won't be able to see the hidden assessment case files after they get access back to the repo.<br>
-So please **do not** leave comments on the `"Added back hidden assessment files"` commit, as the candidate will not be able
-to see these comments.
-
-Once the candidate addresses your comments and submits their updated solution, we re-run our analysis and grant you back access to the repo.
+Please **note** that the candidate won't be able to see the hidden assessment case files after they get access back to the repo.<br>So please **do not** leave comments on the `"Added back hidden assessment files"` commit, as the candidate will not be able to see these comments.

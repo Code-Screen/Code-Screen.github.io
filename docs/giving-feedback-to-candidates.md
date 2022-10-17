@@ -1,9 +1,27 @@
-# Leaving Feedback
+# Giving Feedback
 
-Once a candidate completes a CodeScreen assessment, you can give feedback on their submission by
-leave comments on their code in their `GitHub` repository.
+Once a candidate completes a CodeScreen assessment, you can give them feedback on their solution.
 
-To do this, follow these instructions:
+To do this, first click into the candidate's report, and then click `Give Feedback`. The following pop-up will appear:
+
+<figure>
+  <figcaption style="font-style: italic;"></figcaption>
+  </br>
+  <img style="max-width: 40%;" src="giveFeedback.png" alt="Give Feedback"/>
+</figure>
+
+<br>
+
+You can either then leave comments directly in text box shown above & click the Submit button, or you can leave comments inside the candidate's GitHub repo (see section below for more details) and then click the Submit button.
+
+That's it! The candidate will then receive an email containing your comments and granted back access to their GitHub repo.
+
+**Note** that all hidden unit test files are removed from the candidate's repo before we grant them back access.
+
+- - -
+
+### Adding Comments to GitHub repo
+
 
 **1.** Navigate to the candidate's **GitHub** repository, and click on the commits section.
 
@@ -37,7 +55,7 @@ To do this, follow these instructions:
   <img style="max-width: 60%;" src="commentOnCommit.png" alt="Comment on commit"/>
 </figure>
 
-Enter your comment, and then click the green `Comment on this commit` button. You can add as many comments as you like.
+Enter your comment and then click the green `Comment on this commit` button. You can add as many comments as you like.
 
 <br>
 
@@ -51,8 +69,7 @@ Enter your comment, and then click the green `Comment on this commit` button. Yo
 
 <br>
 
-Enter your comment, and then click the `Add single comment` button. You can add as many comments 
-(on any number of files) as you like.
+Enter your comment and then click the `Add single comment` button. You can add as many comments (on any number of files) as you like.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
@@ -62,10 +79,4 @@ Enter your comment, and then click the `Add single comment` button. You can add 
 
 <br>
 
-- - -
-
-That's it! You can now go back to the result screen on CodeScreen and click the `Give feedback` link again to complete the workflow. <br>You can also view this [video](https://www.loom.com/share/06698af02c084c52bba9a895283d815c) to see the steps described above in action.
-
-**Note** that the candidate will be granted access back to the repo, but they won't be able to see the hidden assessment case files.<br>
-So please **do not** leave comments on the `"Added back hidden assessment files"` commit, as the candidate will not be able
-to see these comments.
+Please **note** that the candidate won't be able to see the hidden assessment case files after they get access back to the repo.<br>So please **do not** leave comments on the `"Added back hidden assessment files"` commit, as the candidate will not be able to see these comments.

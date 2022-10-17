@@ -65,7 +65,7 @@ A link to view all changes/additions between the initial commit and the candidat
 ### Request Changes
 
 We provide a workflow that allows you to easily give candidates a "second shot" at the assessment.
-Click [here](request-improvements-on-candidates-result.md) for more details.
+Click [here](request-changes-on-candidates-solution.md) for more details.
 
 ### Give Feedback
 

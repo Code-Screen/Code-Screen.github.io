@@ -62,8 +62,8 @@
 - Viewing Results
 
   - [Viewing Candidate Report](viewing-candidate-report.md)
-  - [Leaving Feedback](giving-feedback-to-candidates.md)
-  - [Requesting Improvements](request-improvements-on-candidates-result.md)
+  - [Requesting Changes](request-changes-on-candidates-solution.md)
+  - [Giving Feedback](giving-feedback-to-candidates.md)
   - [Editing Result](edit-candidate-result.md)
   - [Notification Preferences](notification-preferences.md)
 
