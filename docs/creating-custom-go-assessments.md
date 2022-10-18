@@ -25,7 +25,7 @@ If you want to add files that your hidden unit tests use and hence are also not 
 
 All unit tests must use the [`Ginkgo`](http://onsi.github.io/ginkgo/) assessment framework.
 
-The coding assessment must be compatible with `Go 1.15`.
+The coding assessment must be compatible with `Go 1.19`.
 
 All dependencies that your coding assessment requires need to be added to the `go.mod` file.
 
