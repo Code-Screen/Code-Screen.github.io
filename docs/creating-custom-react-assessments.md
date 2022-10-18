@@ -18,7 +18,7 @@ This repository will contain a skeleton <strong>React</strong> project, and the 
 You can then update this repository with details of your React assessment and start sending the assessment to candidates.
 
 ### Automated test-suite setup
-If you would like to add assessments that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as unit tests or end-to-end assessments.
+If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as unit tests or end-to-end assessments.
 
 All unit tests files must use the [Jest](https://jestjs.io/) assessment framework, and all end-to-end assessments must use the [Cypress](https://www.cypress.io/) E2E assessment framework.
 

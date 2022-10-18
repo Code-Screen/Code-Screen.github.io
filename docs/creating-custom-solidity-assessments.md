@@ -17,7 +17,7 @@ This repository will contain a skeleton <strong>Solidity</strong> project, and t
 
 ### Automated test-suite setup
 
-If you would like to add assessments that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as test files in the `test/` directory.
+If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as test files in the `test/` directory.
 
 All unit tests must use the `Truffle` testing framework. They can be written in either `Solidity` or `JavaScript`.
 

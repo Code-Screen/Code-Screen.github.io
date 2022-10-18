@@ -17,7 +17,7 @@ This repository will contain a skeleton `TypeScript Node.js` project, and the RE
 
 ### Automated test-suite setup
 
-If you would like to add assessments that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as assessment files in the `tests/` directory.
+If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as unit test files in the `tests/` directory.
 
 All unit tests use the `Jest` testing framework.
 

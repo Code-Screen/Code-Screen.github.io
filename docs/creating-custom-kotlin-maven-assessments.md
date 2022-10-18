@@ -17,7 +17,7 @@ This repository will contain a skeleton <strong>Maven</strong> project, and the 
 
 ### Automated test-suite setup
 
-If you would like to add assessments that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as test classes in the `src/test/kotlin/` directory.
+If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as test classes in the `src/test/kotlin/` directory.
 
 All unit test filenames must end with `"Test"` and all unit test filenames that end with `"HiddenTest"` will not be visible to the candidate. These hidden unit tests allow you to test candidate's solutions against edge cases etc.
 

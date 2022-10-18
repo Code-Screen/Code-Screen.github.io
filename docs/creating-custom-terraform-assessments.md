@@ -25,7 +25,7 @@ This repository will contain a skeleton <strong>Terraform</strong> project, and 
 
 ### Automated test-suite setup
 
-If you would like to add assessments that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these to the existing `foo_assessment.go` file in the template repository. It would be best if you also renamed this `foo_assessment.go` file to something more relevant to your assessment.
+If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these to the existing `foo_assessment.go` file in the template repository. It would be best if you also renamed this `foo_assessment.go` file to something more relevant to your assessment.
 
 We use the [Terraassessment](https://terraassessment.gruntwork.io/) `Go` library to run automated assessments against the resources that are created when we run & deploy the candidate's Terraform code.
 

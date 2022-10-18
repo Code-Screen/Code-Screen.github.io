@@ -17,7 +17,7 @@ This repository will contain a skeleton <strong>PHP</strong> project, and the RE
 
 ### Automated test-suite setup
 
-If you would like to add assessments that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as test classes in the `tests/` directory.
+If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as test classes in the `tests/` directory.
 
 All unit test class filenames must end with `Test.php` and the test classes with filenames that end with `HiddenTest.php` will not be visible to the candidate.
 

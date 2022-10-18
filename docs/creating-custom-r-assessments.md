@@ -17,7 +17,7 @@ This repository will contain a skeleton <strong>R</strong> project, and the READ
 
 ### Automated test-suite setup
 
-If you would like to add assessments that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as assessment files in the `tests/` directory.
+If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as unit test files in the `tests/` directory.
 
 All unit tests files must be added in the `assessments/` directory and use the [assessmentthat](https://assessmentthat.r-lib.org/) package.
 

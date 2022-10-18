@@ -17,9 +17,9 @@ This repository will contain a skeleton <strong>Go</strong> project, and the REA
 
 ### Automated test-suite setup
 
-If you would like to add assessments that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as assessment files.
+If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as unit test files.
 
-All unit test filenames must end with `_assessment.go` and all unit test files with names ending with `_hidden_assessment.go` will not be visible to the candidate.
+All unit test filenames must end with `_test.go` and all unit test files with names ending with `_hidden_test.go` will not be visible to the candidate.
 
 If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `hidden_foo.go` etc.
 

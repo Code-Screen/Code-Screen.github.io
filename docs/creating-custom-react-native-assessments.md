@@ -19,7 +19,7 @@ You can then update this repository with details of your assessment and start se
 
 ### Automated test-suite setup
 
-If you would like to add assessments that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as end-to-end assessments.
+If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as end-to-end assessments.
 
 All end-to-end assessments must use the [Cypress](https://www.cypress.io/) E2E assessment framework.
 

@@ -17,12 +17,11 @@ This repository will contain a skeleton <strong>SBT</strong> project, and the RE
 
 ### Automated test-suite setup
 
-If you would like to add assessments that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as test classes in the `src/test/` directory.
+If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as test classes in the `src/test/` directory.
 
 All unit tests files must end with `Test.scala` and all unit tests files that end with `HiddenTest.scala` will not be visible to the candidate.
 
-If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of 
-these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.scala`, etc.
+If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.scala`, etc.
 
 All unit tests must use the [`JUnit`](https://junit.org/junit5/) assessment framework.
 

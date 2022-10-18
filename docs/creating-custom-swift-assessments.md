@@ -23,7 +23,7 @@ This repository will contain a skeleton `Xcode` project, and the README will con
 
 ### Automated test-suite setup
 
-If you would like to add assessments that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as test classes in the `iOS-CodeScreen/iOS-CodeScreenTests/` directory.
+If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as test classes in the `iOS-CodeScreen/iOS-CodeScreenTests/` directory.
 
 All unit test class filenames must end with `Tests.swift` and the test classes with filenames that end with `HiddenTests.swift` will not be visible to the candidate. All unit tests must use the [XCTest](https://developer.apple.com/documentation/xctest) testing framework.
 

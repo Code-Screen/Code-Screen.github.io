@@ -17,7 +17,7 @@ This repository will contain a skeleton <strong>Django</strong> project, and the
 
 ### Automated test-suite setup
 
-If you would like to add assessments that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as unit test files.
+If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as unit test files.
 
 All unit test filenames must begin with `test_` and all unit test files with names beginning with `test_hidden_` will not be visible to the candidate.
 
