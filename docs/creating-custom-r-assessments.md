@@ -19,15 +19,15 @@ This repository will contain a skeleton <strong>R</strong> project, and the READ
 
 If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as unit test files in the `tests/` directory.
 
-All unit tests files must be added in the `assessments/` directory and use the [assessmentthat](https://assessmentthat.r-lib.org/) package.
+All unit tests files must be added in the `tests/` directory and use the [testthat](https://testthat.r-lib.org/) package.
 
-All unit test filenames must begin with `test_` and unit test files with filenames that begin with `assessment_hidden` will not be visible to the candidate.
+All unit test filenames must begin with `test_` and unit test files with filenames that begin with `test_hidden` will not be visible to the candidate.
 
 If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `hidden_foo.R`, etc.
 
 All dependencies required for your coding assessment must be added to the `install.sh` file.
 
-The `install.R` and `run_assessments.sh` files should not be modified.
+The `install.R` and `run_tests.sh` files should not be modified.
 
 Your coding assessment also must use/be compatible with `R` version `4.0.3`.
 

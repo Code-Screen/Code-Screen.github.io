@@ -19,11 +19,11 @@ This repository will contain a skeleton <strong>Ruby on Rails</strong> template 
 
 If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as unit test files in the `test/` directory.
 
-All unit tests must extend [`ActiveSupport::assessmentCase`](https://api.rubyonrails.org/v6.0.2.2/classes/ActiveSupport/assessmentCase.html).
+All unit tests must extend [`ActiveSupport::TestCase`](https://api.rubyonrails.org/v6.0.2.2/classes/ActiveSupport/TestCase.html).
 
-All integration assessments must extend [`ActionDispatch::Integrationassessment`](https://api.rubyonrails.org/v6.0.2.2/classes/ActionDispatch/Integrationassessment.html).
+All integration tests must extend [`ActionDispatch::IntegrationTest`](https://api.rubyonrails.org/v6.0.2.2/classes/ActionDispatch/IntegrationTest.html).
 
-All unit/integration assessment filenames must begin with `assessment_` and unit/integration assessment files with filenames that begin with `assessment_hidden` will not be visible to the candidate.
+All unit/integration test filenames must begin with `test_` and unit/integration test files with filenames that begin with `test_hidden` will not be visible to the candidate.
 
 If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, etc.
 

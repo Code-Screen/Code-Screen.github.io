@@ -27,7 +27,7 @@ these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`,
 `PHP` version 7.4 must be used and all dependencies that your coding assessment requires need to be added to the `composer.json`
 file.
 
-All unit tests must use be located in the `assessments/` directory and use the [`PHPUnit`](https://phpunit.de)(version 8.1.2) testing framework.
+All unit tests must use be located in the `tests/` directory and use the [`PHPUnit`](https://phpunit.de)(version 8.1.2) testing framework.
 
 ### Code validation
 

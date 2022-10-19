@@ -19,9 +19,9 @@ This repository will contain a skeleton <strong>Rust</strong> project, and the R
 
 If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as unit test files in the `tests/` directory.
 
-All unit test files must be added in the `assessments/` directory and use the `assert Macros` from the `Rust standard library`.
+All unit test files must be added in the `tests/` directory and use the `assert Macros` from the `Rust standard library`.
 
-All assessment filenames must end with `_assessment.rs` and assessment files with filenames that end with `_hidden_assessment.rs` will not be visible to the candidate.
+All test filenames must end with `_test.rs` and test files with filenames that end with `_hidden_test.rs` will not be visible to the candidate.
 
 If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `hidden_foo.rs`, etc.
 
