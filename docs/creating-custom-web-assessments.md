@@ -22,7 +22,7 @@ You can then update this repository with details of your assessment and start se
 ### Automated test-suite setup
 If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as unit tests or end-to-end assessments.
 
-All unit tests files must use the [Jest](https://jestjs.io/) assessment framework, and all end-to-end assessments must use the [Cypress](https://www.cypress.io/) E2E assessment framework.
+All unit tests files must use the [Jest](https://jestjs.io/) test framework, and all end-to-end assessments must use the [Cypress](https://www.cypress.io/) E2E test framework.
 
 All unit test filenames must end with `.assessment.js`, `.assessment.ts` or `.assessment.tsx`, and unit test files with filenames that end with `.hidden.assessment.js`,
  `.hidden.assessment.ts` or `.hidden.assessment.tsx` will not be visible to the candidate.

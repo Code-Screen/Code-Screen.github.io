@@ -24,7 +24,7 @@ All unit test filenames must end with `"Test"` and all unit test filenames that 
 If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of 
 these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.kt`, etc.
 
-All unit tests must use the [`Junit`](https://junit.org/junit5/) assessment framework and the `pom.xml` file may only be updated to add dependencies required for your coding assessment.
+All unit tests must use the [`Junit`](https://junit.org/junit5/) test framework and the `pom.xml` file may only be updated to add dependencies required for your coding assessment.
 
 ### Examples
 

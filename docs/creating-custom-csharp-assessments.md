@@ -24,7 +24,7 @@ All unit test class names must end with `"Test"` and all unit test classes with 
 If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of
 these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.cs`, etc.
 
-All unit tests must use the [`Nunit`](https://nunit.org/) assessment framework.
+All unit tests must use the [`Nunit`](https://nunit.org/) test framework.
 
 The `.csproj` file should be renamed, and the `RootNamespace` element in this file must be updated to match this
 new name. The only other updates that should go in to the `.csproj` file are dependencies required for your coding assessment.

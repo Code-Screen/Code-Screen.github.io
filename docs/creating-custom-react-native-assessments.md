@@ -21,7 +21,7 @@ You can then update this repository with details of your assessment and start se
 
 If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as end-to-end assessments.
 
-All end-to-end assessments must use the [Cypress](https://www.cypress.io/) E2E assessment framework.
+All end-to-end assessments must use the [Cypress](https://www.cypress.io/) E2E test framework.
 
 All end-to-end assessment filenames must end with `.cy.js`, and end-to-end assessment files with filenames that end with `-hidden.cy.js` will not be visible to the candidate.
 
