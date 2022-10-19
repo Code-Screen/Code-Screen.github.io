@@ -25,9 +25,9 @@ This repository will contain a skeleton <strong>Terraform</strong> project, and 
 
 ### Automated test-suite setup
 
-If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these to the existing `foo_assessment.go` file in the template repository. It would be best if you also renamed this `foo_assessment.go` file to something more relevant to your assessment.
+If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these to the existing `foo_test.go` file in the template repository. It would be best if you also renamed this `foo_test.go` file to something more relevant to your assessment.
 
-We use the [Terraassessment](https://terraassessment.gruntwork.io/) `Go` library to run automated assessments against the resources that are created when we run & deploy the candidate's Terraform code.
+We use the [Terratest](https://terratest.gruntwork.io/) `Go` library to run automated tests against the resources that are created when we run & deploy the candidate's Terraform code.
 
 For custom assessments, the candidate's Terraform code must be deployed to an `AWS` or `GCP` account that belongs to you.
 
@@ -36,9 +36,8 @@ Likewise, for `GCP`, a service account with all the required permissions must be
 
 Note that the candidate's Terraform code must use/be compatible with Terraform version `0.12.25`. This requirement is specified in the `main.tf` file.
 
-You can add more than one unit test files. All unit test file names must end with `_assessment.go`, and all unit test classes with names that end with `_hidden_assessment.go` will not be visible to the candidate. These hidden unit tests allow you to test candidate's solutions against edge cases etc.
+You can add more than one unit test files. All unit test file names must end with `_test.go`, and all unit test classes with names that end with `_hidden_test.go` will not be visible to the candidate. These hidden unit tests allow you to test candidate's solutions against edge cases etc.
 
-If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of
-these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `hidden_foo.go`, etc.
+If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `hidden_foo.go`, etc.
 
 The existing dependencies and versions in the `go.mod` file must not be modified.
