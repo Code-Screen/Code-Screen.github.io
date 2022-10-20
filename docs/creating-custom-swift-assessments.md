@@ -30,7 +30,7 @@ All unit test class filenames must end with `Tests.swift` and the test classes w
 If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of 
 these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.swift`, etc.
 
-`Xcode` version 12.1 must be used.
+`Xcode` version 14 must be used.
 
 ### Examples
 
