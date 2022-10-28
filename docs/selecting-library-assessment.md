@@ -32,7 +32,7 @@ The difficulty level attached to each assessment will be one of the following th
  * **Medium** - Junior/Medium level developer. 2 - 5 years experience.
  * **Hard** - Senior developer. 5+ years experience.
 
-To find out more information about a assessment, click the `More detail` blue button:
+To find out more information about an assessment, click the `More detail` blue button:
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
@@ -44,4 +44,4 @@ To find out more information about a assessment, click the `More detail` blue bu
 
 The `More detail` section contains the full list of skills assessed during the assessment and a link to the GitHub repository for each language the assessment is available in. Each repository contains a full description of the assessment.
 
-To select a assessment, just click the `Select` arrow button beside the name of the assessment you want to select. Once you select a assessment, you will be brought to the [Create Library assessment](creating-library-assessment.md) screen.
+To select an assessment, just click the `Select` arrow button beside the name of the assessment you want to select. Once you select an assessment, you will be brought to the [Create Library assessment](creating-library-assessment.md) screen.

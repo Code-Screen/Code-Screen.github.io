@@ -1,7 +1,6 @@
 # Editing Email Templates
 
-Candidates receive multiple emails from CodeScreen during their journey through a CodeScreen assessment, from when they
-are initially sent a assessment to when they submit their solution.
+Candidates receive multiple emails from CodeScreen during their journey through a CodeScreen assessment, from when they are initially sent an assessment to when they submit their solution.
 
 We provide the option to edit these email templates to include your company's logo and wording, which gives the candidate
 more of a consistent experience across your interview process.

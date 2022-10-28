@@ -4,7 +4,7 @@ The person who initially creates the account for your organization on CodeScreen
 
 Users with the `Admin` role can edit email templates, add/edit/delete other users, view API & ATS keys, enforce security policies, view audit logs and access/update your account's billing details.
 
-Our other roles have been modelled on a typical software developent team structure, so each role maps to a assessment category, e.g. the `Backend` role refers to backend assessments (Python, Java, etc.), the `Frontend` role refers to frontend assessments (React, Angular, etc.).
+Our other roles have been modelled on a typical software developent team structure, so each role maps to an assessment category, e.g. the `Backend` role refers to backend assessments (Python, Java, etc.), the `Frontend` role refers to frontend assessments (React, Angular, etc.).
 
 A list of all non-admin roles (and the languages/frameworks it covers) is given below:
 

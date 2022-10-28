@@ -1,7 +1,6 @@
 # Re-Sending assessments
 
-Once a candidate is sent a assessment, and their time runs out before they start/push any changes to their `GitHub` repository,
-the assessment will expire, and they will automatically be marked as a `Failure`.
+Once a candidate is sent an assessment, and their time runs out before they start/push any changes to their `GitHub` repository, the assessment will expire, and they will automatically be marked as a `Failure`.
 
 If you would like to then re-send the assessment to the candidate, please follow these instructions:
 

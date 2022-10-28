@@ -19,7 +19,7 @@ To get started, click the `Anonymize candidates` check box when creating a new a
 **Note** if you want to turn this feature on for one of your existing assessments, please let us know via <a href="mailto:hello@codescreen.com">email</a>
  or our live chat and we will switch it on for you.
 
- Once you send a assessment to a candidate when the anonymize candidates feature is enabled, we will display random names for each candidate
+ Once you send an assessment to a candidate when the anonymize candidates feature is enabled, we will display random names for each candidate
  and no longer show their email address:
 
 <figure>

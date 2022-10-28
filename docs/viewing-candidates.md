@@ -1,6 +1,6 @@
 # Viewing Candidates
 
-When you click into a assessment from the home screen, you will see a table containing all the candidates you have sent the assessment to.
+When you click into an assessment from the home screen, you will see a table containing all the candidates you have sent the assessment to.
 
 This table is broken into three different sections:
 
