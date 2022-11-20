@@ -1,19 +1,19 @@
 # List assessments
 
 The ```
-GET https://app.codescreen.com/api/listassessments
+GET https://app.codescreen.com/api/listTests
 ``` endpoint will retrieve the list of assessments that you have created on CodeScreen.
 
 
 ### Request
 
 ```
-curl -X GET https://app.codescreen.com/api/listassessments -H 'Authorization: apiKey c5793bc0-4176-4dec-b59c-ff47337f01c4' 
+curl -X GET https://app.codescreen.com/api/listTests -H 'Authorization: apiKey c5793bc0-4176-4dec-b59c-ff47337f01c4' 
 
 ```
 <br/>For example, if you have the following assessments on CodeScreen:
 
-![assessments Table](assessments.png)
+![Assessments Table](assessments.png)
 
 ### Response
 

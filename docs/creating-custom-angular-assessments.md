@@ -25,7 +25,7 @@ All unit tests files must use the Angular default [Jasmine](https://angular.io/g
 
 All unit test filenames must end with `.spec.ts` and unit test files with filenames that end with `.hidden.spec.ts` will not be visible to the candidate.
 
-All end-to-end assessment filenames must end with `-spec.cy.ts`, and end-to-end assessment files with filenames that end with `-hidden-spec.cy.ts` will not be visible to the candidate.
+All end-to-end test filenames must end with `-spec.cy.ts`, and end-to-end test files with filenames that end with `-hidden-spec.cy.ts` will not be visible to the candidate.
 
 If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `hidden-foo.ts`, etc.
 

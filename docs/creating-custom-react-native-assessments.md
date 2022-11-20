@@ -23,7 +23,7 @@ If you would like to add tests that are automatically run by CodeScreen against 
 
 All end-to-end assessments must use the [Cypress](https://www.cypress.io/) E2E test framework.
 
-All end-to-end assessment filenames must end with `.cy.js`, and end-to-end assessment files with filenames that end with `-hidden.cy.js` will not be visible to the candidate.
+All end-to-end test filenames must end with `.cy.js`, and end-to-end test files with filenames that end with `-hidden.cy.js` will not be visible to the candidate.
 
 If you want to add files that your hidden end to end assessments use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `hidden-foo.ts`, etc.
 

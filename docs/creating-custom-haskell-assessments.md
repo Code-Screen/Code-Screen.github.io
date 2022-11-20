@@ -21,7 +21,7 @@ If you would like to add unit tests that are automatically run by CodeScreen aga
 
 All unit tests files must be added in the `test/` directory.and use the `Hspec` testing framework.
 
-All assessment filenames must end with `Spec.hs` and assessment files with filenames that end with `HiddenSpec.hs` will not be visible to the candidate.
+All test filenames must end with `Spec.hs` and test files with filenames that end with `HiddenSpec.hs` will not be visible to the candidate.
 
 If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of 
 these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.hs`, etc.

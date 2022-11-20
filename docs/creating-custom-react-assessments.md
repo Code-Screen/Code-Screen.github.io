@@ -25,7 +25,7 @@ All unit tests files must use the [Jest](https://jestjs.io/) test framework, and
 All unit test filenames must end with `.assessment.js`, `.assessment.ts` or `.assessment.tsx`, and unit test files with filenames that end with `.hidden.assessment.js`,
  `.hidden.assessment.ts` or `.hidden.assessment.tsx` will not be visible to the candidate.
 
-All end-to-end assessment filenames must end with `.spec.js` or `.spec.ts`, and end-to-end assessment files with filenames that end with `.hidden.spec.js` or `.hidden.spec.ts` will not be visible to the candidate.
+All end-to-end test filenames must end with `.spec.js` or `.spec.ts`, and end-to-end test files with filenames that end with `.hidden.spec.js` or `.hidden.spec.ts` will not be visible to the candidate.
 
 If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of 
 these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.js`, etc.
