@@ -1,6 +1,6 @@
 # Creating Custom TypeScript (Node.js) Assessments
 CodeScreen allows you to add your own assessment and send it to candidates.</br></br>
-To begin, log on to [CodeScreen](https://app.codescreen.com/#/login), click <strong>Add new assessment</strong>, and select <strong>Custom assessment</strong>.</br>
+To begin, log on to [CodeScreen](https://app.codescreen.com/account/login), click <strong>Add new assessment</strong>, and select <strong>Custom assessment</strong>.</br>
 
 You can then add the description of your assessment, choose <strong>TypeScript</strong> from the drop-down list of available backend languages, and set the time limit for the assessment.</br>
 
