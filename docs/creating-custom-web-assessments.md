@@ -20,12 +20,12 @@ This repository will contain a skeleton project, and the README will contain the
 You can then update this repository with details of your assessment and start sending the assessment to candidates.
 
 ### Automated test-suite setup
-If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as unit tests or end-to-end assessments.
+If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as unit tests or end-to-end tests.
 
-All unit tests files must use the [Jest](https://jestjs.io/) test framework, and all end-to-end assessments must use the [Cypress](https://www.cypress.io/) E2E test framework.
+All unit tests files must use the [Jest](https://jestjs.io/) test framework, and all end-to-end tests must use the [Cypress](https://www.cypress.io/) E2E test framework.
 
-All unit test filenames must end with `.assessment.js`, `.assessment.ts` or `.assessment.tsx`, and unit test files with filenames that end with `.hidden.assessment.js`,
- `.hidden.assessment.ts` or `.hidden.assessment.tsx` will not be visible to the candidate.
+All unit test filenames must end with `.test.js`, `.test.ts` or `.test.tsx`, and unit test files with filenames that end with `.hidden.test.js`,
+ `.hidden.test.ts` or `.hidden.test.tsx` will not be visible to the candidate.
 
 All end-to-end test filenames must end with `.spec.js` or `.spec.ts`, and end-to-end test files with filenames that end with `.hidden.spec.js` or `.hidden.spec.ts` will not be visible to the candidate.
 
