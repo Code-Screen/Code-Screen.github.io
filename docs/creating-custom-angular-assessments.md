@@ -21,7 +21,7 @@ You can then update this repository with details of your Angular assessment and 
 
 If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as unit tests or end-to-end tests.
 
-All unit tests files must use the Angular default [Jasmine](https://angular.io/guide/testing) test framework & [Karma](https://angular.io/guide/testing) assessment runner and all end-to-end tests must use the [Cypress](https://www.cypress.io/) E2E test framework.
+All unit tests files must use the Angular default [Jasmine](https://angular.io/guide/testing) test framework & [Karma](https://angular.io/guide/testing) test runner and all end-to-end tests must use the [Cypress](https://www.cypress.io/) E2E test framework.
 
 All unit test filenames must end with `.spec.ts` and unit test files with filenames that end with `.hidden.spec.ts` will not be visible to the candidate.
 
