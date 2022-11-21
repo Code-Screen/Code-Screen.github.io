@@ -28,3 +28,7 @@ If you want to add files that your hidden unit tests use and hence are also not 
 these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.js`, etc.
 
 The `package.json` file may be updated to add any third-party libraries required for your assessment.
+
+### Examples
+
+Check out our `Vue` library assessments to see examples of how our Vue assesments are structured.
