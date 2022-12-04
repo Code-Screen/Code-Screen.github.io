@@ -29,6 +29,37 @@ The `package.json` file should only be modified in order to add any third-party 
 
 The coding assessment must be compatible with Node.js version `15.5.1`.
 
+#### GitHub Action
+
+CodeScreen uses GitHub Actions to run automated unit tests. We provide the following GitHub Action file for SQL assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
+
+```
+name: Node.js CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [15.x]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: npm ci
+    - run: npm run build --if-present
+    - run: npm test
+```
+
 ### Examples
 
 Check out the template repo or any of our `SQL` library assessments to see examples of how our SQL assesments are structured.

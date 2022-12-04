@@ -31,6 +31,32 @@ Your coding assessment also must use/be compatible with `Ruby version 3.0`.
 
 The current content of the `Rakefile` must not be modified. You may add to the `Rakefile` as required for your coding assessment.
 
+#### GitHub Action
+
+CodeScreen uses GitHub Actions to run automated unit tests. We provide the following GitHub Action file for Ruby assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
+
+```
+name: Ruby
+
+on: [push]
+
+jobs:
+  test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@473e4d8fe5dd94ee328fdfca9f8c9c7afc9dae5e
+      with:
+        ruby-version: 3.0
+    - name: Install
+      run: bundle install
+    - name: Test
+      run: bundle exec rake test
+```
+
 ### Examples
 
 An **example** `Ruby` assessment that uses automated test suite scoring can be seen here:<br/>

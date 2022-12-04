@@ -29,6 +29,33 @@ file.
 
 All unit tests must use be located in the `tests/` directory and use the [`PHPUnit`](https://phpunit.de)(version 8.1.2) testing framework.
 
+#### GitHub Action
+
+CodeScreen uses GitHub Actions to run automated unit tests. We provide the following GitHub Action file for WordPress assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
+
+```
+name: WordPress CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: nanasess/setup-php@master
+      with:
+        php-version: '7.4'
+    - name: Update composer
+      run: composer update
+    - name: Install dependencies
+      run: composer install
+    - name: Run tests
+      run: vendor/bin/phpunit tests/
+```
+
 ### Code validation
 
 We also validate each candidate's solution against the WordPress [Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/), and flag any issues we find in the static analysis issues section of our [result screen](https://code-screen.github.io/docs/#/results).

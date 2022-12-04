@@ -33,3 +33,52 @@ If you want to add files that your hidden unit tests use and hence are also not 
 these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.js`, etc.
 
 The `package.json` file may be updated to add any third-party libraries and any `scripts` commands required for your assessment.
+
+#### GitHub Action
+
+CodeScreen uses GitHub Actions to run automated unit & integration tests. We provide the following GitHub Action file for Web assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
+
+```
+name: Web CI
+
+on: push
+
+jobs:
+
+  unit:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Run Jest tests
+      run: npm test -- --passWithNoTests
+
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Check Cypress tests exist
+      id: check_cypress_tests
+      uses: andstor/file-existence-action@v1
+      with:
+        files: "cypress/integration/"
+
+    - name: Install and run Cypress tests
+      uses: cypress-io/github-action@v2
+      if: steps.check_cypress_tests.outputs.files_exists == 'true'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        build: npm run build --if-present
+        start: npm start
+        wait-on: 'http://localhost:3000'
+```

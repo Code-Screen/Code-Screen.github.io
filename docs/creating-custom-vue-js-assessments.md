@@ -29,6 +29,43 @@ these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`,
 
 The `package.json` file may be updated to add any third-party libraries required for your assessment.
 
+#### GitHub Action
+
+CodeScreen uses GitHub Actions to run automated integration tests. We provide the following GitHub Action file for Vue assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
+
+```
+name: Vue CI
+
+on: push
+
+jobs:
+
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Check Cypress tests exist
+        id: check_cypress_tests
+        uses: andstor/file-existence-action@v1
+        with:
+          files: "cypress/e2e/"
+
+      - name: Install and run Cypress tests
+        uses: cypress-io/github-action@v4
+        if: steps.check_cypress_tests.outputs.files_exists == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          build: npm run build --if-present
+          start: npm run dev
+          wait-on: 'http://localhost:5173'
+```
+
 ### Examples
 
 Check out our `Vue` library assessments to see examples of how our Vue assesments are structured.

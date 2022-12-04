@@ -29,3 +29,26 @@ these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`,
 The `mix.exs` file should only be modified in order to change the name of the project and add any third-party dependencies required for your assessment.
 
 Your coding assessment must use/be comptabible with `Elixir 1.13` and `Erlang/OTP 24`.
+
+#### GitHub Action
+
+CodeScreen uses GitHub Actions to run automated unit tests. We provide the following GitHub Action file for Elixir assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
+
+```
+name: Elixir CI
+
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: erlef/setup-beam@v1
+      with:
+        otp-version: '24.1.6'
+        elixir-version: '1.13.2'
+    - run: mix deps.get
+    - run: mix compile
+    - run: mix test
+```

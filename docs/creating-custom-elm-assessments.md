@@ -26,6 +26,26 @@ The `elm.json` file should only be modified in order to add any third-party depe
 
 Your coding assessment must use/be comptabible with Elm version `0.19.1`.
 
+#### GitHub Action
+
+CodeScreen uses GitHub Actions to run automated unit tests. We provide the following GitHub Action file for Elm assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
+
+```
+name: Elm CI
+
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: jorelali/setup-elm@v3
+      with:
+        elm-version: 0.19.1
+    - run: npx elm-test
+```
+
 ### Examples
 
 An **example** `Elm` assessment that uses automated test suite scoring can be seen here:<br/>

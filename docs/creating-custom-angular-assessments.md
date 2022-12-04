@@ -33,6 +33,55 @@ Your assessment must use `Angular 13`, and the `package.json` file may only be c
 
 The other config files in the template repo must also not be changed, including the `karma.conf.js` and `cypress.config.ts` files.
 
+#### GitHub Action
+
+CodeScreen uses GitHub Actions to run automated unit & integration tests. We provide the following GitHub Action file for Angular assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
+
+```
+name: Angular CI
+
+on: push
+
+jobs:
+
+  unit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup
+        run: npm ci
+
+      - name: Test
+        run: npm test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
+
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Check Cypress tests exist
+        id: check_cypress_tests
+        uses: andstor/file-existence-action@v1
+        with:
+          files: "cypress/e2e/"
+
+      - name: Install and run Cypress tests
+        uses: cypress-io/github-action@v4
+        if: steps.check_cypress_tests.outputs.files_exists == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          build: npm run build --if-present
+          start: npm start
+          wait-on: 'http://localhost:4200'
+```
+
 ### Examples
 
 Please see our Angular library assessments for more information on how our Angular automated test suites are set up.

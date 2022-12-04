@@ -29,6 +29,30 @@ The name of the project in the `build.sbt` should be updated to better match you
 
 The `Scala` version that must be used is 2.13.6.
 
+#### GitHub Action
+
+CodeScreen uses GitHub Actions to run automated unit tests. We provide the following GitHub Action file for Scala assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
+
+```
+name: Scala CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up JDK 1.11
+      uses: actions/setup-java@v1
+      with:
+        java-version: 1.11
+    - name: Run tests
+      run: sbt -Dsbt.log.noformat=true test
+```
+
 ### Examples
 
 An **example** `Scala` assessment that uses automated test suite scoring can be seen here:<br/>

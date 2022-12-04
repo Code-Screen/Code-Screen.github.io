@@ -29,6 +29,38 @@ The `Cargo.toml` file should only be modified in order to add any third-party de
 
 The `Cargo 2018` edition must be used.
 
+#### GitHub Action
+
+CodeScreen uses GitHub Actions to run automated unit tests. We provide the following GitHub Action file for Rust assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
+
+```
+name: Rust CI
+
+on: [push]
+
+jobs:
+  build_and_test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - uses: actions-rs/toolchain@v1
+      with:
+        toolchain: stable
+
+    - name: Build
+      uses: actions-rs/cargo@v1
+      with:
+        command: build
+        args: --release --all-features
+
+    - name: Test
+      run: cargo test --no-fail-fast
+```
+
+
 ### Examples
 
 An **example** `Rust` assessment that uses automated test suite scoring can be seen here:<br/>

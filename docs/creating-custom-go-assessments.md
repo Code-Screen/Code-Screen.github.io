@@ -29,6 +29,37 @@ The coding assessment must be compatible with `Go 1.19`.
 
 All dependencies that your coding assessment requires need to be added to the `go.mod` file.
 
+#### GitHub Action
+
+CodeScreen uses GitHub Actions to run automated unit tests. We provide the following GitHub Action file for Go assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
+
+```
+name: Go
+
+on: [push]
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Go
+      uses: actions/setup-go@v2
+      with:
+        go-version: 1.19
+
+    - name: Get
+      run: go get -d -v ./...
+
+    - name: Build
+      run: go build -v ./...
+
+    - name: Test
+      run: go test -v ./...
+```
+
 ### Examples
 
 An **example** `Go` assessment that uses automated test suite scoring can be seen here:<br/>

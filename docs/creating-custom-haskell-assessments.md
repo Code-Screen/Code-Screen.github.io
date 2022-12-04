@@ -28,6 +28,30 @@ these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`,
 
 The `package.yaml` file should only be modified in order to add any third-party dependencies required for your solution.
 
+#### GitHub Action
+
+CodeScreen uses GitHub Actions to run automated unit tests. We provide the following GitHub Action file for Haskell assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
+
+```
+name: Haskell CI
+
+on: [push]
+
+jobs:
+  build_and_test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Build
+      run: stack build
+
+    - name: Test
+      run: stack test
+```
+
 ### Examples
 
 An **example** `Haskell` assessment that uses automated test suite scoring can be seen here:<br/>

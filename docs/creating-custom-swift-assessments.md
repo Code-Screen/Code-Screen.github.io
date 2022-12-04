@@ -32,6 +32,32 @@ these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`,
 
 `Xcode` version 14 must be used.
 
+#### GitHub Action
+
+CodeScreen uses GitHub Actions to run automated unit tests. We provide the following GitHub Action file for Swift assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
+
+```
+name: Swift CI
+
+on: push
+
+jobs:
+  build:
+    runs-on: macos-12
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: '14'
+
+      - name: Build App
+        run: cd iOS-CodeScreen; xcodebuild -scheme iOS-CodeScreen -destination "platform=iOS Simulator,name=iPhone 14,OS=latest"
+
+      - name: Run tests
+        run: cd iOS-CodeScreen; xcodebuild clean -scheme iOS-CodeScreen test -destination "platform=iOS Simulator,name=iPhone 14,OS=latest"
+```
+
 ### Examples
 
 Check out our `Swift` library assessments to see examples of how our Swift assesments are structured.

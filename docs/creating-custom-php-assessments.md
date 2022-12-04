@@ -28,6 +28,33 @@ Your assessment must use/be compatible with `PHP` version 8.0 and all dependenci
 
 All unit tests must use be located in the `tests/` directory and use the [`PHPUnit`](https://phpunit.de)(version 9.3.0) testing framework.
 
+#### GitHub Action
+
+CodeScreen uses GitHub Actions to run automated unit tests. We provide the following GitHub Action file for PHP assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
+
+```
+name: PHP
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: nanasess/setup-php@master
+      with:
+        php-version: '8.0'
+    - name: Update composer
+      run: composer update
+    - name: Install dependencies
+      run: composer install
+    - name: Run tests
+      run: vendor/bin/phpunit tests/
+```
+
 ### Examples
 
 An **example** `PHP` assessment that uses automated test suite scoring can be seen here:<br/>

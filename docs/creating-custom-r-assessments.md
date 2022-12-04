@@ -31,6 +31,35 @@ The `install.R` and `run_tests.sh` files should not be modified.
 
 Your coding assessment also must use/be compatible with `R` version `4.0.3`.
 
+#### GitHub Action
+
+CodeScreen uses GitHub Actions to run automated unit tests. We provide the following GitHub Action file for R assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
+
+```
+name: R CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up environment
+      uses: r-lib/actions/setup-r@v1
+      with:
+        r-version: '4.0.3'
+
+    - name: Download dependencies
+      run: ./install.sh
+
+    - name: Run tests
+      run: ./run_tests.sh
+```
+
 ### Examples
 
 An **example** `R` assessment that uses automated test suite scoring can be seen here:<br/>

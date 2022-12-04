@@ -32,8 +32,35 @@ The `pragma` version also must not be changed.
 
 The coding assessment must be compatible with Node.js version `15.5.1`.
 
-The maximum size that this repo can be is 400MB.
+#### GitHub Action
 
+CodeScreen uses GitHub Actions to run automated unit tests. We provide the following GitHub Action file for Solidity assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
+
+```
+name: Solidity CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [15.x]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: npm ci
+    - run: npm test
+```
 
 ### Examples
 
