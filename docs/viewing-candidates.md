@@ -24,19 +24,48 @@ An [Activity Log](viewing-activity-log.md) is available for each candidate, whic
 
 In the In Progress section, the `Time Left` initially shows how long the candidate has to start the assessment (based on the Deadline value for your assessment). Once a candidate starts their assessment, it shows how long they have to complete the assessment (based on the Time Limit value for your assessment). 
 
-There is also a `Last Event` column showing which step each candidate is at when taking one of your assessments. The full list of event types are given below:
+There is also a `Last Event` column showing which step each candidate is at when taking one of your assessments. The full list of event types (and an explanation on when each is created) are given in the table below:
 
-- `Sent Email`
-- `Opened Email`
-- `Clicked Email`
-- `Started`
-- `Pushed First Commit`
-- `Completed`
-- `Changes Requested`
-- `Opened Request Changes Email`
-- `Clicked Request Changes Email`
-- `Addressing Comments`
-- `Email Bounced`
+<table>
+<thead>
+<tr>
+<td style="white-space: nowrap;"><strong>Event</strong></td><td><strong>Description</strong></td></tr>
+</thead><tbody>
+<tr>
+<td style="color: #e96900;">Sent Email</td><td>A candidate is initially sent an assessment.</td>
+</tr>
+<tr style="background-color: white;">
+<td style="color: #e96900;">Opened Email</td><td>A candidate opens the email that is sent to them containing the link to start their assessment.</td>
+</tr>
+<tr>
+<td style="color: #e96900;">Clicked Email</td><td>A candidate clicks the link to start their assessment.</td>
+</tr>
+<tr style="background-color: white;">
+<td style="color: #e96900;">Started</td><td>A candidate begins the assessment.</td>
+</tr>
+<tr>
+<td style="color: #e96900;">Pushed First Commit</td><td>A candidate pushes their first commit to the GitHub repo created for their assessment.</td>
+</tr>
+<tr style="background-color: white;">
+<td style="color: #e96900;">Completed</td><td>A candidate submits their solution to their assessment.</td>
+</tr>
+<tr>
+<td style="color: #e96900;">Changes Requested</td><td>When you <a href="https://docs.codescreen.com/#/request-changes-on-candidates-solution">request changes</a> on a candidate's submission.</td>
+</tr>
+<tr style="background-color: white;">
+<td style="color: #e96900;">Opened Request Changes Email</td><td>When a candidate opens the email containing a link to start addressing your comments after changes have been requested on their solution.</td>
+</tr>
+<tr>
+<td style="color: #e96900;">Clicked Request Changes Email</td><td>When a candidate clicks the link to start addressing your comments after changes have been requested on their solution.</td>
+</tr>
+<tr style="background-color: white;">
+<td style="color: #e96900;">Addressing Comments</td><td>When a candidate has begun addressing your comments on their solution.</td>
+</tr>
+<tr>
+<td style="color: #e96900;">Email Bounced</td><td>When a email containing the link to start an assessment fails to send to a candidate. This happens when the recipient email address does not exist. </td>
+</tr>
+</tbody></table>
+
 
 ### Passed and Failed
 
