@@ -22,7 +22,9 @@ If you would like to then re-send the assessment to the candidate, please follow
   <img style="max-width: 40%;" src="resendAssessment2.png" alt="Resend Assessment 2"/>
 </figure>
 
-Please click the green `Resend assessment` button.
+<br>
+
+Please then click the green `Resend assessment` button.
 
 <br>
 
@@ -34,14 +36,20 @@ Please click the green `Resend assessment` button.
   <img style="max-width: 40%;" src="resendAssessment3.png" alt="Resend Assessment 3"/>
 </figure>
 
-Here you can enter the time the candidate has to complete the assessment from when it is re-sent. Once you set the time, 
-then click the `Yes` button. The assessment is then re-sent, the candidate is notified via email, and the candidate is placed back into
-the `In Progress` column.
+<br>
+
+The `Deadline` and `Time Limit` will be set to the current values of these parameters for this assessment, but you can edit these for this candidate you are re-sending the assessment to.
+
+Once you click the `Yes` button, the assessment is re-sent, the candidate is notified via email, and the candidate is placed back into the `In Progress` column.
+
+<br>
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
   <img style="max-width: 60%;" src="resendAssessment4.png" alt="Resend assessment 4"/>
 </figure>
+
+<br>
 
 That's it; you're all done!
