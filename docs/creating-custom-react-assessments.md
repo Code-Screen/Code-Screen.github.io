@@ -54,6 +54,8 @@ jobs:
 
     - name: Run Jest tests
       run: npm test -- --passWithNoTests
+      env:
+        CI: false
 
   e2e:
     runs-on: ubuntu-latest
