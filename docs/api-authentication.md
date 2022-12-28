@@ -11,12 +11,11 @@ To do this, log on to [CodeScreen](https://app.codescreen.com/account/login), he
 
 ![Results Table](apiKeyLarge.png)
 
-<br/>You then need to include this API key in the Authorization header of every request that you send to the CodeScreen API.
-The API key needs to be prefixed by the string `apiKey`.
+<br/>You then need to include this API key in the Authorization header of every request that you send to the CodeScreen API. The API key needs to be prefixed by the string `apiKey`.
 
 An example request is shown below:
 
 ```
-curl -X GET https://app.codescreen.com/api/listAssessments -H 'Authorization: apiKey c5793bc0-4176-4dec-b59c-ff47337f01c4' 
+curl -X GET https://app.codescreen.com/api/assessments -H 'Authorization: apiKey c5793bc0-4176-4dec-b59c-ff47337f01c4' 
 
 ```

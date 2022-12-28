@@ -1,8 +1,8 @@
-# Bulk Send assessment
+# Send Assessment
 
 The ```
-POST https://app.codescreen.com/api/bulkSendassessment
-``` endpoint allows you to send a CodeScreen assessment to multiple candidates at once.
+POST https://app.codescreen.com/api/assessments
+``` endpoint allows you to send a CodeScreen assessment to a candidate.
 
 
 ### Request
@@ -15,7 +15,7 @@ The body of this POST request will contain a JSON payload with the following fie
 <td style="white-space: nowrap;">Property Name</td><td>Type</td><td>Required</td><td>Description</td></tr>
 </thead><tbody>
 <tr>
-<td>assessmentId</td><td>String</td><td>Yes</td><td>The unique identifier of the assessment that you are sending to a candidate. Initially provided as a response to the <a href="#listassessments">List assessments endpoint</a>.</td></tr>
+<td>assessmentId</td><td>String</td><td>Yes</td><td>The unique identifier of the assessment that you are sending to a candidate. Initially provided as a response to the <a href="#list-assessments-endpoint">List Assessments endpoint</a>.</td></tr>
 <tr>
 <td>firstName</td><td>String</td><td>Yes</td><td>The first name of the candidate.</td></tr>
 <tr>
@@ -26,7 +26,7 @@ The body of this POST request will contain a JSON payload with the following fie
 <br/>An example request is shown below:
 
 ```
-curl -X POST https://app.codescreen.com/api/sendassessment \
+curl -X POST https://app.codescreen.com/api/assessments \
   -H 'Authorization: apiKey dbf4a385-02ab-7d10-bf0c-5hh991055317' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -48,7 +48,7 @@ If the request has succeeded, the response will be a `200 OK` containing JSON wi
 <td style="white-space: nowrap;">Property Name</td><td>Type</td><td>Required</td><td>Description</td></tr>
 </thead><tbody>
 <tr>
-<td>assessmentInstanceId</td><td>String</td><td>Yes</td><td>The unique identifier for the assessment instance that was send to the candidate. This id can be used to track the status of this assessment using the <a href="#getassessmentStatus">assessment Status endpoint</a>.</td></tr>
+<td>assessmentInstanceId</td><td>String</td><td>Yes</td><td>The unique identifier for the assessment instance that was send to the candidate. This id can be used to track the status of this assessment using the <a href="#get-assessment-status-endpoint">Get Assessment Status endpoint</a>.</td></tr>
 </tbody></table>
 
 An example response is shown below:
