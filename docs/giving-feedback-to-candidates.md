@@ -14,7 +14,7 @@ To do this, first click into the candidate's report, and then click `Give Feedba
 
 You can either then leave comments directly in text box shown above & click the Submit button, or you can leave comments inside the candidate's GitHub repo (see section below for more details) and then click the Submit button.
 
-That's it! The candidate will then receive an email containing your comments and granted back access to their GitHub repo.
+That's it! The candidate will then receive an email containing your comments and is granted read-only access to their GitHub repo.
 
 **Note** that all hidden unit test files are removed from the candidate's repo before we grant them back access.
 
