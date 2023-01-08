@@ -22,10 +22,9 @@ If you would like to add tests that are automatically run by CodeScreen against 
 
 All unit tests files must use the [Jest](https://jestjs.io/) test framework, and all end-to-end tests must use the [Cypress](https://www.cypress.io/) E2E test framework.
 
-All unit test filenames must end with `.test.js`, `.test.ts` or `.test.tsx`, and unit test files with filenames that end with `.hidden.test.js`,
- `.hidden.test.ts` or `.hidden.test.tsx` will not be visible to the candidate.
+All unit test filenames must end with `.test.js`, `.test.ts` or `.test.tsx`, and unit test files with filenames that end with `.hidden.test.js`, `.hidden.test.ts` or `.hidden.test.tsx` will not be visible to the candidate.
 
-All end-to-end test filenames must end with `.spec.js` or `.spec.ts`, and end-to-end test files with filenames that end with `.hidden.spec.js` or `.hidden.spec.ts` will not be visible to the candidate.
+All end-to-end test filenames must end with `.cy.js` or `.cy.ts`, and end-to-end test files with filenames that end with `.hidden.cy.js` or `.hidden.cy.ts` will not be visible to the candidate.
 
 If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of 
 these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.js`, etc.
@@ -70,10 +69,10 @@ jobs:
       id: check_cypress_tests
       uses: andstor/file-existence-action@v1
       with:
-        files: "cypress/integration/"
+        files: "cypress/e2e/"
 
     - name: Install and run Cypress tests
-      uses: cypress-io/github-action@v2
+      uses: cypress-io/github-action@v5
       if: steps.check_cypress_tests.outputs.files_exists == 'true'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -85,5 +84,4 @@ jobs:
 
 ### Examples
 
-An **example** `React` assessment that uses automated test suite scoring can be seen here:<br/>
-https://github.com/Code-Screen/React-CodeScreen-Stadiums-Example
+Check out our `React` library assessments to see examples of how our React assesments are structured.
