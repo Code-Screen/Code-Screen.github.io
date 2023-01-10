@@ -34,8 +34,6 @@ For custom assessments, the candidate's Terraform code must be deployed to an `A
 For us to have the permission to deploy to your `AWS` account, you must create an `IAM` user has all the required permissions to create the resources needed to pass your assessment successfully. The `AWS Access Key and Secret Key` for this user needs to be then added to the existing `credentials` file in the template repo.<br>
 Likewise, for `GCP`, a service account with all the required permissions must be created in your `GCP` account, and the service account's key `.json` file must be added to the template repo (replacing the existing `foo.json` file).
 
-Note that the candidate's Terraform code must use/be compatible with Terraform version `0.12.25`. This requirement is specified in the `main.tf` file.
-
 You can add more than one unit test files. All unit test file names must end with `_test.go`, and all unit test classes with names that end with `_hidden_test.go` will not be visible to the candidate. These hidden unit tests allow you to test candidate's solutions against edge cases etc.
 
 If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `hidden_foo.go`, etc.
@@ -59,9 +57,9 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Set up Terraform
-      uses: hashicorp/setup-terraform@v1
+      uses: hashicorp/setup-terraform@v2
       with:
-        terraform_version: 0.12.25
+        terraform_version: 1.3.7
         terraform_wrapper: false
 
     - name: Set up Go
