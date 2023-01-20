@@ -51,7 +51,8 @@
 - Sending Assessments
 
   - [Sending Assessments](sending-assessments.md)
-  - [Re-sending Assessments](resending-assessments.md)
+  - [Resending Assessments](resending-assessments.md)
+    - [Bulk resend](bulk-resending-assessments.md)
   - [Extending Time](extending-candidate-time.md)
 
 - Viewing Candidates
