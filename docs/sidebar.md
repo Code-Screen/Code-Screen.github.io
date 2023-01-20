@@ -52,7 +52,7 @@
 
   - [Sending Assessments](sending-assessments.md)
   - [Resending Assessments](resending-assessments.md)
-    - [Bulk resend](bulk-resending-assessments.md)
+    - [Bulk Resend](bulk-resending-assessments.md)
   - [Extending Time](extending-candidate-time.md)
 
 - Viewing Candidates
