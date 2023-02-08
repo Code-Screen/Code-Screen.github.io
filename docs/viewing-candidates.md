@@ -86,7 +86,7 @@ The Failed section will also contain a `Reason` field, which will be one of the 
 <table>
 <thead>
 <tr>
-<td style="white-space: nowrap;"><strong>Failure Reason</strong></td><td><strong>Description</strong></td></tr>
+<td style="white-space: nowrap;"><strong>Reason</strong></td><td><strong>Description</strong></td></tr>
 </thead><tbody>
 <tr>
 <td style="color: #e96900; white-space: nowrap;">Build Failure</td><td>Occurs when a candidate's solution fails to build/compile, preventing our analysis runner from advancing to the stage where it runs the automated tests.</td>
