@@ -71,12 +71,38 @@ There is also a `Last Event` column showing which step each candidate is at when
 
 Both the `Passed` and `Failed` sections will contain a `Score` field, which is calculated as the number of passing unit tests ÷ number of total unit tests, given as a percentage. You can also sort the candidates by score.
 
-The Failed section will also contain a `Reason` field, which will either be `unit tests` or `Expired`.
-
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
   <img style="max-width: 80%;" src="failedSection.png" alt="Send assessment 3"/>
 </figure>
+
+<br>
+
+The Failed section will also contain a `Reason` field, which will be one of the following values:
+
+<br>
+
+<table>
+<thead>
+<tr>
+<td style="white-space: nowrap;"><strong>Failure Reason</strong></td><td><strong>Description</strong></td></tr>
+</thead><tbody>
+<tr>
+<td style="color: #e96900; white-space: nowrap;">Build Failure</td><td>Occurs when a candidate's solution fails to build/compile, preventing our analysis runner from advancing to the stage where it runs the automated tests.</td>
+</tr>
+<tr style="background-color: white; white-space: nowrap;">
+<td style="color: #e96900;">Build Timeout</td><td>Occurs when a candidate's solution is running for more than one hour.</td>
+</tr>
+<tr>
+<td style="color: #e96900;">Unit Tests</td><td>Occurs when a candidate's solution fails to pass the required number of passing unit tests for your assessment.</td>
+</tr>
+<tr style="background-color: white;">
+<td style="color: #e96900;">Expired</td><td>Occurs when a candidate does not start your assessment within the assessment's Deadline or starts the assessment but does not a push a commit to their GitHub repo within the assessment's Time Limit.</td>
+</tr>
+<tr>
+</tbody></table>
+
+<br>
 
 You can then click the [See Report](viewing-candidate-report.md) button which will bring you to a screen containing the full report we generated for the candidate.
