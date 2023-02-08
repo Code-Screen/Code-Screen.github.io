@@ -5,7 +5,7 @@ Once you choose a library assessment, you then need to give it a name (e.g. Pyth
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 40%;" src="libassessmentDetails1.png" alt="Lang Choice"/>
+  <img style="max-width: 40%;" src="libTestDetails1.png" alt="Lang Choice"/>
 </figure>
 
 <br>
@@ -16,7 +16,7 @@ solution and if you want to <a href="https://code-screen.github.io/docs/#/anonym
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 40%;" src="libassessmentDetails2.png" alt="Lang Choice"/>
+  <img style="max-width: 40%;" src="libTestDetails2.png" alt="Lang Choice"/>
 </figure>
 
 <br>
