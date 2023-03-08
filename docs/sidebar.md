@@ -95,6 +95,10 @@
 
   - [Anonymizing Candidates](anonymizing-candidates.md)
 
+- Live Coding With Context
+
+  - [Live Coding With Context](live-coding-with-context.md)
+
 - API
 
   - [Authentication](api-authentication)

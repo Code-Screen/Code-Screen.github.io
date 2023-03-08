@@ -18,5 +18,6 @@ This guide is broken into the following sections:
 * [Email Templates](editing-email-templates.md)
 * [Managing Users](adding-users.md)
 * [Anonymizing Candidates](anonymizing-candidates.md)
+* [Live Coding With Context](live-coding-with-context.md)
 * [CodeScreen API](api-authentication)
 * [FAQ](handling-github-404-error.md)
