@@ -27,7 +27,7 @@ If you want to add files that your hidden unit tests use and hence are also not 
 
 The `package.json` file should only be modified in order to add any third-party dependencies required for your solution. The `jest` and `babel` versions should not be changed.
 
-The coding assessment must be compatible with Node.js version `15.5.1`.
+The coding assessment must be compatible with Node.js version `18`.
 
 #### GitHub Action
 
@@ -45,7 +45,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [15.x]
+        node-version: [18.x]
 
     steps:
     - uses: actions/checkout@v2
@@ -55,6 +55,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         node-version: ${{ matrix.node-version }}
+    - run: npm install
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test -- --passWithNoTests
