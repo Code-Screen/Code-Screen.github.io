@@ -20,13 +20,11 @@ You can then update this repository with details of your `C++` assessment and st
 ### Automated test-suite setup
 If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as unit test files in the `test/` directory.
 
-All unit test filenames must end with `_test.cpp` and all unit test files with names that end with `_hidden_test.cpp` will not be visible to the candidate.
-
-If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden` (case-insensitive), e.g., `hidden-foo.json`, `hidden-foo.csv`, `hidden-foo.cpp`, etc.
-
-All unit tests must use the [GoogleTest](https://google.github.io/googletest/) testing framework.
+All unit test filenames must end with `_test.cpp` and must use the [GoogleTest](https://google.github.io/googletest/) testing framework.
 
 For your unit test files to be recognised by `GoogleTest`, each unit test file must be included as an argument in the `add_executable()` command in the `test/CMakeLists.txt` file.
+
+Note that hidden unit tests are not yet supported for C++ assessments.
 
 #### GitHub Action
 
