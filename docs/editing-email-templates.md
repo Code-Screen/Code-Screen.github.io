@@ -45,9 +45,9 @@ substitution variables that are used for each:
 <tr>
 <td>Acknowledgement</td><td>Sent after the candidates submits their solution for the assessment.</td><td>{assessmentTitle}, {companyName}.</td></tr>
 <tr style="background-color: white;">
-<td>Feedback</td><td>Sent to notify the candidate that you have given them feedback on their solution.</td><td>{assessmentTitle}, {companyName}, {repoUrl}, {comments}.</td></tr>
+<td>Feedback</td><td>Sent to notify the candidate that you have given them feedback on their solution.</td><td>{assessmentTitle}, {companyName}, {comments}.</td></tr>
 <tr>
-<td>Request Changes</td><td>Sent to notify the candidate that you have requested changes on their solution.</td><td>{assessmentTitle}, {companyName}, {candidateLinkUrl},{comments}.</td></tr>
+<td>Request Changes</td><td>Sent to notify the candidate that you have requested changes on their solution.</td><td>{assessmentTitle}, {companyName}, {candidateLinkUrl}, {comments}.</td></tr>
 </tbody></table>
 
 <br>
