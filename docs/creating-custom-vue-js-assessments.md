@@ -62,7 +62,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           build: npm run build --if-present
-          start: npm run dev
+          start: npm run dev -- --host
           wait-on: 'http://localhost:5173'
 ```
 
