@@ -9,7 +9,7 @@ Our other roles have been modelled on a typical software developent team structu
 A list of all non-admin roles (and the languages/frameworks it covers) is given below:
 
 - `Backend` - Java, Scala, Kotlin, Python, Node.js, PHP, .NET, Go, Haskell, Rust, Ruby, Elixir, Solidity, C++.
-- `Frontend` - Angular, React, Vue.js, Web.
+- `Frontend` - Angular, React, Vue.js, Svelte, Elm, Web.
 - `Mobile` - Swift, React Native.
 - `DevOps` - Terraform.
 - `DBA` - SQL.

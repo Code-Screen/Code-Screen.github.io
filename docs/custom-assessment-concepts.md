@@ -61,6 +61,7 @@ The guides for creating custom assessments in all of our supported languages & f
   - [React](creating-custom-react-assessments.md)
   - [React Native](creating-custom-react-native-assessments.md)
   - [Vue.js](creating-custom-vue-js-assessments.md)
+  - [Svelte](creating-custom-svelte-assessments.md)
   - [Elm](creating-custom-elm-assessments.md)
   - [Rails](creating-custom-rails-assessments.md)
   - [Django](creating-custom-django-assessments.md)
