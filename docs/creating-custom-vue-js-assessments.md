@@ -18,7 +18,7 @@ This repository will contain a skeleton <strong>Vue</strong> project, and the RE
 You can then update this repository with details of your Vue assessment and start sending the assessment to candidates.
 
 ### Automated test-suite setup
-If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these either unit tests or end-to-end tests.
+If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as either unit tests or end-to-end tests.
 
 All unit tests must use [Vitest](https://vitest.dev/) test framework and all end-to-end tests must use the [Cypress](https://www.cypress.io/) E2E test framework.
 
