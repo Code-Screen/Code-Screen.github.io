@@ -18,9 +18,11 @@ This repository will contain a skeleton <strong>Vue</strong> project, and the RE
 You can then update this repository with details of your Vue assessment and start sending the assessment to candidates.
 
 ### Automated test-suite setup
-If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as end-to-end tests.
+If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these either unit tests or end-to-end tests.
 
-All end-to-end tests must use the [Cypress](https://www.cypress.io/) E2E test framework.
+All unit tests must use [Vitest](https://vitest.dev/) test framework and all end-to-end tests must use the [Cypress](https://www.cypress.io/) E2E test framework.
+
+All unit test filenames must end with `.test.js` or `.test.ts`, and end-to-end test files with filenames that end with `.hidden.test.js` or `.hidden.test.ts` will not be visible to the candidate.
 
 All end-to-end test filenames must end with `.spec.js` or `.spec.ts`, and end-to-end test files with filenames that end with `.hidden.spec.js` or `.hidden.spec.ts` will not be visible to the candidate.
 
@@ -39,6 +41,18 @@ name: Vue CI
 on: push
 
 jobs:
+
+  unit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Vitest tests
+        run: npm run test:unit -- --passWithNoTests
 
   e2e:
     runs-on: ubuntu-latest
