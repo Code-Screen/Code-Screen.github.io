@@ -28,8 +28,6 @@ You can then add a new user by clicking the `Add New User` button, which will la
 
 <br>
 
-You can enter the user's `Name`, `Phone Number` (optional) and `Email`. 
-
-You can also then grant the user one or more roles depending on what access you want them to have (see [Roles](user-roles.md) section for more details).
+You can enter the user's `Name`, `Email` and select one or more roles depending on what access you want that user to have (see [Roles](user-roles.md) section for more details).
 
 You can now click the `Invite` blue button to finish adding the user. The user will then be sent a welcome email containing a link to sign in for the first time.
