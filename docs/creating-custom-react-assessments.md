@@ -20,16 +20,16 @@ You can then update this repository with details of your React assessment and st
 ### Automated test-suite setup
 If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as unit tests or end-to-end tests.
 
-All unit tests files must use the [Jest](https://jestjs.io/) test framework, and all end-to-end tests must use the [Cypress](https://www.cypress.io/) E2E test framework.
+All unit tests files must use the [Jest](https://jestjs.io/) or [Vitest](https://vitest.dev/) test framework, and all end-to-end tests must use the [Cypress](https://www.cypress.io/) E2E test framework.
 
-All unit test filenames must end with `.test.js`, `.test.ts` or `.test.tsx`, and unit test files with filenames that end with `.hidden.test.js`, `.hidden.test.ts` or `.hidden.test.tsx` will not be visible to the candidate.
+All unit test filenames must end with `.test.js`, `.test.jsx`, `.test.ts` or `.test.tsx`, and unit test files with filenames that end with `.hidden.test.js`, `.hidden.test.jsx`, `.hidden.test.ts` or `.hidden.test.tsx` will not be visible to the candidate.
 
 All end-to-end test filenames must end with `.cy.js` or `.cy.ts`, and end-to-end test files with filenames that end with `.hidden.cy.js` or `.hidden.cy.ts` will not be visible to the candidate.
 
 If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of 
 these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.js`, etc.
 
-The `package.json` file may be updated to add any third-party libraries required for your assessment.
+You can use either [Create React App](https://create-react-app.dev/) or [Vite](https://vitejs.dev/) as your project build tool.
 
 #### GitHub Action
 
@@ -51,7 +51,7 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Run Jest tests
+    - name: Run unit tests
       run: npm test -- --passWithNoTests
       env:
         CI: false
