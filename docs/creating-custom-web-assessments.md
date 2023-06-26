@@ -4,7 +4,7 @@ To begin, log on to [CodeScreen](https://app.codescreen.com/account/login), clic
 
 You can then add the description of your assessment, choose <strong>Web</strong> from the drop-down list of available frontend frameworks, and set the time limit for the assessment.</br>
 
-The <strong>Web</strong> option is suitable for when you want to create a custom frontend assessment that assessments a candidate's `HTML`, `CSS` and `JavaScipt/TypeScript` skills outside of a framework such as `React` or `Angular`.
+The <strong>Web</strong> option is suitable for when you want to create a custom frontend assessment that tests a candidate's `HTML`, `CSS` and `JavaScipt/TypeScript` skills outside of a framework such as `React` or `Angular`.
 
 Once you click <strong>Publish</strong>, a private GitHub repository will be created in the CodeScreen account, and you will be given access.
 This repository will contain a skeleton project, and the README will contain the description of the assessment that you added during the setup.</br></br>
