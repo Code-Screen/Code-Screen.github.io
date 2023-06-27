@@ -25,7 +25,7 @@ All end-to-end tests must use the [Cypress](https://www.cypress.io/) E2E test fr
 
 All end-to-end test filenames must end with `.cy.js`, and end-to-end test files with filenames that end with `-hidden.cy.js` will not be visible to the candidate.
 
-If you want to add files that your hidden end to end assessments use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `hidden-foo.ts`, etc.
+If you want to add files that your hidden tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `hidden-foo.ts`, etc.
 
 The `package.json` file may only be changed if you want to add third-party libraries to your assessment. All the current versions of the dependencies in `package.json` and `package-lock.json` must not be changed. 
 
