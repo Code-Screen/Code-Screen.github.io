@@ -72,10 +72,10 @@ jobs:
       id: check_cypress_tests
       uses: andstor/file-existence-action@v1
       with:
-        files: "cypress/integration/"
+        files: "cypress/e2e/"
 
     - name: Install and run Cypress tests
-      uses: cypress-io/github-action@v2
+      uses: cypress-io/github-action@v4
       if: steps.check_cypress_tests.outputs.files_exists == 'true'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
