@@ -17,7 +17,7 @@ When creating a new custom assessment, you can set the number of **required pass
 
 <p>
   
-**Note** that all unit test files you add are **immutable**, meaning that they cannot be edited by the candidate. <br> This prevents the scenario whereby the candidate changes all the asserts in your unit tests to pass (e.g. `assert(true == true)`), resulting in CodeScreen marking those unit tests as passing assessments and generating an inaccurate score for the candidate. <br> The `README` for your assessment should include a note stating the unit tests are immutable and that if the candidate wants to add their own unit tests, they need to add these in a separate unit test file(s).
+**Note** that all unit test files you add are **immutable**, meaning that they cannot be edited by the candidate. <br> This prevents the scenario whereby the candidate changes all the asserts in your unit tests to pass (e.g. `assert(true == true)`), resulting in CodeScreen marking those unit tests as passing and thus generating an inaccurate score for the candidate. <br> The `README` for your assessment should include a note stating the unit tests are immutable and that if the candidate wants to add their own unit tests, they need to add these in a separate unit test file(s).
   
 <p>
 

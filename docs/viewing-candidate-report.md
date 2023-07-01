@@ -22,8 +22,8 @@ This screen is broken into the following sections:
 ### Unit Test Cases Result
 
 In the top left, you can see the number of unit test cases that passed and failed when we ran them against the candidate's
-submission. You can also view more details on the failing test cases, which contains a summary of the percentage of passing assessments
-cases for each assessment suite and the individual failure message for each failing assessment case.
+submission. You can also view more details on the failing test cases, which contains a summary of the percentage of passing test
+cases for each assessment suite and the individual failure message for each failing test case.
 
 ### Code Coverage Result
 Below the unit test cases summary, we show the code coverage results. This is the percentage of the candidate's code that is covered by unit test cases.<br><br>
