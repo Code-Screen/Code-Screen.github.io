@@ -83,4 +83,4 @@ Enter your comment about where the candidate went wrong and what you think they 
 
 Once you have added your comments to the GitHub repo, go back to Request Changes pop-up in the CodeScreen application and click the Submit button.
 
-Please **note** that the candidate won't be able to see the hidden assessment case files after they get access back to the repo.<br>So please **do not** leave comments on the `"Added back hidden test files"` commit, as the candidate will not be able to see these comments.
+Please **note** that the candidate won't be able to see the hidden test case files after they get access back to the repo.<br>So please **do not** leave comments on the `"Added back hidden test files"` commit, as the candidate will not be able to see these comments.
