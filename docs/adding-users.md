@@ -5,7 +5,7 @@ to use.
 
 You can create as many users as you like as all of our pricing plans come with an unlimited number of users.
 
-You can add new users by clicking the `Your Account` entry in the drop down list that pops after you click on your name at the top right of the toolbar, and then choosing `Users` from the sections on the left:
+You can add new users by clicking the `Your Account` entry in the drop down list that pops up after you click on your name at the top right of the toolbar, and then choosing `Users` from the sections on the left:
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>

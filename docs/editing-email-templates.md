@@ -35,7 +35,7 @@ substitution variables that are used for each:
 </thead><tbody>
 <tr>
 <td>Begin Assessment</td><td>When a candidate is initially sent the assessment.</td><td>{firstName}, {assessmentTitle}, {companyName}, {candidateLinkUrl},
-{dateTimeToBeginassessmentDisplayValue}, {timeToCompleteassessmentBeginsDisplayValue}.</td></tr>
+{dateTimeToBeginTestDisplayValue}, {timeToCompleteTestBeginsDisplayValue}.</td></tr>
 <tr style="background-color: white;">
 <td>Assessment Details</td><td>When a candidate begins the assessment.</td><td>{assessmentTitle}, {companyName}, {candidateLinkUrl}, {repoUrl}.</td></tr>
 <tr>
@@ -60,6 +60,6 @@ An explanation on what each variable is referring to is provided below:
 * `{companyName}` - The name of your company you set when you signed up to CodeScreen. This can be edited <a href="https://app.codescreen.com/#/client-profile-edit/details" target="_blank">here</a>.
 * `{candidateLinkUrl}` - The link to the candidate's assessment page on CodeScreen.
 * `{repoUrl}` - The link to the candidate's private repo on GitHub.
-* `{dateTimeToBeginassessmentDisplayValue}` - The date time the candidate has until to begin the assessment, e.g. "11th November at 18:30 (UTC)". This is always displayed in the UTC timezone.
-* `{timeToCompleteassessmentBeginsDisplayValue}` - The number of hours/days the candidate has to complete the assessment from when they <br> begin the assessment, e.g. "3 hours", "1 day", etc.
+* `{dateTimeToBeginTestDisplayValue}` - The date time the candidate has until to begin the assessment, e.g. "11th November at 18:30 (UTC)". This is always displayed in the UTC timezone.
+* `{timeToCompleteTestBeginsDisplayValue}` - The number of hours/days the candidate has to complete the assessment from when they <br> begin the assessment, e.g. "3 hours", "1 day", etc.
 * `{comments}` - The list of comments that have been left on the candidate's GitHub repo when feedback is given/changes are requested.
