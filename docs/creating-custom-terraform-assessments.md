@@ -57,7 +57,7 @@ jobs:
     - uses: actions/checkout@v3
 
     - name: Set up Terraform
-      uses: hashicorp/setup-terraform@v2
+      uses: hashicorp/setup-terraform@v4
       with:
         terraform_version: 1.3.7
         terraform_wrapper: false
