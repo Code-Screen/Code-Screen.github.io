@@ -46,10 +46,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     - name: Set up environment
-      uses: r-lib/actions/setup-r@v1
+      uses: r-lib/actions/setup-r@v2
       with:
         r-version: '4.0.3'
 
