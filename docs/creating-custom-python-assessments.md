@@ -27,7 +27,7 @@ All unit tests must use the [`pytest`](https://docs.pytest.org/en/latest/) unit 
 
 Any dependencies required for your coding assessment need to be included in the `requirements.txt` file and must be available to download using the [`pip`](https://pip.pypa.io/en/stable/) package installer.
 
-Your assessment must be compatible with `Python` version `3.10`.
+Your assessment must be compatible with `Python` version `3.11`.
 
 #### GitHub Action
 
@@ -48,7 +48,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v3
       with:
-        python-version: '3.10'
+        python-version: '3.11'
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
