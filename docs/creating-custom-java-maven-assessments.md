@@ -26,7 +26,7 @@ these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`,
 
 All unit tests must use the [`Junit`](https://junit.org/junit5/) test framework and the `pom.xml` file may only be updated to add dependencies required for your coding assessment.
 
-The coding assessment must be compatible with `Java 16`.
+The coding assessment must be compatible with `Java 17`.
 
 #### GitHub Action
 
@@ -44,10 +44,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Set up JDK 1.16
+    - name: Set up JDK 1.17
       uses: actions/setup-java@v3
       with:
-        java-version: 1.16
+        distribution: oracle
+        java-version: 1.17
     - name: Build and Test
       run: mvn clean test
 ```
