@@ -12,7 +12,10 @@ To do this, first click into the candidate's report, and then click `Request Cha
 
 <br>
 
-You can either then leave comments directly in text box shown above & click the Submit button, or you can leave comments inside the candidate's GitHub repo (see section below for more details) and then click the Submit button.
+You can either then leave comments directly in text box shown above, or you can leave comments inside the candidate's GitHub repo (see section below for more details).
+
+Then, you must enter the Deadline & Time Limit that this candidate has to address your comments, and then click the
+blue `Submit` button.
 
 That's it! The candidate will receive an email containing your comments, the candidate is granted back access to their GitHub repo and the candidate is moved back into the In Progress column.
 
