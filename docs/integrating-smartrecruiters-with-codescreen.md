@@ -86,12 +86,12 @@ Once the candidate has submitted their assessment, you will be notified via emai
 
 <br>
 
-Once you click `SEE RESULT`, you will be redirected to the result page on the CodeScreen platform:
+Once you click `SEE RESULT`, you will be redirected to the report page on the CodeScreen platform, which will look like something similar to the following:
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 90%;" src="SmartRecruiters7.png" alt="SmartRecruiters 7"/>
+  <img style="max-width: 90%;" src="codescreenResult.png" alt="Report"/>
 </figure>
 
 And that’s it!

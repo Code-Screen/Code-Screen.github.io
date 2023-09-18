@@ -128,13 +128,12 @@ for that candidate.
 Inside the Interview Kit section, there is a `Score` field which represents the candidate's score on the assessment, which is based on how many
 unit test cases the candidate's solution passed. 
 
-You can also view more details about the assessment result on CodeScreen by clicking `View Report`, which will bring you to a 
-page on CodeScreen similar to the following:
+You can also view more details about the assessment result on CodeScreen by clicking `View Report`, which will bring you to a page on CodeScreen similar to the following:
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 90%;" src="greenhouse9.png" alt="Greenhouse 9"/>
+  <img style="max-width: 90%;" src="codescreenResult.png" alt="Report"/>
 </figure>
 
 <br>
