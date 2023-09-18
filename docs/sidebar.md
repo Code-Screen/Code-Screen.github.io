@@ -78,6 +78,7 @@
   - [Recruitee](integrating-recruitee-with-codescreen.md)
   - [Teamtailor](integrating-teamtailor-with-codescreen.md)
   - [Ashby](integrating-ashby-with-codescreen.md)
+  - [Lever](integrating-lever-with-codescreen.md)
   - [SmartRecruiters](integrating-smartrecruiters-with-codescreen.md)
   - [Comeet](integrating-comeet-with-codescreen.md)
 
