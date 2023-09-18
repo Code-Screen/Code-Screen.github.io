@@ -160,7 +160,7 @@ You can also view the full report on CodeScreen by clicking the report link (gre
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 90%;" src="greenhouse9.png" alt="Lever 11"/>
+  <img style="max-width: 90%;" src="codescreenResult.png" alt="Report"/>
 </figure>
 
 <br>
