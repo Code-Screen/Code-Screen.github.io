@@ -31,7 +31,7 @@ To do this for an existing candidate, navigate to the candidate, and click `Brow
 
 <br>
 
-You will then see a list of skill assessment providers, and you can find the available CodeScreen assessments by choosing CodeScreen from the filter list.
+You will then see a list of assessment providers, and you can find the available CodeScreen assessments by choosing CodeScreen from the filter list.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
