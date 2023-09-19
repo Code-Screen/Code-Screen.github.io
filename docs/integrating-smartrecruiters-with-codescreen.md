@@ -21,7 +21,7 @@ To do this, first, let your contact at SmartRecruiters know that you would like 
 ### 2. Send CodeScreen assessment to a candidate
 Once the SmartRecruiters <> CodeScreen integration is enabled for your organization, you will be able to start sending CodeScreen assessments to candidates via the SmartRecruiters platform.
 
-To do this for an existing candidate, navigate to the candidate, and click `Browse` beside `Skills assessments` in the `Assessments` section in the bottom right of the screen.
+To do this for an existing candidate, navigate to the candidate, and click `Browse` beside `Skills Test` in the `Assessments` section in the bottom right of the screen.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
