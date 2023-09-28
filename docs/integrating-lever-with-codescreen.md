@@ -18,7 +18,7 @@ The integration is quick and straightforward. It works as follows:
 <br>
 
 ### 1. Authorize CodeScreen App in Lever
-To start, click the CodeScreen OAuth App <a href="TODO" target="_blank">URL</a>.
+To start, click the following <a href="https://app.codescreen.com/lever-connect" target="_blank">URL</a>.
 
 You will then be prompted to authorize the CodeScreen application from inside your Lever account:
 
@@ -37,8 +37,6 @@ Now, click the blue Accept button. You will then see the following confirmation 
   </br>
   <img style="max-width: 70%;" src="lever_2.png" alt="Lever 2"/>
 </figure>
-
-Now, as the message states, please send us the code shown via <a href="mailto:hello@codescreen.com">email</a> or our live chat.
 
 <br>
 
