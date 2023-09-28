@@ -139,14 +139,36 @@ The default email template looks like the following:
 
 <br>
 
-### 5. Review Result
+### 5. Track Candidate Progress
+
+Once a candidate is sent a CodeScreen assessment, a new tag will be added to their profile in Lever:
+
+<figure>
+  <figcaption style="font-style: italic;"></figcaption>
+  </br>
+  <img style="max-width: 70%;" src="lever_10.png" alt="Lever 10"/>
+</figure>
+
+<br>
+
+A new tag will also be added once the candidate begins the assessment:
+
+<figure>
+  <figcaption style="font-style: italic;"></figcaption>
+  </br>
+  <img style="max-width: 70%;" src="lever_11.png" alt="Lever 11"/>
+</figure>
+
+<br>
+
+### 6. Review Result
 
 Once the candidate has submitted their solution to the assessment, you will be notified via email by CodeScreen, and their result will be available inside Lever:
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 70%;" src="lever_10.png" alt="Lever 10"/>
+  <img style="max-width: 70%;" src="lever_12.png" alt="Lever 10"/>
 </figure>
 
 <br>
