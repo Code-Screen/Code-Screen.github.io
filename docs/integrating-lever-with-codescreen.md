@@ -168,7 +168,7 @@ Once the candidate has submitted their solution to the assessment, you will be n
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 70%;" src="lever_13.png" alt="Lever 10"/>
+  <img style="max-width: 70%;" src="lever_12.png" alt="Lever 12"/>
 </figure>
 
 <br>
@@ -180,7 +180,7 @@ Once you click into the feedback details, the CodeScreen score, result (`Passed`
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 70%;" src="lever_14.png" alt="Lever 10"/>
+  <img style="max-width: 70%;" src="lever_13.png" alt="Lever 13"/>
 </figure>
 
 <br>
