@@ -163,19 +163,29 @@ A new tag will also be added once the candidate begins the assessment:
 
 ### 6. Review Result
 
-Once the candidate has submitted their solution to the assessment, you will be notified via email by CodeScreen, and their result will be available inside Lever:
+Once the candidate has submitted their solution to the assessment, you will be notified via email by CodeScreen, and their result will be displayed inside Lever as a Feedback entry:
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 70%;" src="lever_12.png" alt="Lever 10"/>
+  <img style="max-width: 70%;" src="lever_13.png" alt="Lever 10"/>
 </figure>
 
 <br>
 
-In the screenshot above, the red arrows represent the result (`Passed`, `Failed` or `Expired`), the <a target="_blank" href="https://docs.codescreen.com/#/viewing-candidates?id=passed-and-failed">score</a>, and the <a target="_blank" href="https://docs.codescreen.com/#/viewing-candidates?id=passed-and-failed">failure reason</a> (only present if the candidate did not pass).
+The rating is displayed as a number between 1 - 4, which is based on the CodeScreen <a target="_blank" href="https://docs.codescreen.com/#/viewing-candidates?id=passed-and-failed">score</a>.
 
-You can also view the full report on CodeScreen by clicking the report link (green arrow in screenshot above), which will bring you to a page on CodeScreen similar to the following:
+Once you click into the feedback details, the CodeScreen score, result (`Passed`, `Failed` or `Expired`), and the <a target="_blank" href="https://docs.codescreen.com/#/viewing-candidates?id=passed-and-failed">failure reason</a> (only present if the candidate did not pass) are displayed.
+
+<figure>
+  <figcaption style="font-style: italic;"></figcaption>
+  </br>
+  <img style="max-width: 70%;" src="lever_14.png" alt="Lever 10"/>
+</figure>
+
+<br>
+
+You can also view the full report on CodeScreen by clicking the report link, which will bring you to a page on CodeScreen similar to the following:
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
