@@ -104,7 +104,7 @@ The default email template looks like the following:
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 50%;" src="Teamtailor_7.png" alt="Teamtailor 7"/>
+  <img style="max-width: 60%;" src="Teamtailor_7.png" alt="Teamtailor 7"/>
 </figure>
 
 <br>

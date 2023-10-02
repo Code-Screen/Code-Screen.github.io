@@ -72,7 +72,7 @@ The default email template looks like the following:
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 50%;" src="workable5.png" alt="Workable 5"/>
+  <img style="max-width: 60%;" src="workable5.png" alt="Workable 5"/>
 </figure>
 
 <br>

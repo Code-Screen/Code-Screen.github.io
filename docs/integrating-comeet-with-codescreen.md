@@ -76,7 +76,7 @@ The default email template looks like the following:
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 50%;" src="comeet5.png" alt="Comeet 5"/>
+  <img style="max-width: 60%;" src="comeet5.png" alt="Comeet 5"/>
 </figure>
 
 <br>

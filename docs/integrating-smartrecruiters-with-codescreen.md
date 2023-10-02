@@ -70,7 +70,7 @@ The default email template looks like the following:
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 50%;" src="SmartRecruiters5.png" alt="SmartRecruiters 4"/>
+  <img style="max-width: 60%;" src="SmartRecruiters5.png" alt="SmartRecruiters 4"/>
 </figure>
 
 <br>

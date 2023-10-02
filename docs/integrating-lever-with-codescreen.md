@@ -131,10 +131,12 @@ You can read more details about this [here](editing-email-templates.md).
 
 The default email template looks like the following:
 
+<br>
+
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 70%;" src="lever_9.png" alt="Lever 9"/>
+  <img style="max-width: 60%;" src="lever_9.png" alt="Lever 9"/>
 </figure>
 
 <br>
