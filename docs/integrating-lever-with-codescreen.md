@@ -18,7 +18,7 @@ The integration is quick and straightforward. It works as follows:
 <br>
 
 ### 1. Authorize CodeScreen App in Lever
-To start, click the following <a href="https://app.codescreen.com/lever-connect" target="_blank">URL</a>.
+To start, click the following <a href="https://dev.codescreen.com/lever-connect" target="_blank">URL</a>.
 
 You will then be prompted to authorize the CodeScreen application from inside your Lever account:
 
