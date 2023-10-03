@@ -198,3 +198,6 @@ You can also view the full report on CodeScreen by clicking the report link, whi
 <br>
 
 And that’s it!
+
+A video demo showing the integration in action is available to view 
+<a href="https://www.loom.com/share/73f6344c67764952ac03e8c48b689788" target="_blank">here</a>.
