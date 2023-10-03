@@ -18,7 +18,7 @@ The integration is quick and straightforward. It works as follows:
 <br>
 
 ### 1. Authorize CodeScreen App in Lever
-To start, click the following <a href="https://dev.codescreen.com/lever-connect" target="_blank">URL</a>.
+To start, click the following <a href="https://app.codescreen.com/lever-connect" target="_blank">URL</a>.
 
 You will then be prompted to authorize the CodeScreen application from inside your Lever account:
 
@@ -44,7 +44,7 @@ Now, click the blue Accept button. You will then see the following confirmation 
 
 Head to the <a href="https://hire.lever.co/settings/integrations?tab=webhooks" target="_blank">Integrations - Webhook</a> section in your Lever account.
 
-Then, turn on the `Candidate Stage Change` webook, and add the following <a href="https://dev.codescreen.com/api/lever/candidate_stage_changed">URL</a> to the URL field (shown with a red arrow in the image below):
+Then, turn on the `Candidate Stage Change` webook, and add the following <a href="https://app.codescreen.com/api/lever/candidate_stage_changed">URL</a> to the URL field (shown with a red arrow in the image below):
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
