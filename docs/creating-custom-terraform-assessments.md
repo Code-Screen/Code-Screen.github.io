@@ -37,9 +37,9 @@ The existing dependencies and versions in the `go.mod` file must not be modified
 
 #### Permissions
 
-If you want to use `AWS`, please send us the permissions the candidate's `IAM` user will need to have to create the required resources to pass your assessment. We will then create an IAM user in <strong>our</strong> `AWS` account with the given permissions. We will then `AWS Access Key and Secret Key` to the existing `credentials` file in the template repo.
+If you want to use `AWS`, please send us the permissions the candidate's `IAM` user will need to have to create the required resources to pass your assessment. We will then create an IAM user in <strong>our</strong> AWS account with the given permissions. We will then add the AWS `Access Key and Secret Key` to the existing `credentials` file in the template repo.
 
-Likewise, for `GCP`, please send us the permissions the candidate's `service account` will need to have to create the required resources to pass your assessment. We will then create service account in <strong>our</strong> `GCP` account with the given permissions. We will then add the service account's key `.json` file to your template repo (replacing the existing `foo.json` file).
+Likewise, for `GCP`, please send us the permissions the candidate's `service account` will need to have to create the required resources to pass your assessment. We will then create a new service account in <strong>our</strong> `GCP` account with the given permissions. We will then add the service account's key `.json` file to your template repo (replacing the existing `foo.json` file).
 
 #### GitHub Action
 
