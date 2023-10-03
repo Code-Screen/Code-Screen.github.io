@@ -29,16 +29,17 @@ If you would like to add tests that are automatically run by CodeScreen against 
 
 We use the [Terratest](https://terratest.gruntwork.io/) `Go` library to run automated tests against the resources that are created when we run & deploy the candidate's Terraform code.
 
-For custom assessments, the candidate's Terraform code must be deployed to an `AWS` or `GCP` account that belongs to you.
-
-For us to have the permission to deploy to your `AWS` account, you must create an `IAM` user has all the required permissions to create the resources needed to pass your assessment successfully. The `AWS Access Key and Secret Key` for this user needs to be then added to the existing `credentials` file in the template repo.<br>
-Likewise, for `GCP`, a service account with all the required permissions must be created in your `GCP` account, and the service account's key `.json` file must be added to the template repo (replacing the existing `foo.json` file).
-
 You can add more than one unit test files. All unit test file names must end with `_test.go`, and all unit test classes with names that end with `_hidden_test.go` will not be visible to the candidate. These hidden unit tests allow you to test candidate's solutions against edge cases etc.
 
 If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `hidden_foo.go`, etc.
 
 The existing dependencies and versions in the `go.mod` file must not be modified.
+
+#### Permissions
+
+If you want to use `AWS`, please send us the permissions the candidate's `IAM` user will need to have to create the required resources to pass your assessment. We will then create an IAM user in <strong>our</strong> `AWS` account with the given permissions. We will then `AWS Access Key and Secret Key` to the existing `credentials` file in the template repo.
+
+Likewise, for `GCP`, please send us the permissions the candidate's `service account` will need to have to create the required resources to pass your assessment. We will then create service account in <strong>our</strong> `GCP` account with the given permissions. We will then add the service account's key `.json` file to your template repo (replacing the existing `foo.json` file).
 
 #### GitHub Action
 
