@@ -25,7 +25,7 @@ You will then be prompted to authorize the CodeScreen application from inside yo
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 70%;" src="lever_1.png" alt="Lever 1"/>
+  <img style="max-width: 50%;" src="lever_1.png" alt="Lever 1"/>
 </figure>
 
 <br>
