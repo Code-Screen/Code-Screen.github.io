@@ -5,7 +5,7 @@ You can then add the description of your assessment, choose the <strong>Full Sta
 
 Once you create an assessment, a private GitHub template repository will be created in the CodeScreen account, and you will be given access.
 
-The template repository will contain two directories, **frontend** and **backend**, and a `README.md` which will contain the description of the assessment that you added during the setup.
+The template repository will contain two directories, **frontend** and **backend**, and a `README.md` file which will contain the description of the assessment that you added during the setup.
 
 The frontend directory will contain a skeleton `React` project, while the backend directory will contain a skeleton `Python` project with a `Flask` server set up. 
 

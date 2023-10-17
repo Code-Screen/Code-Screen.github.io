@@ -24,7 +24,7 @@ When a candidate begins an assessment, a new private GitHub repository is create
 ### Documentation
 The documentation for creating custom assessments in all of our supported languages & frameworks are given below: <p>
 
-  - **`Frontend`**
+  - **Frontend**
       - [Angular](creating-custom-angular-assessments.md)
       - [AngularJS](creating-custom-angular-js-assessments.md)
       - [React](creating-custom-react-assessments.md)
@@ -33,7 +33,7 @@ The documentation for creating custom assessments in all of our supported langua
       - [Elm](creating-custom-elm-assessments.md)
       - [Web](creating-custom-web-assessments.md)
 
-  - **`Backend`**
+  - **Backend**
       - [Java (Maven)](creating-custom-java-maven-assessments.md)
       - [Java (Gradle)](creating-custom-java-gradle-assessments.md)
       - [Kotlin (Maven)](creating-custom-kotlin-maven-assessments.md)
@@ -51,28 +51,28 @@ The documentation for creating custom assessments in all of our supported langua
       - [Haskell](creating-custom-haskell-assessments.md)
       - [Elixir](creating-custom-elixir-assessments.md)
 
-  - **`Full-Stack`**
+  - **Full-Stack**
       - [React + JavaScript (Node.js)](creating-custom-react-javascript-full-stack-assessments.md)
       - [React + Python](creating-custom-react-python-full-stack-assessments.md)
       - [React + .NET](creating-custom-react-csharp-full-stack-assessments.md)
       - [Other](creating-custom-full-stack-assessments.md)
 
-  - **`Mobile`**
+  - **Mobile**
       - [React Native](creating-custom-react-native-assessments.md)
       - [Flutter](creating-custom-flutter-assessments.md)
       - [Swift](creating-custom-swift-assessments.md)
 
-  - **`DevOps`**
+  - **DevOps**
       - [Terraform](creating-custom-terraform-assessments.md)
       - [Ansible](creating-custom-ansible-assessments.md)
       - [PowerShell](creating-custom-powershell-assessments.md)
 
-  - **`Web3/Blockchain`**
+  - **Web3/Blockchain**
       - [Solidity](creating-custom-solidity-assessments.md)
 
-  - **`Data Science`**
+  - **Data Science**
       - [R](creating-custom-r-assessments.md)
     
-  - **`Other`**
+  - **Other**
       - [WordPress](creating-custom-wordpress-assessments.md)
       - [Rails](creating-custom-rails-assessments.md)

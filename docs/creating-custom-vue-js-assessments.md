@@ -1,11 +1,13 @@
 # Creating Custom Vue.js Assessments
-CodeScreen allows you to add your own assessment and send it to candidates.</br></br>
-To begin, log on to [CodeScreen](https://app.codescreen.com/account/login), click <strong>Add new assessment</strong>, and select <strong>Custom assessment</strong>.</br>
+To start, [log in](https://app.codescreen.com/account/login) to CodeScreen, click <strong>Add new assessment</strong>, and select <strong>Custom assessment</strong>.
 
-You can then add the description of your assessment, choose <strong>Vue</strong> from the drop-down list of available frontend frameworks, and set the time limit for the assessment.</br>
+You can then add the description of your assessment, select the <strong>Frontend</strong> category and then choose `Vue.js` from the drop-down list of available frontend frameworks.
 
 Once you create an assessment, a private GitHub repository will be created in the CodeScreen account, and you will be given access.
-This repository will contain a skeleton <strong>Vue</strong> project, and the README will contain the description of the assessment that you added during the setup.</br></br>
+
+This repository will contain a skeleton Vue project, and the `README.md` will contain the description of the assessment that you added during the setup.
+
+<br>
 
 <figure>
   <figcaption style="font-style: italic;">Example custom Vue assessment GitHub repository:</figcaption>
@@ -20,20 +22,21 @@ You can then update this repository with details of your Vue assessment and star
 ### Automated test-suite setup
 If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as either unit tests or end-to-end tests.
 
-All unit tests must use [Vitest](https://vitest.dev/) test framework and all end-to-end tests must use the [Cypress](https://www.cypress.io/) E2E test framework.
-
-All unit test filenames must end with `.test.js` or `.test.ts`, and end-to-end test files with filenames that end with `.hidden.test.js` or `.hidden.test.ts` will not be visible to the candidate.
-
-All end-to-end test filenames must end with `.spec.js` or `.spec.ts`, and end-to-end test files with filenames that end with `.hidden.spec.js` or `.hidden.spec.ts` will not be visible to the candidate.
-
-If you want to add files that your hidden tests use and hence are also not visible to the candidate, the names of 
-these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.js`, etc.
+All unit tests must use `Vitest` test framework and all end-to-end tests must use the `Cypress` E2E test framework.
 
 The `package.json` file may be updated to add any third-party libraries required for your assessment.
 
+#### Naming Conventions
+
+- Unit test filenames must end with `.test.js` or `.test.ts`. Files with names ending in `.hidden.test.js`, or `.hidden.test.ts` will be hidden from the candidate.
+- End-to-end test filenames must end with `.spec.js` or `.spec.ts`. Files with names ending in `.hidden.spec.js` or `.hidden.spec.ts` will be hidden from the candidate.
+- To hide files used by hidden tests, their names must start with "hidden" (case-insensitive), for example: `hiddenFoo.csv`, `HiddenFoo.js`, etc.
+
 #### GitHub Action
 
-CodeScreen uses GitHub Actions to run automated integration tests. We provide the following GitHub Action file for Vue assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
+CodeScreen uses GitHub Actions to run automated integration tests. We provide the following GitHub Action file for Vue assessments. 
+
+**Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
 
 ```yaml
 name: Vue CI
