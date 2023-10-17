@@ -58,4 +58,4 @@ jobs:
 
 ### Code validation
 
-We also validate each candidate's solution against the WordPress [Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/), and flag any issues we find in the static analysis issues section of our [result screen](https://code-screen.github.io/docs/#/results).
+We also validate each candidate's solution against the WordPress [Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/), and flag any issues we find in the static analysis issues section of our [report screen](viewing-candidate-report.md).
