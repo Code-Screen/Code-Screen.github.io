@@ -1,8 +1,7 @@
 
 # Hidden Tests
 
-Hidden test cases are unit/integration test cases that are not visible to the candidate, but are added to the candidate's repo after they submit <br> their
-solution (which is when their access to the repo is revoked).
+Hidden test cases are unit/integration test cases that are not visible to the candidate, but are added to the candidate's repo after they submit their solution (which is when their access to the repo is revoked).
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
