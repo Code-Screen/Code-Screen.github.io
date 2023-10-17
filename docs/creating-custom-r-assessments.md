@@ -1,6 +1,6 @@
 # Creating Custom R Assessments
 CodeScreen allows you to add your own assessment and send it to candidates.</br></br>
-To begin, log on to [CodeScreen](https://app.codescreen.com/account/login), click <strong>Add new assessment</strong>, and select <strong>Custom assessment</strong>.</br>
+To begin, log on to [CodeScreen](https://app.codescreen.com/account/login), click <strong>Add new assessment</strong>, and click the <strong>Custom</strong> button.</br>
 
 You can then add the description of your assessment, choose <strong>R</strong> from the drop-down list of available backend languages, and set the time limit for the assessment.</br>
 

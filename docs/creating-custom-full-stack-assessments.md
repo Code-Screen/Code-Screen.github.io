@@ -2,7 +2,7 @@
 
 We are continuously rolling out automated grading support for all our other full-stack languages.
 
-To start, [log in](https://app.codescreen.com/account/login) to CodeScreen, click <strong>Add new assessment</strong>, and select <strong>Custom assessment</strong>.
+To start, [log in](https://app.codescreen.com/account/login) to CodeScreen, click <strong>Add new assessment</strong>, and click the <strong>Custom</strong> button.
 
 You can then add the description of your assessment, choose the <strong>Full Stack</strong> category and then choose which combination of frontend framework and backend language you want for your assessment.
 

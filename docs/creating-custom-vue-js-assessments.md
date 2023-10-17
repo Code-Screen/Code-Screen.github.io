@@ -1,5 +1,5 @@
 # Creating Custom Vue.js Assessments
-To start, [log in](https://app.codescreen.com/account/login) to CodeScreen, click <strong>Add new assessment</strong>, and select <strong>Custom assessment</strong>.
+To start, [log in](https://app.codescreen.com/account/login) to CodeScreen, click <strong>Add new assessment</strong>, and click the <strong>Custom</strong> button.
 
 You can then add the description of your assessment, select the <strong>Frontend</strong> category and then choose `Vue.js` from the drop-down list of available frontend frameworks.
 

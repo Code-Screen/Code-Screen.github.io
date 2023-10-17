@@ -1,5 +1,5 @@
 # Creating Custom React + Python Assessments
-To start, [log in](https://app.codescreen.com/account/login) to CodeScreen, click <strong>Add new assessment</strong>, and select <strong>Custom assessment</strong>.
+To start, [log in](https://app.codescreen.com/account/login) to CodeScreen, click <strong>Add new assessment</strong>, and click the <strong>Custom</strong> button.
 
 You can then add the description of your assessment, choose the <strong>Full Stack</strong> category and then choose `React + Python` for the list of languages.
 
