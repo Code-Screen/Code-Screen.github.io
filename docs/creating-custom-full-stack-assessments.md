@@ -1,14 +1,16 @@
 # Creating Custom Full-Stack Assessments
-CodeScreen allows you to add your own full-stack assessments and send it to candidates.</br></br>
-To begin, log on to [CodeScreen](https://app.codescreen.com/account/login), click <strong>Add new assessment</strong>, and select <strong>Custom assessment</strong>.</br>
 
-You can then add the description of your assessment, choose which combination of frontend frameworks and backend languages you want the candidate to choose to build their solution to your assessment in, and set the time limit for the assessment.</br>
+We are continuously rolling out automated grading support for all our other full-stack languages.
 
-Once you click <strong>Publish</strong>, private GitHub repositories (one for each combination of frontend framework and backend language that you choose), will be created in the CodeScreen account, and you will be given access.</br>
+To start, [log in](https://app.codescreen.com/account/login) to CodeScreen, click <strong>Add new assessment</strong>, and select <strong>Custom assessment</strong>.
 
-Each repository will contain a skeleton project, with the <strong>frontend</strong> directory containing a skeleton project for the frontend framework chosen, and the <strong>backend</strong> directory containing a skeleton project for the backend language chosen. The README will contain the description of the assessment that you added during the setup.</br>
+You can then add the description of your assessment, choose the <strong>Full Stack</strong> category and then choose which combination of frontend framework and backend language you want for your assessment.
 
-An example custom assessment repository, using Angular as the frontend framework and Java as the backend language, is shown below:</br>
+Once you create an assessment, private GitHub repositories (one for each combination of frontend framework and backend language that you choose), will be created in the CodeScreen account, and you will be given access..
+
+Each repository will contain a skeleton project, with the <strong>frontend</strong> directory containing a skeleton project for the frontend framework chosen, and the <strong>backend</strong> directory containing a skeleton project for the backend language chosen. The `README.md` file will contain the description of the assessment that you added during the setup.
+
+An example custom assessment repository, using `Angular` as the frontend framework and `Java` as the backend language, is shown below:
 
 <figure>
   <figcaption style="font-style: italic;">Root directory of a repository set up for an Angular & Java full-stack assessment.</figcaption>
@@ -32,12 +34,6 @@ An example custom assessment repository, using Angular as the frontend framework
   <img style="max-width: 60%;" src="fullStackRepo3.png" alt="Angular Repo"/>
 </figure>
 
-</br></br>
+</br>
 
 You can then update each repository with details of your assessment and start sending the assessment to candidates.
-
-### Further reading
-Read this [blog post](https://blog.codescreen.com/introducing-template-generators/) to find out more about the theory and design principles behind custom full-stack assessments in CodeScreen.
-
-### Automated test-suite setup
-Automated test-suite scoring is not currently supported for full-stack assessments.

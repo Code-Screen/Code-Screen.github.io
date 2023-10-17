@@ -10,7 +10,7 @@ A list of all non-admin roles (and the languages/frameworks it covers) is given 
 
 - `Backend` - Java, Scala, Kotlin, Python, Node.js, PHP, .NET, Go, Haskell, Rust, Ruby, Elixir, Solidity, C++.
 - `Frontend` - Angular, React, Vue.js, Svelte, Elm, Web.
-- `Mobile` - Swift, React Native.
+- `Mobile` - Swift, React Native, Flutter.
 - `DevOps` - Terraform.
 - `DBA` - SQL.
 - `DataScience` - R.

@@ -4,7 +4,7 @@ To begin, log on to [CodeScreen](https://app.codescreen.com/account/login), clic
 
 You can then add the description of your assessment, choose <strong>Scala</strong> from the drop-down list of available backend languages, and set the time limit for the assessment.</br>
 
-Once you click <strong>Publish</strong>, a private GitHub repository will be created in the CodeScreen account, and you will be given access.
+Once you create an assessment, a private GitHub repository will be created in the CodeScreen account, and you will be given access.
 This repository will contain a skeleton <strong>SBT</strong> project, and the README will contain the description of the assessment that you added during the setup.</br></br>
 
 <figure>
@@ -21,7 +21,7 @@ If you would like to add tests that are automatically run by CodeScreen against 
 
 All unit tests files must end with `Test.scala` and all unit tests files that end with `HiddenTest.scala` will not be visible to the candidate.
 
-If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.scala`, etc.
+If you want to add files that your hidden tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.scala`, etc.
 
 All unit tests must use the [`JUnit`](https://junit.org/junit5/) test framework.
 
@@ -33,7 +33,7 @@ The `Scala` version that must be used is 2.13.6.
 
 CodeScreen uses GitHub Actions to run automated unit tests. We provide the following GitHub Action file for Scala assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
 
-```
+```yaml
 name: Scala CI
 
 on: [push]

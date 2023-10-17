@@ -4,7 +4,7 @@ To begin, log on to [CodeScreen](https://app.codescreen.com/account/login), clic
 
 You can then add the description of your assessment, choose <strong>R</strong> from the drop-down list of available backend languages, and set the time limit for the assessment.</br>
 
-Once you click <strong>Publish</strong>, a private GitHub repository will be created in the CodeScreen account, and you will be given access.
+Once you create an assessment, a private GitHub repository will be created in the CodeScreen account, and you will be given access.
 This repository will contain a skeleton <strong>R</strong> project, and the README will contain the description of the assessment that you added during the setup.</br></br>
 
 <figure>
@@ -23,7 +23,7 @@ All unit tests files must be added in the `tests/` directory and use the [testth
 
 All unit test filenames must begin with `test_` and unit test files with filenames that begin with `test_hidden` will not be visible to the candidate.
 
-If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `hidden_foo.R`, etc.
+If you want to add files that your hidden tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `hidden_foo.R`, etc.
 
 All dependencies required for your coding assessment must be added to the `install.sh` file.
 
@@ -35,7 +35,7 @@ Your coding assessment also must use/be compatible with `R` version `4.0.3`.
 
 CodeScreen uses GitHub Actions to run automated unit tests. We provide the following GitHub Action file for R assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
 
-```
+```yaml
 name: R CI
 
 on: [push]

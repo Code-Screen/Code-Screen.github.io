@@ -4,7 +4,7 @@ To begin, log on to [CodeScreen](https://app.codescreen.com/account/login), clic
 
 You can then add the description of your assessment, choose <strong>WordPress</strong> from the drop-down list of available full-stack languages, and set the time limit for the assessment.</br>
 
-Once you click <strong>Publish</strong>, a private GitHub repository will be created in the CodeScreen account, and you will be given access.
+Once you create an assessment, a private GitHub repository will be created in the CodeScreen account, and you will be given access.
 This repository will contain a skeleton <strong>WordPress</strong> project, and the README will contain the description of the assessment that you added during the setup.</br></br>
 
 <figure>
@@ -21,7 +21,7 @@ If you would like to add tests that are automatically run by CodeScreen against 
 
 All unit test class filenames must end with `Test.php` and the test classes with filenames that end with `HiddenTest.php` will not be visible to the candidate.
 
-If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of
+If you want to add files that your hidden tests use and hence are also not visible to the candidate, the names of
 these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.php`, etc.
 
 `PHP` version 7.4 must be used and all dependencies that your coding assessment requires need to be added to the `composer.json`
@@ -33,7 +33,7 @@ All unit tests must use be located in the `tests/` directory and use the [`PHPUn
 
 CodeScreen uses GitHub Actions to run automated unit tests. We provide the following GitHub Action file for WordPress assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
 
-```
+```yaml
 name: WordPress CI
 
 on: [push]

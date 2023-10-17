@@ -4,7 +4,7 @@ To begin, log on to [CodeScreen](https://app.codescreen.com/account/login), clic
 
 You can then add the description of your assessment, choose <strong>React Native</strong> from the drop-down list of available frontend frameworks, and set the time limit for the assessment.</br>
 
-Once you click <strong>Publish</strong>, a private GitHub repository will be created in the CodeScreen account, and you will be given access.
+Once you create an assessment, a private GitHub repository will be created in the CodeScreen account, and you will be given access.
 This repository will contain a skeleton <strong>React Native</strong> project created with [Expo](https://expo.dev/), and the README will contain the description of the assessment that you added during the setup.</br></br>
 
 <figure>
@@ -35,7 +35,7 @@ The other config files in the template repo must also not be changed, including 
 
 CodeScreen uses GitHub Actions to run automated integration tests. We provide the following GitHub Action file for React Native assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
 
-```
+```yaml
 name: React Native CI
 
 on: push

@@ -4,7 +4,7 @@ To begin, log on to [CodeScreen](https://app.codescreen.com/account/login), clic
 
 You can then add the description of your assessment, choose <strong>Elixir</strong> from the drop-down list of available backend languages, and set the time limit for the assessment.</br>
 
-Once you click <strong>Publish</strong>, a private GitHub repository will be created in the CodeScreen account, and you will be given access.
+Once you create an assessment, a private GitHub repository will be created in the CodeScreen account, and you will be given access.
 This repository will contain a skeleton <strong>Elixir</strong> project (which uses [Mix](https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html)), and the README will contain the description of the assessment that you added during the setup.</br></br>
 
 <figure>
@@ -23,7 +23,7 @@ All unit tests files must be added in the `test/` directory.and use the `ExUnit`
 
 All test filenames must end with `_test.exs` and test files with filenames that end with `_hidden_test.exs` will not be visible to the candidate.
 
-If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of 
+If you want to add files that your hidden tests use and hence are also not visible to the candidate, the names of 
 these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.hs`, etc.
 
 The `mix.exs` file should only be modified in order to change the name of the project and add any third-party dependencies required for your assessment.
@@ -34,7 +34,7 @@ Your coding assessment must use/be comptabible with `Elixir 1.13` and `Erlang/OT
 
 CodeScreen uses GitHub Actions to run automated unit tests. We provide the following GitHub Action file for Elixir assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
 
-```
+```yaml
 name: Elixir CI
 
 on: push

@@ -6,7 +6,7 @@ You can then add the description of your assessment, choose <strong>Web</strong>
 
 The <strong>Web</strong> option is suitable for when you want to create a custom frontend assessment that tests a candidate's `HTML`, `CSS` and `JavaScipt/TypeScript` skills outside of a framework such as `React` or `Angular`.
 
-Once you click <strong>Publish</strong>, a private GitHub repository will be created in the CodeScreen account, and you will be given access.
+Once you create an assessment, a private GitHub repository will be created in the CodeScreen account, and you will be given access.
 This repository will contain a skeleton project, and the README will contain the description of the assessment that you added during the setup.</br></br>
 
 <figure>
@@ -29,7 +29,7 @@ All unit test filenames must end with `.test.js`, `.test.ts` or `.test.tsx`, and
 
 All end-to-end test filenames must end with `.spec.js` or `.spec.ts`, and end-to-end test files with filenames that end with `.hidden.spec.js` or `.hidden.spec.ts` will not be visible to the candidate.
 
-If you want to add files that your hidden unit tests use and hence are also not visible to the candidate, the names of 
+If you want to add files that your hidden tests use and hence are also not visible to the candidate, the names of 
 these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.js`, etc.
 
 The `package.json` file may be updated to add any third-party libraries and any `scripts` commands required for your assessment.
@@ -38,7 +38,7 @@ The `package.json` file may be updated to add any third-party libraries and any 
 
 CodeScreen uses GitHub Actions to run automated unit & integration tests. We provide the following GitHub Action file for Web assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
 
-```
+```yaml
 name: Web CI
 
 on: push
