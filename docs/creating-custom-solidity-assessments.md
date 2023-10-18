@@ -1,11 +1,12 @@
 # Creating Custom Solidity Assessments
-CodeScreen allows you to add your own assessment and send it to candidates.</br></br>
-To begin, log on to [CodeScreen](https://app.codescreen.com/account/login), click <strong>Add new assessment</strong>, and click the <strong>Custom</strong> button.</br>
 
-You can then add the description of your assessment, choose <strong>Solidity</strong> from the drop-down list of available backend languages, and set the time limit for the assessment.</br>
+To start, [log in](https://app.codescreen.com/account/login) to CodeScreen, click <strong>Add new assessment</strong>, and click the <strong>Custom</strong> button.
+
+You can then add the description of your assessment, select the <strong>Web3/Blockchain</strong> category and then choose `Solidity` from the drop-down list of available languages.
 
 Once you create an assessment, a private GitHub template repository will be created in the CodeScreen account, and you will be given access.
-This repository will contain a skeleton <strong>Solidity</strong> project, and the README will contain the description of the assessment that you added during the setup.</br></br>
+
+This repository will contain a skeleton Solidity project, and the `README.md` file will contain the description of the assessment that you added during the setup.</br></br>
 
 <figure>
   <figcaption style="font-style: italic;">Example custom Solidity assessment GitHub repository:</figcaption>
@@ -21,20 +22,22 @@ If you would like to add tests that are automatically run by CodeScreen against 
 
 All unit tests must use the `Truffle` testing framework. They can be written in either `Solidity` or `JavaScript`.
 
-All unit test file names must end with `Test.js` or `Test.sol`, and all unit test files with file names ending with `HiddenTest.js` or `HiddenTest.sol` will not be visible to the candidate.
-
-If you want to add files that your hidden tests use and hence are also not visible to the candidate, the names of 
-these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.sol`, etc.
-
 The `package.json` file should only be modified in order to add any third-party dependencies required for your solution. The `truffle` and `truffle-assertions` versions should not be changed.
 
 The `pragma` version also must not be changed.
 
-The coding assessment must be compatible with Node.js version `15.5.1`.
+The coding assessment must be compatible with Node.js version `18.x`.
+
+#### Naming Conventions
+
+- Unit test filenames must end with `Test.js` or `Test.sol`. Files with names ending in `HiddenTest.js` or `HiddenTest.sol` will be hidden from the candidate.
+- To hide files used by hidden tests, their names must start with "hidden" (case-insensitive), for example: `hiddenFoo.csv`, `HiddenFoo.js`, etc.
 
 #### GitHub Action
 
-CodeScreen uses GitHub Actions to run automated unit tests. We provide the following GitHub Action file for Solidity assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
+CodeScreen uses GitHub Actions to run automated unit tests. We provide the following GitHub Action file for Solidity assessments. 
+
+**Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
 
 ```yaml
 name: Solidity CI
@@ -48,7 +51,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [15.x]
+        node-version: [18.x]
 
     steps:
     - uses: actions/checkout@v3
