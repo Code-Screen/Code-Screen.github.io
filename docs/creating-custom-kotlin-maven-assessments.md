@@ -4,7 +4,7 @@ To begin, log on to [CodeScreen](https://app.codescreen.com/account/login), clic
 
 You can then add the description of your assessment, choose `Kotlin (Maven)` from the drop-down list of available backend languages, and set the time limit for the assessment.</br>
 
-Once you create an assessment, a private GitHub repository will be created in the CodeScreen account, and you will be given access.
+Once you create an assessment, a private GitHub template repository will be created in the CodeScreen account, and you will be given access.
 This repository will contain a skeleton `Maven` project, and the README will contain the description of the assessment that you added during the setup.</br></br>
 
 <figure>

@@ -1,10 +1,11 @@
 # Creating Custom Swift Assessments
-CodeScreen allows you to add your own assessment and send it to candidates.</br></br>
-To begin, log on to [CodeScreen](https://app.codescreen.com/account/login), click <strong>Add new assessment</strong>, and click the <strong>Custom</strong> button.</br>
 
-You can then add the description of your assessment, choose <strong>Swift</strong> from the drop-down list of available backend languages, and set the time limit for the assessment.</br>
+To start, [log in](https://app.codescreen.com/account/login) to CodeScreen, click <strong>Add new assessment</strong>, and click the <strong>Custom</strong> button.
 
-Once you create an assessment, a private GitHub repository will be created in the CodeScreen account, and you will be given access.
+You can then add the description of your assessment, select the <strong>Mobile</strong> category and then choose `Swift` from the drop-down list of available languages.
+
+Once you create an assessment, a private GitHub template repository will be created in the CodeScreen account, and you will be given access.
+
 This repository will contain a skeleton `Xcode` project, and the README will contain the description of the assessment that you added during the setup.</br></br>
 
 <figure>

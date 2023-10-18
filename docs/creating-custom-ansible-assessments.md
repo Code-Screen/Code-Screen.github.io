@@ -4,7 +4,7 @@ To begin, log on to [CodeScreen](https://app.codescreen.com/account/login), clic
 
 You can then add the description of your assessment, choose <strong>Ansible</strong> from the drop-down list of available `DevOps` tools, and set the time limit for the assessment.</br>
 
-Once you create an assessment, a private GitHub repository will be created in the CodeScreen account, and you will be given access.
+Once you create an assessment, a private GitHub template repository will be created in the CodeScreen account, and you will be given access.
 This repository will simply contain an `Ansible .gitignore` file and a README containing the description of the assessment that you added during the setup.<br><br>
 We leave it up to you to decide your assessment's directory layout etc.</br></br>
 

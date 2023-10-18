@@ -5,7 +5,7 @@ You can then add the description of your assessment, select the <strong>Frontend
 
 The Web option is suitable for when you want to create a custom frontend assessment that tests a candidate's `HTML`, `CSS` and `JavaScipt/TypeScript` skills outside of a framework such as `React` or `Angular`.
 
-Once you create an assessment, a private GitHub repository will be created in the CodeScreen account, and you will be given access.
+Once you create an assessment, a private GitHub template repository will be created in the CodeScreen account, and you will be given access.
 
 This repository will contain a skeleton project, and the `README.md` file will contain the description of the assessment that you added during the setup.
 

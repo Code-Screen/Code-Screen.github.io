@@ -4,7 +4,7 @@ To begin, log on to [CodeScreen](https://app.codescreen.com/account/login), clic
 
 You can then add the description of your assessment, choose <strong>C++</strong> from the drop-down list of available `Backend` languages, and set the time limit for the assessment.</br>
 
-Once you create an assessment, a private GitHub repository will be created in the CodeScreen account, and you will be given access.
+Once you create an assessment, a private GitHub template repository will be created in the CodeScreen account, and you will be given access.
 This repository will simply contain skeleton template `C++` project configured with the `GoogleTest` testing framework and a README containing the description of the assessment that you added during the setup.</br></br>
 
 <figure>

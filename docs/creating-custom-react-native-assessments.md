@@ -3,7 +3,7 @@ To start, [log in](https://app.codescreen.com/account/login) to CodeScreen, clic
 
 You can then add the description of your assessment, select the <strong>Mobile</strong> category and then choose `React Native` from the drop-down list of available languages.
 
-Once you create an assessment, a private GitHub repository will be created in the CodeScreen account, and you will be given access.
+Once you create an assessment, a private GitHub template repository will be created in the CodeScreen account, and you will be given access.
 
 This repository will contain a skeleton React Native project created with [Expo](https://expo.dev/), and the `README.md` will contain the description of the assessment that you added during the setup.</br>
 
