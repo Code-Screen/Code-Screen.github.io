@@ -1,11 +1,11 @@
 # Creating Custom React Native Assessments
-CodeScreen allows you to add your own assessment and send it to candidates.</br></br>
-To begin, log on to [CodeScreen](https://app.codescreen.com/account/login), click <strong>Add new assessment</strong>, and click the <strong>Custom</strong> button.</br>
+To start, [log in](https://app.codescreen.com/account/login) to CodeScreen, click <strong>Add new assessment</strong>, and click the <strong>Custom</strong> button.
 
-You can then add the description of your assessment, choose <strong>React Native</strong> from the drop-down list of available frontend frameworks, and set the time limit for the assessment.</br>
+You can then add the description of your assessment, select the <strong>Mobile</strong> category and then choose `React Native` from the drop-down list of available languages.
 
 Once you create an assessment, a private GitHub repository will be created in the CodeScreen account, and you will be given access.
-This repository will contain a skeleton <strong>React Native</strong> project created with [Expo](https://expo.dev/), and the README will contain the description of the assessment that you added during the setup.</br></br>
+
+This repository will contain a skeleton React Native project created with [Expo](https://expo.dev/), and the `README.md` will contain the description of the assessment that you added during the setup.</br>
 
 <figure>
   <figcaption style="font-style: italic;">Example custom React Native assessment GitHub repository:</figcaption>
@@ -21,19 +21,22 @@ You can then update this repository with details of your assessment and start se
 
 If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these as end-to-end tests.
 
-All end-to-end tests must use the [Cypress](https://www.cypress.io/) E2E test framework.
-
-All end-to-end test filenames must end with `.cy.js`, and end-to-end test files with filenames that end with `-hidden.cy.js` will not be visible to the candidate.
-
-If you want to add files that your hidden tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `hidden-foo.ts`, etc.
+All end-to-end tests must use the `Cypress` E2E test framework.
 
 The `package.json` file may only be changed if you want to add third-party libraries to your assessment. All the current versions of the dependencies in `package.json` and `package-lock.json` must not be changed. 
 
 The other config files in the template repo must also not be changed, including the `babel.config.js` and `cypress.config.js` files.
 
+#### Naming Conventions
+
+- End-to-end test filenames must end with `.cy.js`. Files with names ending in `-hidden.cy.js` will be hidden from the candidate.
+- To hide files used by hidden tests, their names must start with "hidden" (case-insensitive), for example: `hiddenFoo.csv`, `HiddenFoo.js`, etc.
+
 #### GitHub Action
 
-CodeScreen uses GitHub Actions to run automated integration tests. We provide the following GitHub Action file for React Native assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
+CodeScreen uses GitHub Actions to run automated integration tests. We provide the following GitHub Action file for React Native assessments.
+
+**Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
 
 ```yaml
 name: React Native CI

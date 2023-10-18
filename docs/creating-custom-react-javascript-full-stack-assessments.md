@@ -26,7 +26,7 @@ You can use either [Create React App](https://create-react-app.dev/) or [Vite](h
 #### Naming Conventions
 
 - Unit test filenames must end with `.test.js`, `.test.jsx`, `.test.ts`, or `.test.tsx`. Files with names ending in `.hidden.test.js`, `.hidden.test.jsx`, `.hidden.test.ts`, or `.hidden.test.tsx` will be hidden from the candidate.
-- End-to-end test filenames must end with `.cy.js` or `.cy.ts`. Files with names ending in `.hidden.cy.js` or .`hidden.cy.ts` will be hidden from the candidate.
+- End-to-end test filenames must end with `.cy.js` or `.cy.ts`. Files with names ending in `.hidden.cy.js` or `.hidden.cy.ts` will be hidden from the candidate.
 - To hide files used by hidden tests, their names must start with "hidden" (case-insensitive), for example: `hiddenFoo.csv`, `HiddenFoo.js`, etc.
 
 #### GitHub Action

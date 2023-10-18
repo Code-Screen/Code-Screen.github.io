@@ -31,7 +31,7 @@ Your backend needs to be compatible with `Python` version `3.11`, and any depend
 
 - Frontend unit test filenames must end with `.test.js`, `.test.jsx`, `.test.ts`, or `.test.tsx`. Files with names ending in `.hidden.test.js`, `.hidden.test.jsx`, `.hidden.test.ts`, or `.hidden.test.tsx` will be hidden from the candidate.
 - Backend unit test filenames must begin with `test_`. Files with names beginning with `test_hidden_` will be hidden from the candidate.
-- End-to-end test filenames must end with `.cy.js` or `.cy.ts`. Files with names ending in `.hidden.cy.js` or .`hidden.cy.ts` will be hidden from the candidate.
+- End-to-end test filenames must end with `.cy.js` or `.cy.ts`. Files with names ending in `.hidden.cy.js` or `.hidden.cy.ts` will be hidden from the candidate.
 - To hide files used by hidden tests, their names must start with "hidden" (case-insensitive), for example: `hiddenFoo.csv`, `HiddenFoo.js`, etc.
 
 #### GitHub Action

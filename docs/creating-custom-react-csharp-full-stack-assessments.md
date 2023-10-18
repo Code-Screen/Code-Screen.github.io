@@ -29,7 +29,7 @@ On the backend, all unit tests must use the `Nunit` test framework. The `.csproj
 
 - Frontend unit test filenames must end with `.test.js`, `.test.jsx`, `.test.ts`, or `.test.tsx`. Files with names ending in `.hidden.test.js`, `.hidden.test.jsx`, `.hidden.test.ts`, or `.hidden.test.tsx` will be hidden from the candidate.
 - Backend unit test filenames must end with `Test`. Files with names ending with `HiddenTest` will be hidden from the candidate.
-- End-to-end test filenames must end with `.cy.js` or `.cy.ts`. Files with names ending in `.hidden.cy.js` or .`hidden.cy.ts` will be hidden from the candidate.
+- End-to-end test filenames must end with `.cy.js` or `.cy.ts`. Files with names ending in `.hidden.cy.js` or `.hidden.cy.ts` will be hidden from the candidate.
 - To hide files used by hidden tests, their names must start with "hidden" (case-insensitive), for example: `hiddenFoo.csv`, `HiddenFoo.cs`, etc.
 
 #### GitHub Action
