@@ -1,11 +1,12 @@
 # Creating Custom Terraform Assessments
-CodeScreen allows you to add your own assessment and send it to candidates.</br></br>
-To begin, log on to [CodeScreen](https://app.codescreen.com/account/login), click <strong>Add new assessment</strong>, and click the <strong>Custom</strong> button.</br>
 
-You can then add the description of your assessment, choose <strong>Terraform</strong> from the drop-down list of available `DevOps` tools, and set the time limit for the assessment.</br>
+To start, [log in](https://app.codescreen.com/account/login) to CodeScreen, click <strong>Add new assessment</strong>, and click the <strong>Custom</strong> button.
+
+You can then add the description of your assessment, select the <strong>DevOps</strong> category and then choose `Terraform` from the drop-down list of available languages.
 
 Once you create an assessment, a private GitHub template repository will be created in the CodeScreen account, and you will be given access.
-This repository will contain a skeleton <strong>Terraform</strong> project, and the README will contain the description of the assessment that you added during the setup.</br></br>
+
+This repository will contain a skeleton Terraform project, and the `README.md` will contain the description of the assessment that you added during the setup.</br>
 
 <figure>
   <figcaption style="font-style: italic;">Example custom Terraform assessment GitHub repository:</figcaption>
@@ -25,15 +26,16 @@ This repository will contain a skeleton <strong>Terraform</strong> project, and 
 
 ### Automated test-suite setup
 
-If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these to the existing `foo_test.go` file in the template repository. It would be best if you also renamed this `foo_test.go` file to something more relevant to your assessment.
+If you would like to add tests that are automatically run by CodeScreen against each candidate's solution to your assessment, you can add these to the existing `foo_test.go` file in the template repository or create new unit test files. It would be best if you also renamed this `foo_test.go` file to something more relevant to your assessment.
 
-We use the [Terratest](https://terratest.gruntwork.io/) `Go` library to run automated tests against the resources that are created when we run & deploy the candidate's Terraform code.
-
-You can add more than one unit test files. All unit test file names must end with `_test.go`, and all unit test classes with names that end with `_hidden_test.go` will not be visible to the candidate. These hidden tests allow you to test candidate's solutions against edge cases etc.
-
-If you want to add files that your hidden tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `hidden_foo.go`, etc.
+We use the [Terratest](https://terratest.gruntwork.io/) library to run automated tests against the resources that are created when we run & deploy the candidate's Terraform code.
 
 The existing dependencies and versions in the `go.mod` file must not be modified.
+
+#### Naming Conventions
+
+- Unit test filenames must end with `_test.go`. Files with names ending in `_hidden_test.go` will be hidden from the candidate.
+- To hide files used by hidden tests, their names must start with "hidden" (case-insensitive), for example: `hiddenFoo.csv`, `HiddenFoo.js`, etc.
 
 #### Permissions
 
@@ -43,7 +45,9 @@ Likewise, for `GCP`, please send us the permissions the candidate's `service acc
 
 #### GitHub Action
 
-CodeScreen uses GitHub Actions to run automated unit tests. We provide the following GitHub Action file for Terraform assessments. **Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
+CodeScreen uses GitHub Actions to run automated unit tests. We provide the following GitHub Action file for Terraform assessments. 
+
+**Note** that this file is added dynamically to the repo of each candidate taking your assessment, so please do not include it in your template repo. This file also cannot be changed.
 
 ```yaml
 name: Terraform CI
