@@ -32,7 +32,7 @@ All unit tests must use the [XCTest](https://developer.apple.com/documentation/x
 
 #### Naming Conventions
 
-- Unit test filenames must end with `Tests.swift`. Files with names ending in `HiddenTests.swift` will be hidden from the candidate.
+- Unit test filenames must start with `Tests.swift`. Files with names starting in `HiddenTests.swift` will be hidden from the candidate.
 - To hide files used by hidden tests, their names must start with "hidden" (case-insensitive), for example: `hiddenFoo.csv`, `HiddenFoo.swift`, etc.
 
 #### GitHub Action
