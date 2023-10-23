@@ -59,5 +59,9 @@ In order for the candidate to interact with the tables created for them, we will
   <img style="max-width: 60%;" src="new-mysql-user-details.png" alt="New MySQL User"/>
 </figure>
 
+<br>
+
+Once the candidate has submitted their solution and we have processed the result & report, we will then delete the user that was created for that candidate.
+
 ### Limits
 The maximum combined size of all tables for each candidate is 2GB.
