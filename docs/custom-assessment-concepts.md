@@ -15,7 +15,7 @@ CodeScreen also supports a concept that we have named `Hidden Tests`. These are 
 are run against the candidate's solution when we process their code and generate the final report. Read [here](hidden-tests.md) for more details.
 
 ### Template repositories
-Upon creating a custom assessment, a private `GitHub` template repository is generated for each selected language/framework. These repositories feature standard project structures, ensuring consistency. 
+Upon creating a custom assessment, a private `GitHub` template repository is generated for each selected language/framework. Each repo will contain a standard project structure in the given language/framework. 
 
 When a candidate begins an assessment, a new private GitHub repository is created. This repo will just contain one commit (the initial commit) which contains the current contents of the `main` branch of your template repo. 
 
