@@ -24,13 +24,14 @@ This repository will contain a `dbSetup.sql` file. This is the file in which to 
 The only statements that are permitted are `CREATE TABLE` and `INSERT INTO`, e.g.:
 
 ```sql
+-- Sample create table statement
 CREATE TABLE {tableNamePrefix}_Store1 (
     ID INT AUTO_INCREMENT PRIMARY KEY,
     Name VARCHAR(255) NOT NULL,
     City VARCHAR(255) NOT NULL
 );
 
--- Sample insert data into table
+-- Sample insert data statement
 INSERT INTO {tableNamePrefix}_Store1 (Name, City) VALUES
     ('John Doe', 'New York'),
     ('Jane Smith', 'Los Angeles'),
