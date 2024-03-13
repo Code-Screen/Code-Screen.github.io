@@ -23,7 +23,7 @@ If you would like to add tests that are automatically run by CodeScreen against 
 
 All end-to-end tests must use the `Cypress` E2E test framework.
 
-The `package.json` file may only be changed if you want to add third-party libraries to your assessment. All the current versions of the dependencies in `package.json` and `package-lock.json` must not be changed. 
+The `package.json` file may only be changed if you want to add third-party libraries to your assessment. All the current versions of the dependencies in `package.json` must not be changed. 
 
 The other config files in the template repo must also not be changed, including the `babel.config.js` and `cypress.config.js` files.
 
@@ -54,9 +54,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Install Expo CLI
-        run: npm i -g expo-cli
-
       - name: Check Cypress tests exist
         id: check_cypress_tests
         uses: andstor/file-existence-action@v1
@@ -71,7 +68,7 @@ jobs:
         with:
           build: npm run build --if-present
           start: npm run web
-          wait-on: 'http://localhost:19006'
+          wait-on: 'http://localhost:8081'
 ```
 
 ### Examples
