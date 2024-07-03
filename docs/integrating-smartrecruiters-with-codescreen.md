@@ -16,47 +16,65 @@ The `CodeScreen` integration with `SmartRecruiters` allows you to do the followi
 The integration is quick and straightforward. It works as follows:
 
 ### 1. Enable the SmartRecruiters/CodeScreen Integration
-To do this, first, let your contact at SmartRecruiters know that you would like to integrate with CodeScreen. <br> They will then send us your SmartRecruiters customer ID, which we will add to your CodeScreen account, and we will notify you that the integration has been enabled.
+To do this, head over to the `Apps & Integration` section in your SmartRecruiters account, choose CodeScreen from the list, and then click the green `Connect` button. **Note** please make sure you are logged into your CodeScreen account in a seperate browser tab before completing this step).
+
+<figure>
+  <figcaption style="font-style: italic;"></figcaption>
+  </br>
+  <img style="max-width: 80%;" src="smart-recruiters-1.png" alt="SmartRecruiters 1"/>
+</figure>
+
+<br>
+
+You will then see the following screen which shows the permissions CodeScreen requires in your SmartRecruiters account. Please click the green `Allow and continue` button to proceed.
+
+<figure>
+  <figcaption style="font-style: italic;"></figcaption>
+  </br>
+  <img style="max-width: 80%;" src="smart-recruiters-2.png" alt="SmartRecruiters 2"/>
+</figure>
+
+<br>
+
+And that's it, the connection step is now complete!
+
+<figure>
+  <figcaption style="font-style: italic;"></figcaption>
+  </br>
+  <img style="max-width: 80%;" src="smart-recruiters-3.png" alt="SmartRecruiters 3"/>
+</figure>
+
+<br>
 
 ### 2. Send CodeScreen assessment to a candidate
 Once the SmartRecruiters <> CodeScreen integration is enabled for your organization, you will be able to start sending CodeScreen assessments to candidates via the SmartRecruiters platform.
 
-To do this for an existing candidate, navigate to the candidate, and click `Browse` beside `Skills Test` in the `Assessments` section in the bottom right of the screen.
+To do this for an existing candidate, navigate to the candidate, and click the `Order assessments` button in the `Assessments` section in the bottom right of the screen.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 80%;" src="SmartRecruiters1.png" alt="SmartRecruiters 1"/>
+  <img style="max-width: 80%;" src="smart-recruiters-4.png" alt="SmartRecruiters 4"/>
 </figure>
 
 <br>
 
-You will then see a list of assessment providers, and you can find the available CodeScreen assessments by choosing CodeScreen from the filter list.
+You will then see the list of CodeScreen assessments you can send to this candidate. There will be one entry in this list for each assessment that you currently have set up on CodeScreen:
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="SmartRecruiters2.png" alt="SmartRecruiters 2"/>
+  <img style="max-width: 60%;" src="smart-recruiters-5.png"  alt="SmartRecruiters 5"/>
 </figure>
 
 <br>
 
-There will be one entry in this list for each assessment that you currently have set up on CodeScreen:
+Tick the box of the assessment you want to send, click the `Continue` button, and then click the green `Send` button to send the assessment to the candidate.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="SmartRecruiters3.png" alt="SmartRecruiters 1"/>
-</figure>
-
-<br>
-
-Click `Select`, then click `Continue` and finally click `Send` to send the assessment to the candidate.
-
-<figure>
-  <figcaption style="font-style: italic;"></figcaption>
-  </br>
-  <img style="max-width: 60%;" src="SmartRecruiters4.png" alt="SmartRecruiters 4"/>
+  <img style="max-width: 60%;" src="smart-recruiters-6.png" alt="SmartRecruiters 6"/>
 </figure>
 
 <br>
@@ -70,7 +88,7 @@ The default email template looks like the following:
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="SmartRecruiters5.png" alt="SmartRecruiters 4"/>
+  <img style="max-width: 60%;" src="SmartRecruiters5.png" alt="SmartRecruiters 7"/>
 </figure>
 
 <br>
@@ -81,12 +99,12 @@ Once the candidate has submitted their assessment, you will be notified via emai
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 60%;" src="SmartRecruiters6.png" alt="SmartRecruiters 6"/>
+  <img style="max-width: 60%;" src="smart-recruiters-7.png" alt="SmartRecruiters 8"/>
 </figure>
 
 <br>
 
-Once you click `SEE RESULT`, you will be redirected to the report page on the CodeScreen platform, which will look like something similar to the following:
+You can then click the attachment icon, and you will be redirected to the report page on the CodeScreen platform, which will look like something similar to the following:
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
@@ -95,12 +113,3 @@ Once you click `SEE RESULT`, you will be redirected to the report page on the Co
 </figure>
 
 And that’s it!
-
-A video demo showing the integration in action is available to view 
-<a href="https://www.youtube.com/watch?v=4EI5a84oU7k" target="_blank">here</a>.
-
-
-
-
-
-
