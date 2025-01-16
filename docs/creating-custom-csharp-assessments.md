@@ -29,7 +29,7 @@ All unit tests must use the [`Nunit`](https://nunit.org/) test framework.
 The `.csproj` file should be renamed, and the `RootNamespace` element in this file must be updated to match this
 new name. The only other updates that should go in to the `.csproj` file are dependencies required for your coding assessment.
 
-The coding assessment must use `.NET 7.0`.
+The coding assessment must use `.NET 9.0`.
 
 #### GitHub Action
 
@@ -50,7 +50,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: 7.0.x
+        dotnet-version: 9.0.x
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
