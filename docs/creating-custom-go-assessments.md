@@ -25,7 +25,7 @@ If you want to add files that your hidden tests use and hence are also not visib
 
 All unit tests must use the [`Ginkgo`](http://onsi.github.io/ginkgo/) test framework.
 
-The coding assessment must be compatible with `Go 1.19`.
+The coding assessment must be compatible with `Go 1.23`.
 
 All dependencies that your coding assessment requires need to be added to the `go.mod` file.
 
@@ -48,7 +48,7 @@ jobs:
     - name: Set up Go
       uses: actions/setup-go@v4
       with:
-        go-version: 1.19
+        go-version: 1.23
 
     - name: Get
       run: go get -d -v ./...
