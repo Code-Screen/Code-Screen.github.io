@@ -50,6 +50,7 @@ jobs:
       with:
         distribution: oracle
         java-version: 1.17
+    - uses: sbt/setup-sbt@v1
     - name: Run tests
       run: sbt -Dsbt.log.noformat=true test
 ```
