@@ -44,11 +44,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Set up JDK 1.21
+    - name: Set up JDK 21
       uses: actions/setup-java@v3
       with:
         distribution: oracle
-        java-version: 1.21
+        java-version: 21
     - name: Build and Test
       run: mvn clean test
 ```
