@@ -1,25 +1,25 @@
-# Integrating Comeet with CodeScreen
+# Integrating Spark Hire with CodeScreen
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 40%; max-height: 50%;" src="comeet-logo.jpeg" alt="Comeet Logo"/>
+  <img style="max-width: 40%; max-height: 50%;" src="Recruit_Flame@2x.png" alt="Comeet Logo"/>
 </figure>
 
-The `CodeScreen` integration with `Comeet` allows you to do the following:
+The `CodeScreen` integration with `Spark Hire` allows you to do the following:
 
-* Select which CodeScreen assessment is required for each role you have on Comeet.
-* Invite candidates to take CodeScreen assessments directly from the Comeet platform as candidates enter the assessment stage.
+* Select which CodeScreen assessment is required for each role you have on Spark Hire.
+* Invite candidates to take CodeScreen assessments directly from the Spark Hire platform as candidates enter the assessment stage.
 * Status updates from invitation to completion.
-* Have candidate CodeScreen assessment reports automatically attach to their Comeet candidate profile and their scores displayed.
+* Have candidate CodeScreen assessment reports automatically attach to their Spark Hire candidate profile and their scores displayed.
 
 The integration is quick and straightforward. It works as follows:
 
-### 1. Enable the Comeet/CodeScreen Integration
-To start, head over to the `Integrations` section on Comeet, find CodeScreen, click `Integrate`, and copy the `API key`.
-Once you have the API key, go to the <a href="https://app.codescreen.com/integrations" target="_blank">Integrations</a> section on the CodeScreen platform and copy your Comeet API key into the Comeet API Key box and click `Save changes`.
+### 1. Enable the Spark Hire/CodeScreen Integration
+To start, head over to the `Integrations` section on Spark Hire, find CodeScreen, click `Integrate`, and copy the `API key`.
+Once you have the API key, go to the <a href="https://app.codescreen.com/integrations" target="_blank">Integrations</a> section on the CodeScreen platform and copy your Spark Hire API key into the Spark Hire API Key box and click `Save changes`.
 
-To complete the integration, click the `Activate` button in the CodeScreen integration section on Comeet.
+To complete the integration, click the `Activate` button in the CodeScreen integration section on Spark Hire.
 
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
@@ -33,7 +33,7 @@ To complete the integration, click the `Activate` button in the CodeScreen integ
 an admin, please contact one of the admin users in your organization, and they will be able to make you an admin.
 
 ### 2. Add CodeScreen Step to Job
-Once the Comeet <> CodeScreen integration is enabled for your organization, you will be able to add the CodeScreen assessment as an Interview step for any of your jobs you have set up on Comeet.
+Once the Spark Hire <> CodeScreen integration is enabled for your organization, you will be able to add the CodeScreen assessment as an Interview step for any of your jobs you have set up on Spark Hire.
 
 To do this for an existing job, navigate to the job, and click the `Workflow` tab.
 
@@ -81,7 +81,7 @@ The default email template looks like the following:
 
 <br>
 
-Once the candidate has submitted their assessment, you will be notified via email by Comeet, and the result will be viewable on Comeet.
+Once the candidate has submitted their assessment, you will be notified via email by Spark Hire, and the result will be viewable on Spark Hire.
 
 
 <figure>
