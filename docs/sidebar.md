@@ -102,7 +102,7 @@
   - [Ashby](integrating-ashby-with-codescreen.md)
   - [Lever](integrating-lever-with-codescreen.md)
   - [SmartRecruiters](integrating-smartrecruiters-with-codescreen.md)
-  - [Comeet](integrating-comeet-with-codescreen.md)
+  - [Comeet](integrating-spark-hire-with-codescreen.md)
 
 - Email Templates
 
