@@ -3,7 +3,7 @@
 <figure>
   <figcaption style="font-style: italic;"></figcaption>
   </br>
-  <img style="max-width: 40%; max-height: 50%;" src="Recruit_Flame@2x.png" alt="Comeet Logo"/>
+  <img style="max-width: 30%; max-height: 30%;" src="Recruit_Flame@2x.png" alt="Comeet Logo"/>
 </figure>
 
 The `CodeScreen` integration with `Spark Hire` allows you to do the following:
