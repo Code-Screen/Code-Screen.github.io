@@ -26,6 +26,8 @@ All test filenames must end with `Spec.hs` and test files with filenames that en
 If you want to add files that your hidden tests use and hence are also not visible to the candidate, the names of 
 these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.hs`, etc.
 
+If you want entire folders to be hidden, the folder needs to be in the root of the repo and the folder name needs to start with `hidden`, e.g. `/hidden-files`.
+
 The `package.yaml` file should only be modified in order to add any third-party dependencies required for your solution.
 
 #### GitHub Action

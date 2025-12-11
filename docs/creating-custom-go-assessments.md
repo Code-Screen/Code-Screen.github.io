@@ -23,6 +23,8 @@ All unit test filenames must end with `_test.go` and all unit test files with na
 
 If you want to add files that your hidden tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `hidden_foo.go` etc.
 
+If you want entire folders to be hidden, the folder needs to be in the root of the repo and the folder name needs to start with `hidden`, e.g. `/hidden-files`.
+
 All unit tests must use the [`Ginkgo`](http://onsi.github.io/ginkgo/) test framework.
 
 The coding assessment must be compatible with `Go 1.23`.

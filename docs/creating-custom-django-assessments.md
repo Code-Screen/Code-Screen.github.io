@@ -23,6 +23,8 @@ All unit test filenames must begin with `test_` and all unit test files with nam
 
 If you want to add files that your hidden tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `hidden_foo.py`, etc.
 
+If you want entire folders to be hidden, the folder needs to be in the root of the repo and the folder name needs to start with `hidden`, e.g. `/hidden-files`.
+
 All unit tests must use the [`pytest`](https://docs.pytest.org/en/latest/) unit test framework, version `7.4.0`.
 
 Any dependencies required for your coding assessment need to be included in the `requirements.txt` file and must be available to download using the [`pip`](https://pip.pypa.io/en/stable/) package installer.

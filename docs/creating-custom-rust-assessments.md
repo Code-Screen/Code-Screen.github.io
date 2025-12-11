@@ -25,6 +25,8 @@ All test filenames must end with `_test.rs` and test files with filenames that e
 
 If you want to add files that your hidden tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `hidden_foo.rs`, etc.
 
+If you want entire folders to be hidden, the folder needs to be in the root of the repo and the folder name needs to start with `hidden`, e.g. `/hidden-files`.
+
 The `Cargo.toml` file should only be modified in order to add any third-party dependencies required for your solution.
 
 The `Cargo 2018` edition must be used.

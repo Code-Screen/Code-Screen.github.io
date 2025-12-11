@@ -24,6 +24,8 @@ All unit test class filenames must end with `Test.php` and the test classes with
 If you want to add files that your hidden tests use and hence are also not visible to the candidate, the names of 
 these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, `HiddenFoo.php`, etc.
 
+If you want entire folders to be hidden, the folder needs to be in the root of the repo and the folder name needs to start with `hidden`, e.g. `/hidden-files`.
+
 Your assessment must use/be compatible with `PHP` version 8.0 and all dependencies that your coding assessment requires need to be added to the `composer.json` file.
 
 All unit tests must use be located in the `tests/` directory and use the [`PHPUnit`](https://phpunit.de)(version 9.3.0) testing framework.

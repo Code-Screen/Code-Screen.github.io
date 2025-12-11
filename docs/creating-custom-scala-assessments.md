@@ -25,6 +25,8 @@ If you want to add files that your hidden tests use and hence are also not visib
 
 All unit tests must use the [`JUnit`](https://junit.org/junit5/) test framework.
 
+If you want entire folders to be hidden, the folder needs to be in the root of the repo and the folder name needs to start with `hidden`, e.g. `/hidden-files`.
+
 The name of the project in the `build.sbt` should be updated to better match your assessment, and any dependencies required for your coding assessment must be added to the `build.sbt` file.
 
 The `Scala` version that must be used is 2.13.6.

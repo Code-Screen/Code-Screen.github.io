@@ -27,6 +27,8 @@ All unit/integration test filenames must begin with `test_` and unit/integration
 
 If you want to add files that your hidden tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden`, e.g., `hiddenFoo.json`, `hiddenFoo.csv`, etc.
 
+If you want entire folders to be hidden, the folder needs to be in the root of the repo and the folder name needs to start with `hidden`, e.g. `/hidden-files`.
+
 All dependencies required for your coding assessment must be added to the `Gemfile`.
 
 The coding assessment must be compatible with `Ruby` version 2.5.3 and the `bundle` version required is 2.0.1.
