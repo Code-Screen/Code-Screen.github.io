@@ -27,8 +27,6 @@ If you want to add files that your hidden tests use and hence are also not visib
 
 If you want entire folders to be hidden, the folder needs to be in the root of the repo and the folder name needs to start with `hidden`, e.g. `/hidden-files`.
 
-If you want entire folders to be hidden, the folder needs to be in the root of the repo and the folder name needs to start with `hidden`, e.g. `/hidden-files`.
-
 The `package.json` file should only be modified in order to add any third-party dependencies required for your solution. The `jest` and `babel` versions should not be changed.
 
 The coding assessment must be compatible with Node.js version `18`.
