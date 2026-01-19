@@ -6,11 +6,6 @@
 
   - [Concepts](custom-assessment-concepts.md)
 
-  - [Databases](custom-assessment-databases.md)
-    - [MySQL](custom-assessment-databases-mysql.md)
-    - [PostgreSQL](custom-assessment-databases-postgresql.md)
-    - [DynamoDB](custom-assessment-databases-dynamodb.md)
-
   - Languages & Frameworks
 
     - Frontend
