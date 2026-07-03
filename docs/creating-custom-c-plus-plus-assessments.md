@@ -24,7 +24,17 @@ All unit test filenames must end with `_test.cpp` and must use the [GoogleTest](
 
 For your unit test files to be recognised by `GoogleTest`, each unit test file must be included as an argument in the `add_executable()` command in the `test/CMakeLists.txt` file.
 
-Note that hidden tests are not yet supported for C++ assessments.
+For hidden tests, the unit test filename must end with `hidden_test.cpp`. These tests will not be visible to the candidate. Also, in order for hidden tests to be included in our test run, you must create a `test/Hidden_CMakeLists.txt` file, with all visible and hidden test files included as arguments in the `add_executable()` command in this file, e.g.
+
+```txt
+add_executable(
+    unit_tests
+    fibonacci_test.cpp # visible test file
+    fibonacci_hidden_test.cpp # hidden test file
+    )
+```
+
+If you want to add files that your hidden tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, etc.
 
 #### GitHub Action
 
