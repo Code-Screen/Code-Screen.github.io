@@ -34,6 +34,8 @@ add_executable(
     )
 ```
 
+This `test/Hidden_CMakeLists.txt` file will also not be visible to the candidate.
+
 If you want to add files that your hidden tests use and hence are also not visible to the candidate, the names of these files must begin with `hidden` (case-insensitive), e.g., `hiddenFoo.json`, `hiddenFoo.csv`, etc.
 
 #### GitHub Action
